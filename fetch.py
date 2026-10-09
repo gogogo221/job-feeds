@@ -100,7 +100,7 @@ def html_to_text(s: str) -> str:
 ROLE = re.compile(r"\b(engineer|engineering|developer|swe|sde|programmer|technologist)\b", re.I)
 SENIOR = re.compile(
     r"\b(senior|sr\.?|staff|principal|lead|leader|manager|management|director|head|vp|vice president|chief|"
-    r"distinguished|fellow|architect|iv|v)\b",
+    r"distinguished|fellow|architect|iv|v|l[5-9]|e[5-9]|ic[4-9]|level [5-9])\b",
     re.I,
 )
 JUNIOR = re.compile(
@@ -237,6 +237,21 @@ def experience(text: str):
         if len(lines) < 3:
             lines.append(("[preferred] " if is_pref else "") + ln[:200])
     return (min(req) if req else None), (max(pref) if pref else None), lines
+
+
+LEVEL_RE = re.compile(
+    r"\b(mid[- ]level|mid[- ]career|early[- ]career|junior|new grads?|recent grad\w*|entry[- ]level|"
+    r"senior|experienced|seasoned|level [1-6]|l[2-6]|ic[1-5]|e[3-6]|swe ?i{1,3}|software engineer i{1,3})\b", re.I)
+
+
+def level_lines(text, n=2):
+    out = []
+    for ln in text.splitlines():
+        if LEVEL_RE.search(ln) and len(ln) < 400:
+            out.append(ln[:180])
+            if len(out) >= n:
+                break
+    return out
 
 
 PAY = re.compile(
@@ -627,6 +642,7 @@ def main():
                 "tier": tier, "locations": j["locations"][:6], "remote": j.get("remote", False),
                 "dept": j.get("dept", ""), "posted": j.get("posted", ""), "first_seen": rec["first_seen"],
                 "pay": j.get("pay", ""), "yoe_min": req_min, "yoe_pref": pref_max, "yoe_text": yoe_lines,
+                "level_text": level_lines(j["desc"]),
                 "role_hits": sorted(set(m.lower() for m in ROLE_HITS.findall(j["title"] + " " + j.get("dept", "")))),
                 "lang_hits": sorted(set(m.lower() for m in LANG_HITS.findall(j["desc"])))[:6],
             })
