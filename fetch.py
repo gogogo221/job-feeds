@@ -8,6 +8,7 @@ Board types: greenhouse, lever, ashby, workday, smartrecruiters, eightfold, uber
 Companies with no known board are auto-discovered by probing slug guesses on
 Greenhouse/Lever/Ashby (re-probed weekly).
 """
+import collections
 import concurrent.futures as cf
 import datetime as dt
 import html
@@ -104,7 +105,7 @@ SENIOR = re.compile(
 )
 JUNIOR = re.compile(
     r"\b(intern|internship|new grad|new graduate|graduate|university|campus|early[- ]career|entry[- ]level|"
-    r"apprentice|co-?op|residency|summer 20\d\d|20(2[6-9]) start)\b",
+    r"apprentice|co-?op|residency|phd|associate|summer 20\d\d|20(2[6-9]) start)\b",
     re.I,
 )
 OFFTRACK = re.compile(
@@ -113,7 +114,9 @@ OFFTRACK = re.compile(
     r"developer relations|technical writer|writer|qa|quality assurance|test engineer|sdet|help ?desk|"
     r"hardware|mechanical|electrical|asic|fpga|rtl|analog|silicon|chip|verification|physical design|"
     r"manufacturing|firmware|embedded|it engineer|desktop|network technician|facilities|legal|finance|"
-    r"accounting|payroll|tax|audit|compliance)\b",
+    r"accounting|payroll|tax|audit|compliance|gtm|go-to-market|growth|technical services|services|"
+    r"techno-functional|functional|erp|oracle fusion|netsuite|salesforce developer|implementation|"
+    r"professional services|consultant|onboarding)\b",
     re.I,
 )
 
@@ -189,6 +192,13 @@ def tier_of(locations, remote_flag=False, country=""):
         return "remote_unspecified"
     return None  # non-US or unknown -> drop
 
+
+ROLE_HITS = re.compile(
+    r"\b(backend|back-end|infrastructure|infra|platform|distributed|systems|storage|database|data platform|"
+    r"data infrastructure|reliability|sre|low[- ]latency|trading|execution|exchange|core|runtime|compute|"
+    r"inference|serving|networking|kernel|performance|api|payments|ledger|cloud|devops|production engineering|"
+    r"developer productivity|observability|streaming)\b", re.I)
+LANG_HITS = re.compile(r"(?<![\w+])(c\+\+|python|rust|go(?:lang)?|java|kotlin|scala|typescript)(?![\w+])", re.I)
 
 WORDNUM = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10}
 NUM = r"(\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten)"
@@ -476,23 +486,43 @@ def slugs(name, hints):
     return outl[:5]
 
 
+def _mentions(name, d):
+    """True if the company name shows up in the board's postings (guards against same-slug other companies)."""
+    words = [w for w in re.findall(r"[a-z0-9]+", re.sub(r"\(.*?\)", "", name).lower()) if len(w) > 2] or [name.lower()]
+    alt = re.findall(r"\((.*?)\)", name.lower())
+    jobs = d if isinstance(d, list) else d.get("jobs", [])
+    blob = json.dumps(jobs[:15]).lower()
+    return words[0] in blob or any(a in blob for a in alt)
+
+
 def discover(name, hints):
-    """Probe ATS APIs; return best board dict or None. Picks the board with the most jobs."""
-    best = None
+    """Probe ATS APIs in slug order (hints first). First board with jobs that mention the company wins."""
     for s in slugs(name, hints):
+        best = None
         for ats, mk in PROBES.items():
-            st, d, _ = http(mk(s), timeout=20)
+            url = mk(s).replace("&limit=1", "") if ats == "lever" else mk(s)
+            if ats == "greenhouse":
+                url += "?content=true"
+            st, d, _ = http(url, timeout=30)
             if not d:
                 continue
             n = len(d) if isinstance(d, list) else len(d.get("jobs", []))
-            if ats == "lever" and n:  # limit=1 -> refetch count lazily; treat as present
-                n = 1
-            if n and (best is None or n > best["n"]):
+            if n and _mentions(name, d) and (best is None or n > best["n"]):
                 best = {"ats": ats, "token": s, "n": n}
-    return best
+        if best:
+            return best
+    return None
 
 
 # ---------------------------------------------------------------- main
+
+
+def clean_url(u):
+    """Drop tracking params (utm_*, gh_src, ref, source, lever-*) but keep job ids like gh_jid."""
+    p = urllib.parse.urlsplit(u)
+    q = [(k, v) for k, v in urllib.parse.parse_qsl(p.query)
+         if not re.match(r"(utm_|gh_src|ref$|source$|lever-|src$)", k, re.I)]
+    return urllib.parse.urlunsplit((p.scheme, p.netloc.lower(), p.path.rstrip("/") or "/", urllib.parse.urlencode(q), ""))
 
 
 def title_ok(title):
@@ -504,6 +534,8 @@ def title_ok(title):
         return False, "junior"
     if OFFTRACK.search(title):
         return False, "offtrack"
+    if NONUS_RE.search(title) and not US_RE.search(title):
+        return False, "nonus_title"
     return True, ""
 
 
@@ -566,21 +598,26 @@ def main():
     seen_urls = set()
     for b, jobs, total, err in results:
         matched = 0
+        why_dropped = collections.Counter()
         for j in jobs:
             ok, why = title_ok(j["title"])
             if not ok:
+                why_dropped["title_" + why] += 1
                 continue
             tier = tier_of(j["locations"], j.get("remote", False), j.get("country", ""))
             if tier is None:
+                why_dropped["location"] += 1
                 continue
             req_min, pref_max, yoe_lines = experience(j["desc"])
             if (req_min is not None and req_min >= 3) or (pref_max is not None and pref_max >= 4):
+                why_dropped["experience"] += 1
                 dropped_exp.append({"company": b["company"], "title": j["title"], "req_min": req_min, "pref_max": pref_max, "url": j["url"]})
                 continue
-            url = j["url"].split("?")[0].rstrip("/")
-            if url in seen_urls:
+            url = clean_url(j["url"])
+            ident = (b["company"], str(j["id"]))
+            if ident in seen_urls or url in seen_urls:
                 continue
-            seen_urls.add(url)
+            seen_urls.update([ident, url])
             key = f"{b['ats']}:{b.get('token') or b.get('tenant') or b.get('domain') or 'x'}:{j['id']}"
             rec = seen.setdefault(key, {"first_seen": TODAY})
             rec["last_seen"] = TODAY
@@ -590,10 +627,12 @@ def main():
                 "tier": tier, "locations": j["locations"][:6], "remote": j.get("remote", False),
                 "dept": j.get("dept", ""), "posted": j.get("posted", ""), "first_seen": rec["first_seen"],
                 "pay": j.get("pay", ""), "yoe_min": req_min, "yoe_pref": pref_max, "yoe_text": yoe_lines,
+                "role_hits": sorted(set(m.lower() for m in ROLE_HITS.findall(j["title"] + " " + j.get("dept", "")))),
+                "lang_hits": sorted(set(m.lower() for m in LANG_HITS.findall(j["desc"])))[:6],
             })
         board_status.append({"company": b["company"], "ats": b["ats"], "token": b.get("token") or b.get("tenant") or b.get("domain") or "",
                              "discovered": bool(b.get("discovered")), "status": "failed" if err else "ok",
-                             "error": err, "total": total, "matched": matched})
+                             "error": err, "total": total, "matched": matched, "dropped": dict(why_dropped)})
 
     # 4. prune seen + write
     cutoff = (NOW.date() - dt.timedelta(days=SEEN_TTL_DAYS)).isoformat()
