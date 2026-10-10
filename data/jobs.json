@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-09T03:26:19+00:00",
+ "generated_at": "2026-10-10T09:48:52+00:00",
  "counts": {
   "boards": 140,
   "boards_ok": 140,
   "boards_failed": 0,
-  "jobs": 902,
-  "new_today": 902,
-  "dropped_experience": 878
+  "jobs": 908,
+  "new_today": 17,
+  "dropped_experience": 887
  },
  "not_covered": [
   "Apple",
@@ -52,13 +52,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 79,
-   "matched": 1,
+   "total": 84,
+   "matched": 2,
    "dropped": {
     "experience": 1,
-    "title_role": 47,
+    "title_role": 50,
     "title_offtrack": 8,
-    "title_senior": 13,
+    "title_senior": 14,
     "location": 8,
     "title_nonus_title": 1
    }
@@ -70,10 +70,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 47,
+   "total": 46,
    "matched": 0,
    "dropped": {
-    "title_role": 42,
+    "title_role": 41,
     "title_senior": 5
    }
   },
@@ -84,12 +84,12 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 111,
+   "total": 112,
    "matched": 0,
    "dropped": {
-    "title_role": 74,
-    "title_senior": 33,
-    "title_offtrack": 3,
+    "title_role": 73,
+    "title_senior": 34,
+    "title_offtrack": 4,
     "location": 1
    }
   },
@@ -100,10 +100,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 139,
-   "matched": 5,
+   "total": 117,
+   "matched": 4,
    "dropped": {
-    "experience": 14,
+    "experience": 12,
     "location": 3
    }
   },
@@ -114,15 +114,15 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 190,
+   "total": 203,
    "matched": 4,
    "dropped": {
-    "title_role": 80,
+    "title_role": 83,
     "location": 10,
-    "title_senior": 79,
-    "title_junior": 4,
-    "title_offtrack": 3,
-    "experience": 10
+    "title_junior": 5,
+    "title_senior": 83,
+    "title_offtrack": 4,
+    "experience": 14
    }
   },
   {
@@ -132,12 +132,12 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 159,
+   "total": 160,
    "matched": 0,
    "dropped": {
-    "title_role": 108,
+    "title_role": 110,
     "title_junior": 2,
-    "title_senior": 45,
+    "title_senior": 44,
     "location": 1,
     "title_offtrack": 3
    }
@@ -162,11 +162,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 532,
+   "total": 526,
    "matched": 1,
    "dropped": {
-    "title_role": 383,
-    "title_senior": 134,
+    "title_role": 380,
+    "title_senior": 131,
     "location": 6,
     "title_offtrack": 4,
     "title_junior": 2,
@@ -197,14 +197,14 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 2473,
+   "total": 2491,
    "matched": 122,
    "dropped": {
-    "title_junior": 39,
-    "title_role": 902,
-    "experience": 222,
-    "title_offtrack": 250,
-    "title_senior": 924,
+    "title_junior": 42,
+    "title_role": 911,
+    "experience": 223,
+    "title_offtrack": 251,
+    "title_senior": 928,
     "location": 13,
     "title_nonus_title": 1
    }
@@ -232,13 +232,13 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 647,
-   "matched": 31,
+   "total": 645,
+   "matched": 32,
    "dropped": {
-    "title_role": 418,
+    "title_role": 416,
     "title_offtrack": 28,
     "location": 14,
-    "experience": 31,
+    "experience": 30,
     "title_senior": 123,
     "title_nonus_title": 2
    }
@@ -267,11 +267,11 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 28,
+   "total": 26,
    "matched": 0,
    "dropped": {
-    "title_role": 13,
-    "title_senior": 14,
+    "title_role": 12,
+    "title_senior": 13,
     "title_offtrack": 1
    }
   },
@@ -298,11 +298,11 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 57,
+   "total": 58,
    "matched": 1,
    "dropped": {
     "experience": 9,
-    "title_role": 45,
+    "title_role": 46,
     "title_senior": 1,
     "title_offtrack": 1
    }
@@ -314,12 +314,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 27,
+   "total": 26,
    "matched": 0,
    "dropped": {
     "title_role": 18,
     "experience": 1,
-    "title_senior": 8
+    "title_senior": 7
    }
   },
   {
@@ -329,10 +329,10 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 228,
+   "total": 231,
    "matched": 2,
    "dropped": {
-    "title_role": 183,
+    "title_role": 186,
     "experience": 7,
     "location": 2,
     "title_offtrack": 3,
@@ -346,10 +346,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 287,
+   "total": 277,
    "matched": 0,
    "dropped": {
-    "title_role": 216,
+    "title_role": 206,
     "experience": 5,
     "title_offtrack": 3,
     "title_senior": 61,
@@ -377,14 +377,14 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 122,
+   "total": 123,
    "matched": 13,
    "dropped": {
     "title_offtrack": 8,
     "experience": 16,
-    "title_role": 48,
-    "title_senior": 30,
-    "location": 4,
+    "title_role": 49,
+    "title_senior": 29,
+    "location": 5,
     "title_junior": 3
    }
   },
@@ -395,12 +395,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 79,
+   "total": 77,
    "matched": 0,
    "dropped": {
-    "title_role": 50,
+    "title_role": 49,
     "title_senior": 18,
-    "title_offtrack": 8,
+    "title_offtrack": 7,
     "experience": 3
    }
   },
@@ -411,12 +411,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 57,
+   "total": 55,
    "matched": 4,
    "dropped": {
-    "title_role": 38,
+    "title_role": 37,
     "title_senior": 3,
-    "title_junior": 2,
+    "title_junior": 1,
     "title_offtrack": 5,
     "experience": 5
    }
@@ -445,10 +445,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 194,
+   "total": 195,
    "matched": 4,
    "dropped": {
-    "title_senior": 78,
+    "title_senior": 79,
     "title_role": 78,
     "location": 16,
     "experience": 4,
@@ -463,13 +463,13 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 425,
-   "matched": 11,
+   "total": 424,
+   "matched": 12,
    "dropped": {
     "title_role": 209,
-    "experience": 12,
-    "title_offtrack": 24,
-    "title_senior": 146,
+    "experience": 13,
+    "title_offtrack": 23,
+    "title_senior": 144,
     "location": 19,
     "title_junior": 4
    }
@@ -496,10 +496,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 100,
-   "matched": 10,
+   "total": 102,
+   "matched": 11,
    "dropped": {
-    "title_role": 63,
+    "title_role": 64,
     "title_offtrack": 12,
     "title_nonus_title": 8,
     "experience": 3,
@@ -514,12 +514,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 120,
+   "total": 119,
    "matched": 5,
    "dropped": {
-    "title_senior": 17,
-    "title_role": 80,
-    "title_offtrack": 12,
+    "title_senior": 16,
+    "title_role": 79,
+    "title_offtrack": 13,
     "experience": 4,
     "title_junior": 1,
     "location": 1
@@ -561,12 +561,12 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 311,
+   "total": 312,
    "matched": 6,
    "dropped": {
     "title_role": 178,
     "experience": 6,
-    "title_senior": 113,
+    "title_senior": 114,
     "title_offtrack": 8
    }
   },
@@ -581,8 +581,8 @@
    "matched": 1,
    "dropped": {
     "title_offtrack": 18,
-    "title_role": 35,
-    "title_senior": 15
+    "title_role": 36,
+    "title_senior": 14
    }
   },
   {
@@ -595,7 +595,7 @@
    "total": 126,
    "matched": 8,
    "dropped": {
-    "experience": 12,
+    "experience": 13,
     "location": 1
    }
   },
@@ -606,11 +606,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 134,
-   "matched": 23,
+   "total": 137,
+   "matched": 24,
    "dropped": {
-    "title_offtrack": 18,
-    "title_role": 80,
+    "title_offtrack": 19,
+    "title_role": 81,
     "title_senior": 11,
     "experience": 1,
     "title_junior": 1
@@ -623,15 +623,15 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 175,
+   "total": 176,
    "matched": 16,
    "dropped": {
     "title_role": 84,
     "location": 24,
     "experience": 9,
     "title_offtrack": 4,
-    "title_junior": 7,
-    "title_senior": 31
+    "title_junior": 6,
+    "title_senior": 33
    }
   },
   {
@@ -641,13 +641,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 893,
+   "total": 892,
    "matched": 0,
    "dropped": {
-    "title_role": 482,
-    "title_offtrack": 17,
+    "title_role": 478,
+    "title_offtrack": 18,
     "location": 8,
-    "title_senior": 376,
+    "title_senior": 378,
     "title_junior": 8,
     "experience": 2
    }
@@ -659,13 +659,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 432,
+   "total": 435,
    "matched": 0,
    "dropped": {
-    "title_role": 306,
+    "title_role": 312,
     "location": 2,
     "title_offtrack": 31,
-    "title_senior": 89,
+    "title_senior": 86,
     "experience": 1,
     "title_junior": 3
    }
@@ -712,14 +712,14 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 466,
+   "total": 464,
    "matched": 15,
    "dropped": {
-    "title_role": 370,
+    "title_role": 368,
     "title_offtrack": 18,
-    "title_senior": 50,
+    "title_senior": 49,
     "experience": 11,
-    "title_junior": 2
+    "title_junior": 3
    }
   },
   {
@@ -744,10 +744,10 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 415,
+   "total": 409,
    "matched": 2,
    "dropped": {
-    "title_role": 217,
+    "title_role": 211,
     "location": 10,
     "title_senior": 184,
     "experience": 1,
@@ -761,12 +761,12 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 145,
-   "matched": 13,
+   "total": 124,
+   "matched": 11,
    "dropped": {
-    "title_role": 110,
-    "title_offtrack": 15,
-    "experience": 3,
+    "title_role": 93,
+    "title_offtrack": 14,
+    "experience": 2,
     "location": 4
    }
   },
@@ -777,13 +777,13 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 82,
+   "total": 81,
    "matched": 0,
    "dropped": {
-    "title_role": 52,
+    "title_role": 53,
     "title_offtrack": 5,
     "location": 1,
-    "title_senior": 24
+    "title_senior": 22
    }
   },
   {
@@ -793,10 +793,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 153,
+   "total": 150,
    "matched": 2,
    "dropped": {
-    "title_role": 122,
+    "title_role": 119,
     "title_junior": 3,
     "experience": 9,
     "title_senior": 8,
@@ -811,13 +811,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 94,
+   "total": 96,
    "matched": 8,
    "dropped": {
-    "title_role": 46,
+    "title_role": 47,
     "title_offtrack": 16,
     "title_junior": 5,
-    "experience": 15,
+    "experience": 16,
     "title_senior": 4
    }
   },
@@ -859,11 +859,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 199,
+   "total": 191,
    "matched": 1,
    "dropped": {
-    "title_role": 126,
-    "title_senior": 70,
+    "title_role": 117,
+    "title_senior": 71,
     "experience": 1,
     "location": 1
    }
@@ -878,11 +878,11 @@
    "total": 131,
    "matched": 6,
    "dropped": {
-    "title_role": 93,
+    "title_role": 94,
     "experience": 8,
     "location": 6,
     "title_offtrack": 11,
-    "title_senior": 6,
+    "title_senior": 5,
     "title_junior": 1
    }
   },
@@ -893,10 +893,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 104,
+   "total": 106,
    "matched": 0,
    "dropped": {
-    "title_role": 48,
+    "title_role": 50,
     "title_senior": 55,
     "title_offtrack": 1
    }
@@ -925,8 +925,8 @@
    "total": 97,
    "matched": 0,
    "dropped": {
-    "title_role": 64,
     "experience": 4,
+    "title_role": 64,
     "title_senior": 29
    }
   },
@@ -937,11 +937,11 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 341,
+   "total": 350,
    "matched": 2,
    "dropped": {
     "title_senior": 88,
-    "title_role": 217,
+    "title_role": 226,
     "title_offtrack": 26,
     "experience": 3,
     "title_junior": 5
@@ -985,8 +985,8 @@
    "total": 81,
    "matched": 1,
    "dropped": {
-    "title_role": 43,
-    "title_senior": 35,
+    "title_role": 45,
+    "title_senior": 33,
     "title_offtrack": 2
    }
   },
@@ -1032,13 +1032,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 120,
+   "total": 119,
    "matched": 1,
    "dropped": {
-    "title_role": 89,
-    "experience": 3,
-    "title_senior": 26,
-    "title_offtrack": 1
+    "title_role": 86,
+    "title_senior": 29,
+    "title_offtrack": 1,
+    "experience": 2
    }
   },
   {
@@ -1048,11 +1048,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 32,
-   "matched": 0,
+   "total": 34,
+   "matched": 1,
    "dropped": {
     "title_role": 23,
-    "title_senior": 8,
+    "title_senior": 9,
     "experience": 1
    }
   },
@@ -1063,12 +1063,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 109,
+   "total": 107,
    "matched": 2,
    "dropped": {
-    "title_role": 47,
+    "title_role": 46,
     "title_junior": 25,
-    "location": 22,
+    "location": 21,
     "experience": 10,
     "title_senior": 1,
     "title_offtrack": 2
@@ -1096,11 +1096,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 88,
+   "total": 91,
    "matched": 4,
    "dropped": {
-    "title_senior": 31,
-    "title_role": 48,
+    "title_senior": 30,
+    "title_role": 52,
     "title_offtrack": 3,
     "experience": 2
    }
@@ -1128,11 +1128,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 3,
+   "total": 4,
    "matched": 0,
    "dropped": {
     "title_senior": 2,
-    "title_offtrack": 1
+    "title_offtrack": 1,
+    "title_role": 1
    }
   },
   {
@@ -1159,11 +1160,11 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 65,
+   "total": 69,
    "matched": 2,
    "dropped": {
-    "title_role": 48,
-    "title_senior": 15
+    "title_role": 51,
+    "title_senior": 16
    }
   },
   {
@@ -1217,15 +1218,15 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 395,
+   "total": 392,
    "matched": 5,
    "dropped": {
+    "title_junior": 5,
     "title_role": 274,
-    "location": 17,
-    "title_junior": 3,
+    "location": 18,
     "title_offtrack": 12,
-    "title_senior": 78,
-    "experience": 6
+    "title_senior": 74,
+    "experience": 4
    }
   },
   {
@@ -1249,11 +1250,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 212,
+   "total": 208,
    "matched": 1,
    "dropped": {
-    "title_role": 180,
-    "location": 2,
+    "title_role": 175,
+    "location": 3,
     "title_senior": 28,
     "title_offtrack": 1
    }
@@ -1292,11 +1293,11 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 133,
+   "total": 132,
    "matched": 3,
    "dropped": {
-    "experience": 6,
-    "title_role": 104,
+    "experience": 7,
+    "title_role": 102,
     "title_offtrack": 6,
     "title_senior": 4,
     "location": 4,
@@ -1310,8 +1311,8 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 1729,
-   "matched": 4,
+   "total": 1724,
+   "matched": 5,
    "dropped": {
     "experience": 11,
     "location": 8
@@ -1341,11 +1342,11 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 816,
+   "total": 815,
    "matched": 126,
    "dropped": {
-    "title_role": 431,
-    "experience": 68,
+    "title_role": 429,
+    "experience": 69,
     "title_senior": 51,
     "location": 26,
     "title_offtrack": 111,
@@ -1372,12 +1373,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 162,
+   "total": 163,
    "matched": 9,
    "dropped": {
     "title_junior": 14,
     "title_role": 83,
-    "location": 23,
+    "location": 24,
     "experience": 3,
     "title_senior": 21,
     "title_offtrack": 9
@@ -1421,10 +1422,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 313,
+   "total": 309,
    "matched": 28,
    "dropped": {
-    "title_role": 114,
+    "title_role": 110,
     "location": 10,
     "title_offtrack": 48,
     "title_junior": 65,
@@ -1455,12 +1456,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 14,
+   "total": 13,
    "matched": 0,
    "dropped": {
-    "title_role": 10,
+    "title_role": 8,
     "title_offtrack": 1,
-    "title_senior": 1,
+    "title_senior": 2,
     "experience": 1,
     "title_junior": 1
    }
@@ -1472,12 +1473,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 37,
+   "total": 38,
    "matched": 11,
    "dropped": {
     "title_offtrack": 5,
     "title_role": 19,
-    "experience": 2
+    "experience": 3
    }
   },
   {
@@ -1491,11 +1492,10 @@
    "matched": 7,
    "dropped": {
     "title_offtrack": 2,
-    "title_role": 110,
-    "title_senior": 49,
+    "title_role": 112,
+    "title_senior": 48,
     "location": 3,
-    "title_junior": 8,
-    "experience": 1
+    "title_junior": 8
    }
   },
   {
@@ -1594,12 +1594,12 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 163,
+   "total": 165,
    "matched": 11,
    "dropped": {
     "experience": 7,
     "title_offtrack": 14,
-    "title_role": 124,
+    "title_role": 126,
     "title_senior": 2,
     "location": 1,
     "title_junior": 4
@@ -1612,10 +1612,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 155,
+   "total": 147,
    "matched": 1,
    "dropped": {
-    "title_role": 80,
+    "title_role": 72,
     "title_senior": 64,
     "title_offtrack": 5,
     "experience": 5
@@ -1628,13 +1628,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 73,
+   "total": 69,
    "matched": 3,
    "dropped": {
     "title_offtrack": 13,
     "title_senior": 21,
     "experience": 2,
-    "title_role": 32,
+    "title_role": 28,
     "title_junior": 2
    }
   },
@@ -1645,13 +1645,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 12,
+   "total": 14,
    "matched": 3,
    "dropped": {
-    "location": 5,
+    "location": 6,
     "title_offtrack": 1,
     "title_role": 1,
-    "experience": 2
+    "experience": 3
    }
   },
   {
@@ -1677,12 +1677,12 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 171,
-   "matched": 7,
+   "total": 182,
+   "matched": 8,
    "dropped": {
     "title_offtrack": 6,
-    "title_role": 96,
-    "title_senior": 53,
+    "title_role": 108,
+    "title_senior": 51,
     "title_junior": 8,
     "location": 1
    }
@@ -1694,14 +1694,14 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 261,
-   "matched": 11,
+   "total": 265,
+   "matched": 12,
    "dropped": {
-    "title_role": 78,
-    "title_senior": 161,
+    "title_role": 80,
+    "title_senior": 164,
     "title_junior": 2,
-    "title_offtrack": 4,
     "title_nonus_title": 2,
+    "title_offtrack": 2,
     "experience": 3
    }
   },
@@ -1712,10 +1712,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 86,
+   "total": 88,
    "matched": 4,
    "dropped": {
-    "title_role": 73,
+    "title_role": 75,
     "title_offtrack": 4,
     "experience": 4,
     "title_senior": 1
@@ -1741,11 +1741,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 526,
-   "matched": 12,
+   "total": 522,
+   "matched": 11,
    "dropped": {
-    "experience": 20,
-    "location": 1
+    "experience": 18
    }
   },
   {
@@ -1755,12 +1754,12 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 238,
+   "total": 236,
    "matched": 0,
    "dropped": {
-    "title_role": 136,
+    "title_role": 135,
     "title_offtrack": 21,
-    "title_senior": 66,
+    "title_senior": 65,
     "title_junior": 8,
     "experience": 6,
     "location": 1
@@ -1773,12 +1772,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 36,
+   "total": 35,
    "matched": 1,
    "dropped": {
     "title_role": 22,
     "title_senior": 7,
-    "title_offtrack": 6
+    "title_offtrack": 5
    }
   },
   {
@@ -1791,9 +1790,9 @@
    "total": 183,
    "matched": 11,
    "dropped": {
-    "title_role": 112,
+    "title_role": 111,
     "location": 3,
-    "title_senior": 40,
+    "title_senior": 41,
     "title_offtrack": 6,
     "experience": 4,
     "title_junior": 7
@@ -1806,13 +1805,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 43,
-   "matched": 2,
+   "total": 46,
+   "matched": 3,
    "dropped": {
-    "title_senior": 22,
+    "title_senior": 23,
     "title_offtrack": 3,
     "title_role": 12,
-    "location": 2,
+    "location": 3,
     "title_junior": 2
    }
   },
@@ -1823,7 +1822,7 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 426,
+   "total": 422,
    "matched": 9,
    "dropped": {
     "experience": 2
@@ -1871,13 +1870,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 360,
+   "total": 358,
    "matched": 7,
    "dropped": {
     "title_role": 185,
-    "title_senior": 128,
+    "title_senior": 127,
     "location": 8,
-    "title_offtrack": 25,
+    "title_offtrack": 24,
     "title_junior": 6,
     "experience": 1
    }
@@ -1889,10 +1888,10 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 54,
+   "total": 53,
    "matched": 0,
    "dropped": {
-    "title_role": 47,
+    "title_role": 46,
     "title_senior": 7
    }
   },
@@ -1903,13 +1902,13 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 79,
+   "total": 85,
    "matched": 0,
    "dropped": {
     "title_offtrack": 1,
-    "title_role": 48,
-    "location": 4,
-    "title_senior": 25,
+    "title_role": 52,
+    "location": 5,
+    "title_senior": 26,
     "experience": 1
    }
   },
@@ -1920,12 +1919,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 89,
+   "total": 93,
    "matched": 1,
    "dropped": {
-    "title_role": 59,
+    "title_role": 62,
     "title_junior": 6,
-    "title_senior": 2,
+    "title_senior": 3,
     "experience": 1,
     "location": 17,
     "title_offtrack": 3
@@ -1938,13 +1937,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 728,
-   "matched": 16,
+   "total": 729,
+   "matched": 18,
    "dropped": {
-    "title_role": 565,
+    "title_role": 563,
     "experience": 19,
     "title_offtrack": 24,
-    "title_senior": 55,
+    "title_senior": 56,
     "location": 30,
     "title_junior": 19
    }
@@ -1956,11 +1955,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 70,
-   "matched": 0,
+   "total": 73,
+   "matched": 1,
    "dropped": {
-    "title_senior": 18,
-    "title_role": 47,
+    "title_senior": 19,
+    "title_role": 48,
     "title_offtrack": 3,
     "experience": 2
    }
@@ -1972,12 +1971,12 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 52,
+   "total": 54,
    "matched": 8,
    "dropped": {
     "title_role": 19,
     "title_offtrack": 15,
-    "experience": 6,
+    "experience": 8,
     "title_senior": 3,
     "title_nonus_title": 1
    }
@@ -2005,11 +2004,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 64,
+   "total": 67,
    "matched": 2,
    "dropped": {
-    "title_role": 33,
-    "title_senior": 29
+    "title_role": 35,
+    "title_senior": 30
    }
   },
   {
@@ -2035,10 +2034,10 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 310,
+   "total": 318,
    "matched": 0,
    "dropped": {
-    "title_role": 256,
+    "title_role": 264,
     "title_offtrack": 4,
     "title_senior": 47,
     "location": 3
@@ -2051,14 +2050,14 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 79,
+   "total": 80,
    "matched": 3,
    "dropped": {
     "title_nonus_title": 2,
     "experience": 3,
     "title_role": 31,
     "title_offtrack": 9,
-    "title_senior": 26,
+    "title_senior": 27,
     "title_junior": 5
    }
   },
@@ -2087,11 +2086,11 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 84,
+   "total": 83,
    "matched": 0,
    "dropped": {
     "title_senior": 30,
-    "title_role": 47,
+    "title_role": 46,
     "title_nonus_title": 1,
     "title_offtrack": 5,
     "experience": 1
@@ -2104,13 +2103,13 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 87,
-   "matched": 7,
+   "total": 89,
+   "matched": 5,
    "dropped": {
-    "title_role": 54,
+    "title_role": 55,
     "title_offtrack": 5,
     "title_senior": 4,
-    "experience": 14,
+    "experience": 17,
     "location": 1,
     "title_junior": 2
    }
@@ -2122,10 +2121,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 309,
+   "total": 306,
    "matched": 3,
    "dropped": {
-    "title_role": 187,
+    "title_role": 184,
     "title_offtrack": 31,
     "title_junior": 12,
     "experience": 4,
@@ -2202,14 +2201,14 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 128,
+   "total": 125,
    "matched": 0,
    "dropped": {
-    "title_role": 91,
+    "title_role": 89,
     "location": 13,
     "experience": 2,
     "title_offtrack": 6,
-    "title_senior": 16
+    "title_senior": 15
    }
   },
   {
@@ -2235,10 +2234,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 169,
-   "matched": 6,
+   "total": 167,
+   "matched": 5,
    "dropped": {
-    "experience": 12
+    "experience": 13
    }
   },
   {
@@ -2248,10 +2247,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 8,
+   "total": 7,
    "matched": 0,
    "dropped": {
-    "location": 6,
+    "location": 5,
     "title_role": 2
    }
   },
@@ -2280,12 +2279,12 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 375,
+   "total": 378,
    "matched": 1,
    "dropped": {
-    "title_role": 207,
+    "title_role": 213,
     "experience": 2,
-    "title_senior": 147,
+    "title_senior": 144,
     "title_offtrack": 14,
     "location": 4
    }
@@ -2297,20 +2296,489 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 309,
+   "total": 305,
    "matched": 26,
    "dropped": {
-    "title_role": 204,
-    "experience": 32,
+    "title_role": 200,
+    "experience": 33,
     "location": 4,
     "title_offtrack": 23,
-    "title_senior": 16,
+    "title_senior": 15,
     "title_nonus_title": 2,
     "title_junior": 2
    }
   }
  ],
  "jobs": [
+  {
+   "company": "Vercel",
+   "title": "IT Ops Engineer",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6179794004",
+   "ats": "greenhouse",
+   "tier": "nyc",
+   "locations": [
+    "Hybrid - New York City",
+    "New York, New York, United States"
+   ],
+   "remote": false,
+   "dept": "IT",
+   "posted": "2026-09-08",
+   "first_seen": "2026-10-10",
+   "pay": "$136k–$204k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": []
+  },
+  {
+   "company": "Suno",
+   "title": "Software Engineer, Internal Tools",
+   "url": "https://jobs.ashbyhq.com/suno/f19de1aa-0965-43db-acbe-b6917e268ff0",
+   "ats": "ashby",
+   "tier": "us_other",
+   "locations": [
+    "Boston"
+   ],
+   "remote": false,
+   "dept": "Platform / Platform",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "$188,640 - $247,590",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    " - You bring 2+ years of full-stack software engineering experience"
+   ],
+   "level_text": [],
+   "role_hits": [
+    "platform"
+   ],
+   "lang_hits": []
+  },
+  {
+   "company": "Stripe",
+   "title": "Backend/API Engineer, Money as a Service",
+   "url": "https://stripe.com/jobs/search?gh_jid=6176758",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "US",
+    "US"
+   ],
+   "remote": false,
+   "dept": "8546 Treasury for Platforms - Eng",
+   "posted": "2024-08-25",
+   "first_seen": "2026-10-10",
+   "pay": "",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 2–12+ years of industry software engineering experience (does not include internships or co-ops)"
+   ],
+   "level_text": [
+    "Note: if you are an intern, new grad, staff, front-end, or full-stack applicant, please do not apply using this link and visit our jobs page for those specific postings."
+   ],
+   "role_hits": [
+    "api",
+    "backend"
+   ],
+   "lang_hits": []
+  },
+  {
+   "company": "Stripe",
+   "title": "Software Engineer",
+   "url": "https://stripe.com/jobs/search?gh_jid=8267736",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Seattle, WA",
+    "US-PERM"
+   ],
+   "remote": false,
+   "dept": "Global Operations",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "",
+   "yoe_min": 1,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 2 years of experience with AWS cloud infrastructure and Terraform infrastructure automation;",
+    "- 2 years of experience with reliability, scalability, and distributed systems principles;",
+    "- 1 year of experience in Go and Ansible programming languages;"
+   ],
+   "level_text": [
+    "- Mentoring junior engineers;",
+    "- 1 year of experience in mentorship and leadership of junior software engineers;"
+   ],
+   "role_hits": [],
+   "lang_hits": [
+    "go",
+    "python"
+   ]
+  },
+  {
+   "company": "Stripe",
+   "title": "Software Engineer, Internal Identity",
+   "url": "https://stripe.com/jobs/search?gh_jid=8265763",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "na",
+    "US"
+   ],
+   "remote": false,
+   "dept": "8612 Security Infrastructure",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 2-5 years of professional hands-on software development experience"
+   ],
+   "level_text": [],
+   "role_hits": [
+    "infrastructure"
+   ],
+   "lang_hits": [
+    "go",
+    "java"
+   ]
+  },
+  {
+   "company": "Sentry",
+   "title": "Software Engineer, Streaming Platform",
+   "url": "https://jobs.ashbyhq.com/sentry/5ee81d6f-e837-43bb-af06-8f26c992a766",
+   "ats": "ashby",
+   "tier": "remote_us",
+   "locations": [
+    "San Francisco, California"
+   ],
+   "remote": true,
+   "dept": "Engineering  / Engineering ",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "$155K - $190K",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    " - At least 2-3 years of software engineering experience, with background in distributed systems, data infrastructure, or real-time streaming."
+   ],
+   "level_text": [],
+   "role_hits": [
+    "platform",
+    "streaming"
+   ],
+   "lang_hits": [
+    "go",
+    "java",
+    "python",
+    "rust"
+   ]
+  },
+  {
+   "company": "Roblox",
+   "title": "Software Engineer, ROS",
+   "url": "https://careers.roblox.com/jobs/8262223?gh_jid=8262223",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "San Mateo, CA, United States",
+    "San Mateo, CA, United States"
+   ],
+   "remote": false,
+   "dept": "Early Career FT - Engineering",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "$168k–$212k",
+   "yoe_min": 1,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 1-3 years of experience in software engineering (internships included), with a track record of delivering high-quality production code."
+   ],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "python",
+    "typescript"
+   ]
+  },
+  {
+   "company": "Robinhood",
+   "title": "Software Engineer, AI Security",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8220757?t=gh_src%3D&gh_jid=8220757",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Bellevue, WA",
+    "Menlo Park, CA",
+    "Bellevue, WA",
+    "Menlo Park, CA",
+    "Toronto, Canada"
+   ],
+   "remote": false,
+   "dept": "Security Division",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "$166k–$195k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 3+ years of software development experience",
+    "- 2+ years of experience building large-scale distributed systems, with experience designing systems around security concepts such as authentication, authorization, identity, or encryption"
+   ],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "go",
+    "python"
+   ]
+  },
+  {
+   "company": "Nvidia",
+   "title": "C++ Software Engineer, Infrastructure Tools - New College Grad 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/C---Software-Engineer--Infrastructure-Tools---New-College-Grad-2027_JR2027431",
+   "ats": "workday",
+   "tier": "us_other",
+   "locations": [
+    "US, CA, Santa Clara"
+   ],
+   "remote": false,
+   "dept": "",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [
+    "- Experienced in a compiled language(C++/Golang) & scripting(Python/Perl/Tcl).",
+    "- Experienced with full stack development."
+   ],
+   "role_hits": [
+    "infrastructure"
+   ],
+   "lang_hits": [
+    "c++",
+    "golang",
+    "python"
+   ]
+  },
+  {
+   "company": "Ironclad",
+   "title": "Software Engineer II, Developer Productivity",
+   "url": "https://jobs.ashbyhq.com/ironcladhq/9af62746-1c31-44d7-b2a7-faf6eefeffc1",
+   "ats": "ashby",
+   "tier": "remote_us",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": true,
+   "dept": "Engineering, Product & Design / Engineering",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "$150K - $165K",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    " - 2–4 years of software engineering experience, including internships or significant projects. A formal degree is not required."
+   ],
+   "level_text": [],
+   "role_hits": [
+    "developer productivity"
+   ],
+   "lang_hits": [
+    "go",
+    "python",
+    "typescript"
+   ]
+  },
+  {
+   "company": "ElevenLabs",
+   "title": "Fullstack Engineer (Backend Leaning) - Flows",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/a1c86d02-e9df-4580-87e4-1333f2b83e94",
+   "ats": "ashby",
+   "tier": "us_other",
+   "locations": [
+    "United Kingdom",
+    "United States",
+    "Poland",
+    "Bulgaria"
+   ],
+   "remote": true,
+   "dept": "Engineering & Product / Engineering & Product",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "backend"
+   ],
+   "lang_hits": []
+  },
+  {
+   "company": "Cursor (Anysphere)",
+   "title": "Software Engineer, Grok Connectors ",
+   "url": "https://jobs.ashbyhq.com/cursor/5afc044a-00ed-4392-8759-59c7effe179d",
+   "ats": "ashby",
+   "tier": "us_other",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "remote": false,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "rust",
+    "typescript"
+   ]
+  },
+  {
+   "company": "Cognition",
+   "title": "Research Engineer, Safety & Alignment",
+   "url": "https://jobs.ashbyhq.com/cognition/023cea7e-70db-4f79-8e82-c57564466622",
+   "ats": "ashby",
+   "tier": "us_other",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": false,
+   "dept": "Research & Development / Research",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "python"
+   ]
+  },
+  {
+   "company": "Cloudflare",
+   "title": "Rack Integration Operations Engineer",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8267826?gh_jid=8267826",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Hybrid",
+    "Austin, TX, United States",
+    "San Francisco, CA, United States",
+    "Seattle, WA",
+    "Washington, DC, United States"
+   ],
+   "remote": false,
+   "dept": "Engineering",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "python"
+   ]
+  },
+  {
+   "company": "Anthropic",
+   "title": "Data Engineer, Product",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448481008",
+   "ats": "greenhouse",
+   "tier": "nyc",
+   "locations": [
+    "San Francisco, CA",
+    "New York City, NY",
+    "Seattle, WA",
+    "San Francisco, California, United States"
+   ],
+   "remote": false,
+   "dept": "Data Science & Analytics",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "$320k–$405k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "python"
+   ]
+  },
+  {
+   "company": "Anduril",
+   "title": "Aviation Maintenance Engineer - Advanced Effects",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5262583007?gh_jid=5262583007",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Costa Mesa, California, United States",
+    "Costa Mesa, California, United States"
+   ],
+   "remote": false,
+   "dept": "Hardware Platform : Hardware Engineering Services",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 3 years or more of airframe and power plant experience.",
+    "- 2 years or more of missile or rocket system development experience."
+   ],
+   "level_text": [],
+   "role_hits": [
+    "platform"
+   ],
+   "lang_hits": []
+  },
+  {
+   "company": "Abnormal Security",
+   "title": "Software Engineer 2 - Development Infrastructure ",
+   "url": "https://abnormal.ai/careers/jobs/8015189003?gh_jid=8015189003",
+   "ats": "greenhouse",
+   "tier": "remote_us",
+   "locations": [
+    "Remote - USA",
+    "Remote - USA"
+   ],
+   "remote": false,
+   "dept": "Platform & Infrastructure",
+   "posted": "2026-10-09",
+   "first_seen": "2026-10-10",
+   "pay": "$149k–$214k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 3+ years of professional experience as a hands-on engineer building backend systems and/or platforms.",
+    "- 2+ years of experience working with Python."
+   ],
+   "level_text": [],
+   "role_hits": [
+    "infrastructure",
+    "platform"
+   ],
+   "lang_hits": [
+    "go",
+    "python"
+   ]
+  },
   {
    "company": "xAI",
    "title": "AI Tutor - Software Engineering",
@@ -3100,33 +3568,6 @@
   },
   {
    "company": "Workday",
-   "title": "Software Development Engineer - Workday Everywhere",
-   "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer---Workday-Everywhere_JR-0108945",
-   "ats": "workday",
-   "tier": "us_other",
-   "locations": [
-    "USA, CA, Pleasanton"
-   ],
-   "remote": false,
-   "dept": "",
-   "posted": "2026-07-23",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": 1,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- 3+ years of work experience in Software Engineering",
-    "- 2+ years of work experience in both front-end and back-end engineering",
-    "- 1+ years of work experience in JavaScript and/or TypeScript code"
-   ],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "typescript"
-   ]
-  },
-  {
-   "company": "Workday",
    "title": "Software Development Engineer - US Federal",
    "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Software-Development-Engineer---US-Federal_JR-0109457",
    "ats": "workday",
@@ -3517,86 +3958,6 @@
    "lang_hits": [
     "go",
     "python"
-   ]
-  },
-  {
-   "company": "Vercel",
-   "title": "IT Systems Engineer",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6218743004",
-   "ats": "greenhouse",
-   "tier": "nyc",
-   "locations": [
-    "Hybrid - San Francisco, New York City, Austin",
-    "San Francisco, California, United States"
-   ],
-   "remote": false,
-   "dept": "IT",
-   "posted": "2026-10-07",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [
-    "systems"
-   ],
-   "lang_hits": [
-    "python"
-   ]
-  },
-  {
-   "company": "Vercel",
-   "title": "Product Security Engineer",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
-   "ats": "greenhouse",
-   "tier": "nyc",
-   "locations": [
-    "Hybrid - San Francisco, New York City, London",
-    "Berlin, Berlin, Germany",
-    "London, England, United Kingdom",
-    "New York, New York, United States",
-    "San Francisco, California, United States"
-   ],
-   "remote": false,
-   "dept": "Security",
-   "posted": "2026-06-25",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "go",
-    "typescript"
-   ]
-  },
-  {
-   "company": "Vercel",
-   "title": "Security Engineer, Detection Response",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
-   "ats": "greenhouse",
-   "tier": "nyc",
-   "locations": [
-    "Hybrid - San Francisco, New York City, London",
-    "San Francisco, California, United States"
-   ],
-   "remote": false,
-   "dept": "Security",
-   "posted": "2026-07-08",
-   "first_seen": "2026-10-09",
-   "pay": "$208k–$312k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "go",
-    "python",
-    "rust"
    ]
   },
   {
@@ -4577,7 +4938,7 @@
     "Remote, AMER"
    ],
    "remote": true,
-   "dept": "Engineering / Postgres",
+   "dept": "Engineering / Postgres Extensions",
    "posted": "2026-02-27",
    "first_seen": "2026-10-09",
    "pay": "",
@@ -4629,7 +4990,7 @@
     "Remote, Global"
    ],
    "remote": false,
-   "dept": "Engineering / Engineering",
+   "dept": "Engineering / Spark",
    "posted": "2026-07-17",
    "first_seen": "2026-10-09",
    "pay": "",
@@ -5073,35 +5434,6 @@
    "yoe_text": [],
    "level_text": [],
    "role_hits": [],
-   "lang_hits": [
-    "go",
-    "java"
-   ]
-  },
-  {
-   "company": "Stripe",
-   "title": "Software Engineer, Internal Identity",
-   "url": "https://stripe.com/jobs/search?gh_jid=8263356",
-   "ats": "greenhouse",
-   "tier": "us_other",
-   "locations": [
-    "na",
-    "US"
-   ],
-   "remote": false,
-   "dept": "8612 Security Infrastructure",
-   "posted": "2026-10-07",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- 2-5 years of professional hands-on software development experience"
-   ],
-   "level_text": [],
-   "role_hits": [
-    "infrastructure"
-   ],
    "lang_hits": [
     "go",
     "java"
@@ -6216,7 +6548,7 @@
     "San Francisco, California, United States"
    ],
    "remote": false,
-   "dept": "Horizontals",
+   "dept": "Public Sector Engineering",
    "posted": "2025-12-22",
    "first_seen": "2026-10-09",
    "pay": "$237k–$297k",
@@ -6504,38 +6836,6 @@
    "role_hits": [],
    "lang_hits": [
     "go",
-    "typescript"
-   ]
-  },
-  {
-   "company": "Salesforce",
-   "title": "Software Engineer, AI Systems (PMTS)",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineer--AI-Systems--PMTS-_JR361238",
-   "ats": "workday",
-   "tier": "nyc",
-   "locations": [
-    "California - San Francisco",
-    "Massachusetts - Boston",
-    "New York - New York",
-    "Washington - Seattle",
-    "Washington - Bellevue"
-   ],
-   "remote": false,
-   "dept": "",
-   "posted": "2026-09-29",
-   "first_seen": "2026-10-09",
-   "pay": "$172k–$313k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [
-    "systems"
-   ],
-   "lang_hits": [
-    "go",
-    "java",
-    "python",
     "typescript"
    ]
   },
@@ -7233,11 +7533,12 @@
   {
    "company": "Robinhood",
    "title": "Software Engineer, Web3 Backend",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/8258307?t=gh_src%3D&gh_jid=8258307",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8258305?t=gh_src%3D&gh_jid=8258305",
    "ats": "greenhouse",
    "tier": "nyc",
    "locations": [
-    "Toronto, Canada",
+    "Menlo Park, CA",
+    "New York, NY",
     "Menlo Park, CA",
     "New York, NY",
     "Toronto, Canada"
@@ -7246,7 +7547,7 @@
    "dept": "ENG Platforms",
    "posted": "2026-10-07",
    "first_seen": "2026-10-09",
-   "pay": "$136k–$160k",
+   "pay": "$166k–$195k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
@@ -7265,12 +7566,11 @@
   {
    "company": "Robinhood",
    "title": "Software Engineer, Web3 Backend",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/8258305?t=gh_src%3D&gh_jid=8258305",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8258307?t=gh_src%3D&gh_jid=8258307",
    "ats": "greenhouse",
    "tier": "nyc",
    "locations": [
-    "Menlo Park, CA",
-    "New York, NY",
+    "Toronto, Canada",
     "Menlo Park, CA",
     "New York, NY",
     "Toronto, Canada"
@@ -7279,7 +7579,7 @@
    "dept": "ENG Platforms",
    "posted": "2026-10-07",
    "first_seen": "2026-10-09",
-   "pay": "$166k–$195k",
+   "pay": "$136k–$160k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
@@ -9034,7 +9334,7 @@
   },
   {
    "company": "Physical Intelligence",
-   "title": "ML engineer - API Platform",
+   "title": "ML Engineer - API Platform",
    "url": "https://jobs.ashbyhq.com/physicalintelligence/14586c10-d913-43c5-8f7c-c77b5c438e4c",
    "ats": "ashby",
    "tier": "us_other",
@@ -9043,7 +9343,7 @@
    ],
    "remote": false,
    "dept": "Software Engineering / Software Engineering",
-   "posted": "2026-10-05",
+   "posted": "2026-10-09",
    "first_seen": "2026-10-09",
    "pay": "",
    "yoe_min": null,
@@ -10126,18 +10426,18 @@
   {
    "company": "Optiver",
    "title": "Software Engineer - Research Platform",
-   "url": "https://www.optiver.com/join-us/jobs/8386967002?gh_jid=8386967002",
+   "url": "https://www.optiver.com/join-us/jobs/8142708002?gh_jid=8142708002",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Chicago, Illinois, United States",
-    "Chicago, Illinois, United States"
+    "Austin, Texas, United States",
+    "Austin, Texas, United States"
    ],
    "remote": false,
    "dept": "Software",
-   "posted": "2026-01-22",
+   "posted": "2025-09-25",
    "first_seen": "2026-10-09",
-   "pay": "$200k–$200k",
+   "pay": "",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -10156,18 +10456,18 @@
   {
    "company": "Optiver",
    "title": "Software Engineer - Research Platform",
-   "url": "https://www.optiver.com/join-us/jobs/8142708002?gh_jid=8142708002",
+   "url": "https://www.optiver.com/join-us/jobs/8386967002?gh_jid=8386967002",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Austin, Texas, United States",
-    "Austin, Texas, United States"
+    "Chicago, Illinois, United States",
+    "Chicago, Illinois, United States"
    ],
    "remote": false,
    "dept": "Software",
-   "posted": "2025-09-25",
+   "posted": "2026-01-22",
    "first_seen": "2026-10-09",
-   "pay": "",
+   "pay": "$200k–$200k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -11423,11 +11723,7 @@
    "yoe_text": [],
    "level_text": [],
    "role_hits": [],
-   "lang_hits": [
-    "go",
-    "python",
-    "rust"
-   ]
+   "lang_hits": []
   },
   {
    "company": "OpenAI",
@@ -13241,7 +13537,7 @@
     "Seattle",
     "US - Remote"
    ],
-   "remote": false,
+   "remote": true,
    "dept": "People / Recruiting",
    "posted": "2026-10-01",
    "first_seen": "2026-10-09",
@@ -13685,56 +13981,6 @@
   },
   {
    "company": "Netflix",
-   "title": "Software Engineer 5 - Ads Identity Graph",
-   "url": "https://explore.jobs.netflix.net/careers/job/790315141428",
-   "ats": "eightfold",
-   "tier": "nyc",
-   "locations": [
-    "New York,New York,United States of America",
-    "Seattle,Washington,United States of America",
-    "Los Angeles,California,United States of America",
-    "Los Gatos,California,United States of America"
-   ],
-   "remote": false,
-   "dept": "Engineering",
-   "posted": "2026-05-21",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": []
-  },
-  {
-   "company": "Netflix",
-   "title": "Software Engineer 5 - Ads Engineering",
-   "url": "https://explore.jobs.netflix.net/careers/job/790314629098",
-   "ats": "eightfold",
-   "tier": "nyc",
-   "locations": [
-    "New York,New York,United States of America",
-    "Los Gatos,California,United States of America",
-    "Seattle,Washington,United States of America",
-    "Los Angeles,California,United States of America"
-   ],
-   "remote": false,
-   "dept": "Engineering",
-   "posted": "2026-03-03",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "go"
-   ]
-  },
-  {
-   "company": "Netflix",
    "title": "Software Engineer 5 - Ads Eventing",
    "url": "https://explore.jobs.netflix.net/careers/job/790312429328",
    "ats": "eightfold",
@@ -13785,6 +14031,31 @@
   },
   {
    "company": "Netflix",
+   "title": "Software Engineer 6 - Ads Identity & Privacy",
+   "url": "https://explore.jobs.netflix.net/careers/job/790303283925",
+   "ats": "eightfold",
+   "tier": "nyc",
+   "locations": [
+    "New York,New York,United States of America"
+   ],
+   "remote": false,
+   "dept": "Engineering",
+   "posted": "2025-06-03",
+   "first_seen": "2026-10-09",
+   "pay": "",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "java",
+    "python"
+   ]
+  },
+  {
+   "company": "Netflix",
    "title": "Software Engineer 4 -  Ads Policy Infrastructure",
    "url": "https://explore.jobs.netflix.net/careers/job/790315764701",
    "ats": "eightfold",
@@ -13809,17 +14080,19 @@
   },
   {
    "company": "Netflix",
-   "title": "Software Engineer 5 - Ads Forecasting and Simulation",
-   "url": "https://explore.jobs.netflix.net/careers/job/790317562896",
+   "title": "Software Engineer 5 - Ads Engineering",
+   "url": "https://explore.jobs.netflix.net/careers/job/790314629098",
    "ats": "eightfold",
    "tier": "nyc",
    "locations": [
     "New York,New York,United States of America",
-    "Los Gatos,California,United States of America"
+    "Los Gatos,California,United States of America",
+    "Seattle,Washington,United States of America",
+    "Los Angeles,California,United States of America"
    ],
    "remote": false,
    "dept": "Engineering",
-   "posted": "2026-07-28",
+   "posted": "2026-03-03",
    "first_seen": "2026-10-09",
    "pay": "",
    "yoe_min": null,
@@ -13827,7 +14100,9 @@
    "yoe_text": [],
    "level_text": [],
    "role_hits": [],
-   "lang_hits": []
+   "lang_hits": [
+    "go"
+   ]
   },
   {
    "company": "Netflix",
@@ -13855,16 +14130,19 @@
   },
   {
    "company": "Netflix",
-   "title": "Software Engineer 6 - Ads Identity & Privacy",
-   "url": "https://explore.jobs.netflix.net/careers/job/790303283925",
+   "title": "Software Engineer 5 - Ads Identity Graph",
+   "url": "https://explore.jobs.netflix.net/careers/job/790315141428",
    "ats": "eightfold",
    "tier": "nyc",
    "locations": [
-    "New York,New York,United States of America"
+    "New York,New York,United States of America",
+    "Seattle,Washington,United States of America",
+    "Los Angeles,California,United States of America",
+    "Los Gatos,California,United States of America"
    ],
    "remote": false,
    "dept": "Engineering",
-   "posted": "2025-06-03",
+   "posted": "2026-05-21",
    "first_seen": "2026-10-09",
    "pay": "",
    "yoe_min": null,
@@ -13872,11 +14150,29 @@
    "yoe_text": [],
    "level_text": [],
    "role_hits": [],
-   "lang_hits": [
-    "c++",
-    "java",
-    "python"
-   ]
+   "lang_hits": []
+  },
+  {
+   "company": "Netflix",
+   "title": "Software Engineer 5 - Ads Forecasting and Simulation",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317562896",
+   "ats": "eightfold",
+   "tier": "nyc",
+   "locations": [
+    "New York,New York,United States of America",
+    "Los Gatos,California,United States of America"
+   ],
+   "remote": false,
+   "dept": "Engineering",
+   "posted": "2026-07-28",
+   "first_seen": "2026-10-09",
+   "pay": "",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": []
   },
   {
    "company": "Netflix",
@@ -14031,6 +14327,35 @@
   },
   {
    "company": "Netflix",
+   "title": "Distributed Systems Engineer 6 - Ads Policies",
+   "url": "https://explore.jobs.netflix.net/careers/job/790315962589",
+   "ats": "eightfold",
+   "tier": "nyc",
+   "locations": [
+    "New York,New York,United States of America",
+    "Los Gatos,California,United States of America",
+    "Seattle,Washington,United States of America",
+    "Los Angeles,California,United States of America"
+   ],
+   "remote": false,
+   "dept": "Engineering",
+   "posted": "2026-06-22",
+   "first_seen": "2026-10-09",
+   "pay": "",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "distributed",
+    "systems"
+   ],
+   "lang_hits": [
+    "typescript"
+   ]
+  },
+  {
+   "company": "Netflix",
    "title": "Machine Learning Engineer 5 - Ads Platform Engineering",
    "url": "https://explore.jobs.netflix.net/careers/job/790302428788",
    "ats": "eightfold",
@@ -14058,35 +14383,6 @@
     "java",
     "python",
     "scala"
-   ]
-  },
-  {
-   "company": "Netflix",
-   "title": "Distributed Systems Engineer 6 - Ads Policies",
-   "url": "https://explore.jobs.netflix.net/careers/job/790315962589",
-   "ats": "eightfold",
-   "tier": "nyc",
-   "locations": [
-    "New York,New York,United States of America",
-    "Los Gatos,California,United States of America",
-    "Seattle,Washington,United States of America",
-    "Los Angeles,California,United States of America"
-   ],
-   "remote": false,
-   "dept": "Engineering",
-   "posted": "2026-06-22",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [
-    "distributed",
-    "systems"
-   ],
-   "lang_hits": [
-    "typescript"
    ]
   },
   {
@@ -16843,16 +17139,16 @@
   {
    "company": "Glean",
    "title": "Machine Learning Engineer, Search Quality",
-   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4738120005",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4006735005",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "San Francisco, CA",
+    "Mountain View, CA",
     "Mountain View, California, United States"
    ],
    "remote": false,
    "dept": "Engineering",
-   "posted": "2026-09-25",
+   "posted": "2022-04-08",
    "first_seen": "2026-10-09",
    "pay": "$140k–$265k",
    "yoe_min": 2,
@@ -16874,16 +17170,16 @@
   {
    "company": "Glean",
    "title": "Machine Learning Engineer, Search Quality",
-   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4006735005",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4738120005",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Mountain View, CA",
+    "San Francisco, CA",
     "Mountain View, California, United States"
    ],
    "remote": false,
    "dept": "Engineering",
-   "posted": "2022-04-08",
+   "posted": "2026-09-25",
    "first_seen": "2026-10-09",
    "pay": "$140k–$265k",
    "yoe_min": 2,
@@ -17360,35 +17656,6 @@
   },
   {
    "company": "ElevenLabs",
-   "title": "Engineering - Internal AI Transformation",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/a3097257-a07a-4a7e-b9fe-b8555c1a0fa7",
-   "ats": "ashby",
-   "tier": "remote_us",
-   "locations": [
-    "United States",
-    "Dublin",
-    "Sofia",
-    "Germany",
-    "Portugal",
-    "Poland"
-   ],
-   "remote": true,
-   "dept": "Engineering & Product / Automations",
-   "posted": "2025-07-22",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "go",
-    "python"
-   ]
-  },
-  {
-   "company": "ElevenLabs",
    "title": "Research Engineer - Inference",
    "url": "https://jobs.ashbyhq.com/elevenlabs/2d7f9a7c-a9e6-4877-bb38-34e4d989054c",
    "ats": "ashby",
@@ -17463,31 +17730,6 @@
     "core"
    ],
    "lang_hits": []
-  },
-  {
-   "company": "ElevenLabs",
-   "title": "HPC Infrastructure Engineer - GPU Clusters",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/120da2b3-d88b-4e3c-9b89-d19ff73db9d9",
-   "ats": "ashby",
-   "tier": "remote_us",
-   "locations": [
-    "United States"
-   ],
-   "remote": true,
-   "dept": "Research & Research Engineering / Research Engineering",
-   "posted": "2026-09-03",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [
-    "infrastructure"
-   ],
-   "lang_hits": [
-    "python"
-   ]
   },
   {
    "company": "ElevenLabs",
@@ -17592,29 +17834,6 @@
   },
   {
    "company": "ElevenLabs",
-   "title": "Applied AI Engineer",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/b8a111fa-9fd5-44d0-97ed-8fd1280be4ef",
-   "ats": "ashby",
-   "tier": "remote_unspecified",
-   "locations": [
-    "Remote"
-   ],
-   "remote": false,
-   "dept": "Growth / Paid Marketing",
-   "posted": "2026-10-07",
-   "first_seen": "2026-10-09",
-   "pay": "",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "python"
-   ]
-  },
-  {
-   "company": "ElevenLabs",
    "title": "Infrastructure Engineer",
    "url": "https://jobs.ashbyhq.com/elevenlabs/31a6f0f4-8e1d-4d77-9d00-026ed12213f2",
    "ats": "ashby",
@@ -17623,13 +17842,13 @@
     "London",
     "Dublin",
     "Hungary",
-    "United States",
+    "Toronto",
     "New York",
     "Sofia"
    ],
    "remote": true,
    "dept": "Engineering & Product / Infrastructure",
-   "posted": "2026-10-08",
+   "posted": "2026-10-09",
    "first_seen": "2026-10-09",
    "pay": "",
    "yoe_min": null,
@@ -18377,18 +18596,18 @@
   {
    "company": "DRW",
    "title": "Platform Engineer - AI Engineering",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/8261675",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/8186711",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Montreal",
+    "Chicago",
     "Chicago, IL, United States"
    ],
    "remote": false,
    "dept": "IO - Development & Operations",
-   "posted": "2026-10-07",
+   "posted": "2026-09-09",
    "first_seen": "2026-10-09",
-   "pay": "",
+   "pay": "$130k–$190k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -18406,18 +18625,18 @@
   {
    "company": "DRW",
    "title": "Platform Engineer - AI Engineering",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/8186711",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/8261675",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Chicago",
+    "Montreal",
     "Chicago, IL, United States"
    ],
    "remote": false,
    "dept": "IO - Development & Operations",
-   "posted": "2026-09-09",
+   "posted": "2026-10-07",
    "first_seen": "2026-10-09",
-   "pay": "$130k–$190k",
+   "pay": "",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -18611,37 +18830,6 @@
   {
    "company": "DRW",
    "title": "Software Engineer, Cumberland/Options Tools Engineering",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7392396",
-   "ats": "greenhouse",
-   "tier": "nyc",
-   "locations": [
-    "New York City",
-    "New York, NY, United States"
-   ],
-   "remote": false,
-   "dept": "FICC Options Execution Software Engineering",
-   "posted": "2025-11-12",
-   "first_seen": "2026-10-09",
-   "pay": "$175k–$225k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- A minimum of 2+ years’ experience using Python, Java, C++, and can work comfortably in multiple programming languages"
-   ],
-   "level_text": [],
-   "role_hits": [
-    "execution"
-   ],
-   "lang_hits": [
-    "c++",
-    "java",
-    "python",
-    "typescript"
-   ]
-  },
-  {
-   "company": "DRW",
-   "title": "Software Engineer, Cumberland/Options Tools Engineering",
    "url": "https://job-boards.greenhouse.io/drweng/jobs/7288315",
    "ats": "greenhouse",
    "tier": "us_other",
@@ -18662,6 +18850,37 @@
    "level_text": [],
    "role_hits": [
     "infrastructure"
+   ],
+   "lang_hits": [
+    "c++",
+    "java",
+    "python",
+    "typescript"
+   ]
+  },
+  {
+   "company": "DRW",
+   "title": "Software Engineer, Cumberland/Options Tools Engineering",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7392396",
+   "ats": "greenhouse",
+   "tier": "nyc",
+   "locations": [
+    "New York City",
+    "New York, NY, United States"
+   ],
+   "remote": false,
+   "dept": "FICC Options Execution Software Engineering",
+   "posted": "2025-11-12",
+   "first_seen": "2026-10-09",
+   "pay": "$175k–$225k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- A minimum of 2+ years’ experience using Python, Java, C++, and can work comfortably in multiple programming languages"
+   ],
+   "level_text": [],
+   "role_hits": [
+    "execution"
    ],
    "lang_hits": [
     "c++",
@@ -22965,11 +23184,11 @@
   {
    "company": "Anduril",
    "title": "Computer Vision Engineer, Space",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5016334007?gh_jid=5016334007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5016001007?gh_jid=5016001007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Washington, District of Columbia, United States",
+    "Costa Mesa, California, United States",
     "Costa Mesa, California, United States",
     "Reston, Virginia, United States",
     "Washington, District of Columbia, United States"
@@ -22993,11 +23212,11 @@
   {
    "company": "Anduril",
    "title": "Computer Vision Engineer, Space",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5016001007?gh_jid=5016001007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5016334007?gh_jid=5016334007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Costa Mesa, California, United States",
+    "Washington, District of Columbia, United States",
     "Costa Mesa, California, United States",
     "Reston, Virginia, United States",
     "Washington, District of Columbia, United States"
@@ -23308,11 +23527,11 @@
   {
    "company": "Anduril",
    "title": "IT Security Engineer, Space",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5246822007?gh_jid=5246822007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5246717007?gh_jid=5246717007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Chantilly, Virginia, United States",
+    "Costa Mesa, California, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
@@ -23332,11 +23551,11 @@
   {
    "company": "Anduril",
    "title": "IT Security Engineer, Space",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5246717007?gh_jid=5246717007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5246822007?gh_jid=5246822007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Costa Mesa, California, United States",
+    "Chantilly, Virginia, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
@@ -23604,11 +23823,11 @@
   {
    "company": "Anduril",
    "title": "Mission Software Engineer - Undersea Reconnaissance & Strike",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226473007?gh_jid=5226473007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226471007?gh_jid=5226471007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Washington, District of Columbia, United States",
+    "Boston, Massachusetts, United States",
     "Quincy, Massachusetts, United States"
    ],
    "remote": false,
@@ -23631,11 +23850,11 @@
   {
    "company": "Anduril",
    "title": "Mission Software Engineer - Undersea Reconnaissance & Strike",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226471007?gh_jid=5226471007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226473007?gh_jid=5226473007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Boston, Massachusetts, United States",
+    "Washington, District of Columbia, United States",
     "Quincy, Massachusetts, United States"
    ],
    "remote": false,
@@ -23872,32 +24091,6 @@
   },
   {
    "company": "Anduril",
-   "title": "Product Quality Engineer - Fury",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5118271007?gh_jid=5118271007",
-   "ats": "greenhouse",
-   "tier": "us_other",
-   "locations": [
-    "Ashville, Ohio, United States",
-    "Ashville, Ohio, United States"
-   ],
-   "remote": false,
-   "dept": "Quality Reliability & System Safety : Quality Engineering : Product Quality Engineering",
-   "posted": "2026-05-26",
-   "first_seen": "2026-10-09",
-   "pay": "$97k–$129k",
-   "yoe_min": null,
-   "yoe_pref": 3,
-   "yoe_text": [
-    "[preferred] - 3-5 years of experience with developing quality systems for low volume, high complex manufacturing environments and suppliers."
-   ],
-   "level_text": [],
-   "role_hits": [
-    "reliability"
-   ],
-   "lang_hits": []
-  },
-  {
-   "company": "Anduril",
    "title": "Product Security Engineer, Programs",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5183808007?gh_jid=5183808007",
    "ats": "greenhouse",
@@ -23909,6 +24102,33 @@
    "remote": false,
    "dept": "Corporate Technology : Product Security : Product Security",
    "posted": "2026-07-09",
+   "first_seen": "2026-10-09",
+   "pay": "$156k–$253k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "golang",
+    "python",
+    "rust"
+   ]
+  },
+  {
+   "company": "Anduril",
+   "title": "Product Security Engineer, Programs",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5042721007?gh_jid=5042721007",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Washington, District of Columbia, United States",
+    "Costa Mesa, California, United States"
+   ],
+   "remote": false,
+   "dept": "Corporate Technology : Product Security : Product Security",
+   "posted": "2026-02-04",
    "first_seen": "2026-10-09",
    "pay": "$156k–$253k",
    "yoe_min": null,
@@ -23958,33 +24178,6 @@
    "tier": "us_other",
    "locations": [
     "Costa Mesa, California, United States",
-    "Costa Mesa, California, United States"
-   ],
-   "remote": false,
-   "dept": "Corporate Technology : Product Security : Product Security",
-   "posted": "2026-02-04",
-   "first_seen": "2026-10-09",
-   "pay": "$156k–$253k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "c++",
-    "golang",
-    "python",
-    "rust"
-   ]
-  },
-  {
-   "company": "Anduril",
-   "title": "Product Security Engineer, Programs",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5042721007?gh_jid=5042721007",
-   "ats": "greenhouse",
-   "tier": "us_other",
-   "locations": [
-    "Washington, District of Columbia, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
@@ -24195,37 +24388,6 @@
   {
    "company": "Anduril",
    "title": "Scientific Software Engineer",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240161007?gh_jid=5240161007",
-   "ats": "greenhouse",
-   "tier": "us_other",
-   "locations": [
-    "Broomfield, Colorado, United States",
-    "Fort Collins, Colorado, United States",
-    "Broomfield, Colorado, United States",
-    "Fort Collins, Colorado, United States"
-   ],
-   "remote": false,
-   "dept": "Mission Systems : Battlespace Awareness Engineering",
-   "posted": "2026-09-16",
-   "first_seen": "2026-10-09",
-   "pay": "$126k–$167k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- 2 years of relevant experience & Bachelor's degree in Computer Science, Engineering, Mathematics, Physics, or related technical field (or equivalent experience)"
-   ],
-   "level_text": [],
-   "role_hits": [
-    "systems"
-   ],
-   "lang_hits": [
-    "c++",
-    "python"
-   ]
-  },
-  {
-   "company": "Anduril",
-   "title": "Scientific Software Engineer",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226942007?gh_jid=5226942007",
    "ats": "greenhouse",
    "tier": "us_other",
@@ -24256,17 +24418,48 @@
   },
   {
    "company": "Anduril",
-   "title": "Security Software Engineer, Endpoint Security",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248741007?gh_jid=5248741007",
+   "title": "Scientific Software Engineer",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240161007?gh_jid=5240161007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Seattle, Washington, United States",
+    "Broomfield, Colorado, United States",
+    "Fort Collins, Colorado, United States",
+    "Broomfield, Colorado, United States",
+    "Fort Collins, Colorado, United States"
+   ],
+   "remote": false,
+   "dept": "Mission Systems : Battlespace Awareness Engineering",
+   "posted": "2026-09-16",
+   "first_seen": "2026-10-09",
+   "pay": "$126k–$167k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 2 years of relevant experience & Bachelor's degree in Computer Science, Engineering, Mathematics, Physics, or related technical field (or equivalent experience)"
+   ],
+   "level_text": [],
+   "role_hits": [
+    "systems"
+   ],
+   "lang_hits": [
+    "c++",
+    "python"
+   ]
+  },
+  {
+   "company": "Anduril",
+   "title": "Security Software Engineer, Endpoint Security",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5002801007?gh_jid=5002801007",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Costa Mesa, California, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
    "dept": "Corporate Technology : Information Security : Product Security",
-   "posted": "2026-09-24",
+   "posted": "2026-02-13",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": 2,
@@ -24341,16 +24534,16 @@
   {
    "company": "Anduril",
    "title": "Security Software Engineer, Endpoint Security",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5002801007?gh_jid=5002801007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248741007?gh_jid=5248741007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Costa Mesa, California, United States",
+    "Seattle, Washington, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
    "dept": "Corporate Technology : Information Security : Product Security",
-   "posted": "2026-02-13",
+   "posted": "2026-09-24",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": 2,
@@ -24459,7 +24652,7 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, C++",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240168007?gh_jid=5240168007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226943007?gh_jid=5226943007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
@@ -24470,7 +24663,7 @@
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering",
-   "posted": "2026-09-16",
+   "posted": "2026-08-31",
    "first_seen": "2026-10-09",
    "pay": "$126k–$167k",
    "yoe_min": 2,
@@ -24490,7 +24683,7 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, C++",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226943007?gh_jid=5226943007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240168007?gh_jid=5240168007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
@@ -24501,7 +24694,7 @@
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering",
-   "posted": "2026-08-31",
+   "posted": "2026-09-16",
    "first_seen": "2026-10-09",
    "pay": "$126k–$167k",
    "yoe_min": 2,
@@ -24669,18 +24862,18 @@
   {
    "company": "Anduril",
    "title": "Software Engineer- Machine Learning",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5124403007?gh_jid=5124403007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248869007?gh_jid=5248869007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Broomfield, Colorado, United States",
+    "Waltham, Massachusetts, United States",
     "Waltham, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering : Battlespace Awareness C2 Systems",
    "posted": "2026-09-24",
    "first_seen": "2026-10-09",
-   "pay": "$165k–$218k",
+   "pay": "$191k–$253k",
    "yoe_min": null,
    "yoe_pref": 2,
    "yoe_text": [
@@ -24700,18 +24893,18 @@
   {
    "company": "Anduril",
    "title": "Software Engineer- Machine Learning",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248869007?gh_jid=5248869007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5124403007?gh_jid=5124403007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Waltham, Massachusetts, United States",
+    "Broomfield, Colorado, United States",
     "Waltham, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering : Battlespace Awareness C2 Systems",
    "posted": "2026-09-24",
    "first_seen": "2026-10-09",
-   "pay": "$191k–$253k",
+   "pay": "$165k–$218k",
    "yoe_min": null,
    "yoe_pref": 2,
    "yoe_text": [
@@ -24901,16 +25094,16 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, Robotics Data Foundation (Cloud)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185965007?gh_jid=5185965007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5247292007?gh_jid=5247292007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Seattle, Washington, United States",
+    "Boston, Massachusetts, United States",
     "Boston, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "AFS : Discovery Engineering ",
-   "posted": "2026-07-14",
+   "posted": "2026-09-23",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -24930,16 +25123,16 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, Robotics Data Foundation (Cloud)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5247292007?gh_jid=5247292007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185965007?gh_jid=5185965007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Boston, Massachusetts, United States",
+    "Seattle, Washington, United States",
     "Boston, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "AFS : Discovery Engineering ",
-   "posted": "2026-09-23",
+   "posted": "2026-07-14",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -25522,18 +25715,18 @@
   {
    "company": "Anduril",
    "title": "Systems Engineer, Battlespace ",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5152322007?gh_jid=5152322007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5152311007?gh_jid=5152311007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Waltham, Massachusetts, United States",
+    "Broomfield, Colorado, United States",
     "Broomfield, Colorado, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering",
    "posted": "2026-06-01",
    "first_seen": "2026-10-09",
-   "pay": "$113k–$149k",
+   "pay": "$98k–$129k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
@@ -25552,18 +25745,18 @@
   {
    "company": "Anduril",
    "title": "Systems Engineer, Battlespace ",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5152311007?gh_jid=5152311007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5152322007?gh_jid=5152322007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Broomfield, Colorado, United States",
+    "Waltham, Massachusetts, United States",
     "Broomfield, Colorado, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering",
    "posted": "2026-06-01",
    "first_seen": "2026-10-09",
-   "pay": "$98k–$129k",
+   "pay": "$113k–$149k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
@@ -25637,18 +25830,18 @@
   {
    "company": "Anduril",
    "title": "Systems Engineer, Space Imaging",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248692007?gh_jid=5248692007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248689007?gh_jid=5248689007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Waltham, Massachusetts, United States",
-    "Waltham, Massachusetts, United States"
+    "Boulder, Colorado, United States",
+    "Boulder, Colorado, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Imaging Engineering : Imaging - System Engineering,Integration and Test",
    "posted": "2026-09-24",
    "first_seen": "2026-10-09",
-   "pay": "$146k–$194k",
+   "pay": "$126k–$167k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -25663,18 +25856,18 @@
   {
    "company": "Anduril",
    "title": "Systems Engineer, Space Imaging",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248689007?gh_jid=5248689007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248692007?gh_jid=5248692007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Boulder, Colorado, United States",
-    "Boulder, Colorado, United States"
+    "Waltham, Massachusetts, United States",
+    "Waltham, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Imaging Engineering : Imaging - System Engineering,Integration and Test",
    "posted": "2026-09-24",
    "first_seen": "2026-10-09",
-   "pay": "$126k–$167k",
+   "pay": "$146k–$194k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -26180,33 +26373,6 @@
   {
    "company": "Affirm",
    "title": "Machine Learning Engineer II (Underwriting ML)",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003",
-   "ats": "greenhouse",
-   "tier": "remote_us",
-   "locations": [
-    "Remote Canada",
-    "Remote Canada",
-    "Remote US"
-   ],
-   "remote": false,
-   "dept": "Checkout",
-   "posted": "2026-08-06",
-   "first_seen": "2026-10-09",
-   "pay": "$133k–$183k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- You have a total of 2+ years of experience as a machine learning engineer or a PhD in a relevant field."
-   ],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "python"
-   ]
-  },
-  {
-   "company": "Affirm",
-   "title": "Machine Learning Engineer II (Underwriting ML)",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003",
    "ats": "greenhouse",
    "tier": "remote_us",
@@ -26233,29 +26399,28 @@
   },
   {
    "company": "Affirm",
-   "title": "Software Engineer II, Backend (Decisions Orchestration)",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8003018003",
+   "title": "Machine Learning Engineer II (Underwriting ML)",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003",
    "ats": "greenhouse",
    "tier": "remote_us",
    "locations": [
+    "Remote Canada",
     "Remote Canada",
     "Remote US"
    ],
    "remote": false,
    "dept": "Checkout",
-   "posted": "2026-10-06",
+   "posted": "2026-08-06",
    "first_seen": "2026-10-09",
    "pay": "$133k–$183k",
-   "yoe_min": null,
+   "yoe_min": 2,
    "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [
-    "backend"
+   "yoe_text": [
+    "- You have a total of 2+ years of experience as a machine learning engineer or a PhD in a relevant field."
    ],
+   "level_text": [],
+   "role_hits": [],
    "lang_hits": [
-    "go",
-    "kotlin",
     "python"
    ]
   },
@@ -26274,6 +26439,34 @@
    "posted": "2026-10-06",
    "first_seen": "2026-10-09",
    "pay": "$165k–$225k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "backend"
+   ],
+   "lang_hits": [
+    "go",
+    "kotlin",
+    "python"
+   ]
+  },
+  {
+   "company": "Affirm",
+   "title": "Software Engineer II, Backend (Decisions Orchestration)",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8003018003",
+   "ats": "greenhouse",
+   "tier": "remote_us",
+   "locations": [
+    "Remote Canada",
+    "Remote US"
+   ],
+   "remote": false,
+   "dept": "Checkout",
+   "posted": "2026-10-06",
+   "first_seen": "2026-10-09",
+   "pay": "$133k–$183k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -26335,29 +26528,6 @@
    "lang_hits": [
     "typescript"
    ]
-  },
-  {
-   "company": "Adobe",
-   "title": "Software Development Engineer",
-   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Software-Development-Engineer_R171675-1",
-   "ats": "workday",
-   "tier": "us_other",
-   "locations": [
-    "San Jose"
-   ],
-   "remote": false,
-   "dept": "",
-   "posted": "2026-09-18",
-   "first_seen": "2026-10-09",
-   "pay": "$93k–$179k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- 2 years of professional software product/service development experience."
-   ],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": []
   },
   {
    "company": "Adobe",
@@ -26458,17 +26628,17 @@
   },
   {
    "company": "Netflix",
-   "title": "Software Engineer 4 - TV & Web Player Platform",
-   "req_min": 3,
-   "pref_max": null,
-   "url": "https://explore.jobs.netflix.net/careers/job/790318469189"
-  },
-  {
-   "company": "Netflix",
    "title": "Software Engineer 6 - Ad Serving Platform",
    "req_min": 10,
    "pref_max": null,
    "url": "https://explore.jobs.netflix.net/careers/job/790311890356"
+  },
+  {
+   "company": "Netflix",
+   "title": "Software Engineer 4 - TV & Web Player Platform",
+   "req_min": 3,
+   "pref_max": null,
+   "url": "https://explore.jobs.netflix.net/careers/job/790318469189"
   },
   {
    "company": "Netflix",
@@ -26612,13 +26782,6 @@
   },
   {
    "company": "Nvidia",
-   "title": "GPU Simulation System Software Engineer",
-   "req_min": 5,
-   "pref_max": null,
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/GPU-Simulation-System-Software-Engineer_JR2018237"
-  },
-  {
-   "company": "Nvidia",
    "title": "System Software Engineer, Distributed Systems",
    "req_min": null,
    "pref_max": 5,
@@ -26660,6 +26823,20 @@
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Engineer--Developer-Platform_JR2026158"
   },
   {
+   "company": "Nvidia",
+   "title": "Software Engineer, SRE and Production Engineering - DGX Cloud",
+   "req_min": 8,
+   "pref_max": null,
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--SRE-and-Production-Engineering---DGX-Cloud_JR2026802"
+  },
+  {
+   "company": "Salesforce",
+   "title": "Software Engineering MTS",
+   "req_min": 3,
+   "pref_max": null,
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-MTS_JR354592"
+  },
+  {
    "company": "Salesforce",
    "title": "Software Engineer II (Full-Stack)",
    "req_min": 5,
@@ -26672,13 +26849,6 @@
    "req_min": 3,
    "pref_max": null,
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Bellevue/Software-Engineering-MTS_JR355208-1"
-  },
-  {
-   "company": "Salesforce",
-   "title": "Software Engineering MTS",
-   "req_min": 3,
-   "pref_max": null,
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-MTS_JR354592"
   },
   {
    "company": "Salesforce",
@@ -26731,13 +26901,6 @@
   },
   {
    "company": "Salesforce",
-   "title": "Software Engineering SMTS",
-   "req_min": 3,
-   "pref_max": null,
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Software-Engineering-SMTS_JR358236"
-  },
-  {
-   "company": "Salesforce",
    "title": "Software Engineer- GovCloud",
    "req_min": 3,
    "pref_max": null,
@@ -26749,13 +26912,6 @@
    "req_min": 5,
    "pref_max": null,
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Virginia---Mclean/Product-Vulnerability-Engineer_JR355838"
-  },
-  {
-   "company": "Salesforce",
-   "title": "Systems Engineering Engineer",
-   "req_min": 3,
-   "pref_max": null,
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Systems-Engineering-Engineer_JR355290"
   },
   {
    "company": "Salesforce",
@@ -26801,13 +26957,6 @@
   },
   {
    "company": "Adobe",
-   "title": "Software Engineer in Quality Engineering",
-   "req_min": 7,
-   "pref_max": null,
-   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Software-Quality-Engineer_R165146"
-  },
-  {
-   "company": "Adobe",
    "title": "Software Engineer – Adobe Experience Platform",
    "req_min": 5,
    "pref_max": null,
@@ -26826,13 +26975,6 @@
    "req_min": null,
    "pref_max": 5,
    "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Software-Development-Engineer_R170818"
-  },
-  {
-   "company": "Adobe",
-   "title": "Software Development Engineer",
-   "req_min": 4,
-   "pref_max": null,
-   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Software-Development-Engineer_R171559"
   },
   {
    "company": "Adobe",
@@ -26945,13 +27087,6 @@
    "req_min": 7,
    "pref_max": null,
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5107890008"
-  },
-  {
-   "company": "Anthropic",
-   "title": "Data Engineer",
-   "req_min": null,
-   "pref_max": 5,
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/4956672008"
   },
   {
    "company": "Anthropic",
@@ -27179,7 +27314,7 @@
   },
   {
    "company": "OpenAI",
-   "title": "Full Stack Software Engineer, Gov",
+   "title": "Backend Software Engineer, Gov",
    "req_min": 9,
    "pref_max": null,
    "url": "https://jobs.ashbyhq.com/openai/a90cdb7c-1c33-4fca-9a96-26c236006f14"
@@ -27473,6 +27608,13 @@
   },
   {
    "company": "OpenAI",
+   "title": "Software Engineer, API Agents",
+   "req_min": 7,
+   "pref_max": null,
+   "url": "https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda"
+  },
+  {
+   "company": "OpenAI",
    "title": "Software Engineer, API Enterprise Controls",
    "req_min": 9,
    "pref_max": null,
@@ -27659,6 +27801,13 @@
    "req_min": 3,
    "pref_max": null,
    "url": "https://job-boards.greenhouse.io/xai/jobs/5090998007"
+  },
+  {
+   "company": "xAI",
+   "title": "Infrastructure Security Engineer (Bare Metal & Platform)",
+   "req_min": 3,
+   "pref_max": null,
+   "url": "https://job-boards.greenhouse.io/xai/jobs/5262880007"
   },
   {
    "company": "xAI",
@@ -28327,13 +28476,6 @@
   },
   {
    "company": "ElevenLabs",
-   "title": "Research Engineer",
-   "req_min": 3,
-   "pref_max": null,
-   "url": "https://jobs.ashbyhq.com/elevenlabs/3d650946-5ac2-4729-9ae4-129c43fcd0b5"
-  },
-  {
-   "company": "ElevenLabs",
    "title": "Safety Engineer - Free Tier Abuse",
    "req_min": 6,
    "pref_max": null,
@@ -28380,6 +28522,13 @@
    "req_min": 5,
    "pref_max": null,
    "url": "https://jobs.ashbyhq.com/anyscale/81809616-ef2f-44f8-bcee-d1e17749f45d"
+  },
+  {
+   "company": "Physical Intelligence",
+   "title": "ML Infra Engineer, Platform",
+   "req_min": 4,
+   "pref_max": null,
+   "url": "https://jobs.ashbyhq.com/physicalintelligence/16093ed0-49de-429e-81d4-6d8b5d715c01"
   },
   {
    "company": "Physical Intelligence",
@@ -28436,6 +28585,13 @@
    "req_min": 3,
    "pref_max": null,
    "url": "https://job-boards.greenhouse.io/figureai/jobs/4620050006"
+  },
+  {
+   "company": "Figure AI",
+   "title": "Security Engineer, Detection and Response",
+   "req_min": 6,
+   "pref_max": null,
+   "url": "https://job-boards.greenhouse.io/figureai/jobs/4720675006"
   },
   {
    "company": "Figure AI",
@@ -28534,6 +28690,20 @@
    "req_min": 3,
    "pref_max": null,
    "url": "http://block.xyz/careers/jobs/5381210008?gh_jid=5381210008"
+  },
+  {
+   "company": "Block",
+   "title": "Security Engineer, Business Continuity & Risk",
+   "req_min": 4,
+   "pref_max": null,
+   "url": "http://block.xyz/careers/jobs/5427789008?gh_jid=5427789008"
+  },
+  {
+   "company": "Block",
+   "title": "Software Engineer, Cash App Taxes",
+   "req_min": null,
+   "pref_max": 4,
+   "url": "http://block.xyz/careers/jobs/5412832008?gh_jid=5412832008"
   }
  ]
 }
