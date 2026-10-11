@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-10T09:48:52+00:00",
+ "generated_at": "2026-10-11T09:59:02+00:00",
  "counts": {
   "boards": 140,
   "boards_ok": 140,
   "boards_failed": 0,
-  "jobs": 908,
-  "new_today": 17,
+  "jobs": 910,
+  "new_today": 2,
   "dropped_experience": 887
  },
  "not_covered": [
@@ -201,10 +201,10 @@
    "matched": 122,
    "dropped": {
     "title_junior": 42,
-    "title_role": 911,
+    "title_role": 910,
     "experience": 223,
     "title_offtrack": 251,
-    "title_senior": 928,
+    "title_senior": 929,
     "location": 13,
     "title_nonus_title": 1
    }
@@ -561,10 +561,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 312,
+   "total": 311,
    "matched": 6,
    "dropped": {
-    "title_role": 178,
+    "title_role": 177,
     "experience": 6,
     "title_senior": 114,
     "title_offtrack": 8
@@ -641,13 +641,13 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 892,
+   "total": 886,
    "matched": 0,
    "dropped": {
     "title_role": 478,
     "title_offtrack": 18,
     "location": 8,
-    "title_senior": 378,
+    "title_senior": 372,
     "title_junior": 8,
     "experience": 2
    }
@@ -712,10 +712,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 464,
+   "total": 463,
    "matched": 15,
    "dropped": {
-    "title_role": 368,
+    "title_role": 367,
     "title_offtrack": 18,
     "title_senior": 49,
     "experience": 11,
@@ -982,11 +982,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 81,
+   "total": 80,
    "matched": 1,
    "dropped": {
     "title_role": 45,
-    "title_senior": 33,
+    "title_senior": 32,
     "title_offtrack": 2
    }
   },
@@ -1311,7 +1311,7 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 1724,
+   "total": 1722,
    "matched": 5,
    "dropped": {
     "experience": 11,
@@ -1378,8 +1378,8 @@
    "dropped": {
     "title_junior": 14,
     "title_role": 83,
-    "location": 24,
     "experience": 3,
+    "location": 24,
     "title_senior": 21,
     "title_offtrack": 9
    }
@@ -1741,7 +1741,7 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 522,
+   "total": 521,
    "matched": 11,
    "dropped": {
     "experience": 18
@@ -1754,12 +1754,12 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 236,
+   "total": 240,
    "matched": 0,
    "dropped": {
-    "title_role": 135,
+    "title_role": 138,
     "title_offtrack": 21,
-    "title_senior": 65,
+    "title_senior": 66,
     "title_junior": 8,
     "experience": 6,
     "location": 1
@@ -1787,10 +1787,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 183,
+   "total": 182,
    "matched": 11,
    "dropped": {
-    "title_role": 111,
+    "title_role": 110,
     "location": 3,
     "title_senior": 41,
     "title_offtrack": 6,
@@ -1988,8 +1988,8 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 61,
-   "matched": 15,
+   "total": 63,
+   "matched": 17,
    "dropped": {
     "title_role": 27,
     "title_offtrack": 11,
@@ -2234,7 +2234,7 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 167,
+   "total": 166,
    "matched": 5,
    "dropped": {
     "experience": 13
@@ -2310,6 +2310,62 @@
   }
  ],
  "jobs": [
+  {
+   "company": "Tailscale",
+   "title": "Infrastructure Engineer",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4733404005",
+   "ats": "greenhouse",
+   "tier": "remote_us",
+   "locations": [
+    "Remote (United States)",
+    "Canada",
+    "United Kingdom",
+    "United States"
+   ],
+   "remote": false,
+   "dept": "Engineering",
+   "posted": "2026-10-10",
+   "first_seen": "2026-10-11",
+   "pay": "$181k–$226k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "infrastructure"
+   ],
+   "lang_hits": [
+    "go"
+   ]
+  },
+  {
+   "company": "Tailscale",
+   "title": "Infrastructure Engineer",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4733403005",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Remote (Canada)",
+    "Canada",
+    "United Kingdom",
+    "United States"
+   ],
+   "remote": false,
+   "dept": "Engineering",
+   "posted": "2026-10-10",
+   "first_seen": "2026-10-11",
+   "pay": "$218k–$273k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "infrastructure"
+   ],
+   "lang_hits": [
+    "go"
+   ]
+  },
   {
    "company": "Vercel",
    "title": "IT Ops Engineer",
@@ -4479,29 +4535,6 @@
   {
    "company": "Tailscale",
    "title": "Analytics Engineer, Data",
-   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4721252005",
-   "ats": "greenhouse",
-   "tier": "us_other",
-   "locations": [
-    "Remote (Canada)",
-    "Canada",
-    "United States"
-   ],
-   "remote": false,
-   "dept": "Data",
-   "posted": "2026-08-04",
-   "first_seen": "2026-10-09",
-   "pay": "$203k–$254k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": []
-  },
-  {
-   "company": "Tailscale",
-   "title": "Analytics Engineer, Data",
    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4721289005",
    "ats": "greenhouse",
    "tier": "remote_us",
@@ -4515,6 +4548,29 @@
    "posted": "2026-08-04",
    "first_seen": "2026-10-09",
    "pay": "$152k–$190k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": []
+  },
+  {
+   "company": "Tailscale",
+   "title": "Analytics Engineer, Data",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4721252005",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Remote (Canada)",
+    "Canada",
+    "United States"
+   ],
+   "remote": false,
+   "dept": "Data",
+   "posted": "2026-08-04",
+   "first_seen": "2026-10-09",
+   "pay": "$203k–$254k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -4663,11 +4719,11 @@
   {
    "company": "Tailscale",
    "title": "Software Engineer, Networking (Dataplane)",
-   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4732874005",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4732897005",
    "ats": "greenhouse",
-   "tier": "us_other",
+   "tier": "remote_us",
    "locations": [
-    "Remote (Canada)",
+    "Remote (United States)",
     "Canada",
     "United States"
    ],
@@ -4675,7 +4731,7 @@
    "dept": "Engineering",
    "posted": "2026-09-10",
    "first_seen": "2026-10-09",
-   "pay": "$218k–$302k",
+   "pay": "$163k–$226k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -4692,11 +4748,11 @@
   {
    "company": "Tailscale",
    "title": "Software Engineer, Networking (Dataplane)",
-   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4732897005",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4732874005",
    "ats": "greenhouse",
-   "tier": "remote_us",
+   "tier": "us_other",
    "locations": [
-    "Remote (United States)",
+    "Remote (Canada)",
     "Canada",
     "United States"
    ],
@@ -4704,7 +4760,7 @@
    "dept": "Engineering",
    "posted": "2026-09-10",
    "first_seen": "2026-10-09",
-   "pay": "$163k–$226k",
+   "pay": "$218k–$302k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -4777,34 +4833,6 @@
   {
    "company": "Tailscale",
    "title": "Software Engineer, Strategic Projects",
-   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4721714005",
-   "ats": "greenhouse",
-   "tier": "remote_us",
-   "locations": [
-    "Remote (United States)",
-    "Canada",
-    "United States"
-   ],
-   "remote": false,
-   "dept": "Strategic Projects",
-   "posted": "2026-08-05",
-   "first_seen": "2026-10-09",
-   "pay": "$163k–$226k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "go",
-    "python",
-    "rust",
-    "typescript"
-   ]
-  },
-  {
-   "company": "Tailscale",
-   "title": "Software Engineer, Strategic Projects",
    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4721713005",
    "ats": "greenhouse",
    "tier": "us_other",
@@ -4832,27 +4860,30 @@
   },
   {
    "company": "Tailscale",
-   "title": "Windows Engineer",
-   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4710781005",
+   "title": "Software Engineer, Strategic Projects",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4721714005",
    "ats": "greenhouse",
-   "tier": "us_other",
+   "tier": "remote_us",
    "locations": [
-    "Remote (Canada)",
+    "Remote (United States)",
     "Canada",
     "United States"
    ],
    "remote": false,
-   "dept": "Engineering",
-   "posted": "2026-06-30",
+   "dept": "Strategic Projects",
+   "posted": "2026-08-05",
    "first_seen": "2026-10-09",
-   "pay": "$191k–$239k",
+   "pay": "$163k–$226k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
    "level_text": [],
    "role_hits": [],
    "lang_hits": [
-    "go"
+    "go",
+    "python",
+    "rust",
+    "typescript"
    ]
   },
   {
@@ -4871,6 +4902,31 @@
    "posted": "2026-06-30",
    "first_seen": "2026-10-09",
    "pay": "$143k–$179k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "go"
+   ]
+  },
+  {
+   "company": "Tailscale",
+   "title": "Windows Engineer",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4710781005",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Remote (Canada)",
+    "Canada",
+    "United States"
+   ],
+   "remote": false,
+   "dept": "Engineering",
+   "posted": "2026-06-30",
+   "first_seen": "2026-10-09",
+   "pay": "$191k–$239k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -7472,12 +7528,11 @@
   {
    "company": "Robinhood",
    "title": "Software Engineer, Tokenization",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/8189005?t=gh_src%3D&gh_jid=8189005",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8189007?t=gh_src%3D&gh_jid=8189007",
    "ats": "greenhouse",
    "tier": "nyc",
    "locations": [
-    "Menlo Park, CA",
-    "New York, NY",
+    "Toronto, Canada",
     "Menlo Park, CA",
     "New York, NY",
     "Toronto, Canada"
@@ -7486,7 +7541,7 @@
    "dept": "Crypto Engineering",
    "posted": "2026-09-10",
    "first_seen": "2026-10-09",
-   "pay": "$166k–$195k",
+   "pay": "$136k–$160k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
@@ -7503,11 +7558,12 @@
   {
    "company": "Robinhood",
    "title": "Software Engineer, Tokenization",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/8189007?t=gh_src%3D&gh_jid=8189007",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8189005?t=gh_src%3D&gh_jid=8189005",
    "ats": "greenhouse",
    "tier": "nyc",
    "locations": [
-    "Toronto, Canada",
+    "Menlo Park, CA",
+    "New York, NY",
     "Menlo Park, CA",
     "New York, NY",
     "Toronto, Canada"
@@ -7516,7 +7572,7 @@
    "dept": "Crypto Engineering",
    "posted": "2026-09-10",
    "first_seen": "2026-10-09",
-   "pay": "$136k–$160k",
+   "pay": "$166k–$195k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
@@ -8527,26 +8583,28 @@
   {
    "company": "Point72",
    "title": "Quantitative Software Developer",
-   "url": "https://boards.greenhouse.io/point72/jobs/7825863002?gh_jid=7825863002",
+   "url": "https://boards.greenhouse.io/point72/jobs/8036928002?gh_jid=8036928002",
    "ats": "greenhouse",
    "tier": "nyc",
    "locations": [
     "New York",
-    "New York, New York, United States"
+    "New York, United States"
    ],
    "remote": false,
    "dept": "Quant Management",
-   "posted": "2025-01-22",
+   "posted": "2025-06-16",
    "first_seen": "2026-10-09",
    "pay": "",
-   "yoe_min": 1,
+   "yoe_min": null,
    "yoe_pref": null,
-   "yoe_text": [
-    "- 1-3 years of professional experience in software development or data science/analytics."
+   "yoe_text": [],
+   "level_text": [
+    "Cubist’s data services group is looking for a junior Quantitative Software Developer to join our dedicated team. Our group is responsible for the timely delivery of comprehensive a"
    ],
-   "level_text": [],
    "role_hits": [],
    "lang_hits": [
+    "c++",
+    "go",
     "python"
    ]
   },
@@ -8578,28 +8636,26 @@
   {
    "company": "Point72",
    "title": "Quantitative Software Developer",
-   "url": "https://boards.greenhouse.io/point72/jobs/8036928002?gh_jid=8036928002",
+   "url": "https://boards.greenhouse.io/point72/jobs/7825863002?gh_jid=7825863002",
    "ats": "greenhouse",
    "tier": "nyc",
    "locations": [
     "New York",
-    "New York, United States"
+    "New York, New York, United States"
    ],
    "remote": false,
    "dept": "Quant Management",
-   "posted": "2025-06-16",
+   "posted": "2025-01-22",
    "first_seen": "2026-10-09",
    "pay": "",
-   "yoe_min": null,
+   "yoe_min": 1,
    "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [
-    "Cubist’s data services group is looking for a junior Quantitative Software Developer to join our dedicated team. Our group is responsible for the timely delivery of comprehensive a"
+   "yoe_text": [
+    "- 1-3 years of professional experience in software development or data science/analytics."
    ],
+   "level_text": [],
    "role_hits": [],
    "lang_hits": [
-    "c++",
-    "go",
     "python"
    ]
   },
@@ -10426,18 +10482,18 @@
   {
    "company": "Optiver",
    "title": "Software Engineer - Research Platform",
-   "url": "https://www.optiver.com/join-us/jobs/8142708002?gh_jid=8142708002",
+   "url": "https://www.optiver.com/join-us/jobs/8386967002?gh_jid=8386967002",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Austin, Texas, United States",
-    "Austin, Texas, United States"
+    "Chicago, Illinois, United States",
+    "Chicago, Illinois, United States"
    ],
    "remote": false,
    "dept": "Software",
-   "posted": "2025-09-25",
+   "posted": "2026-01-22",
    "first_seen": "2026-10-09",
-   "pay": "",
+   "pay": "$200k–$200k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -10456,18 +10512,18 @@
   {
    "company": "Optiver",
    "title": "Software Engineer - Research Platform",
-   "url": "https://www.optiver.com/join-us/jobs/8386967002?gh_jid=8386967002",
+   "url": "https://www.optiver.com/join-us/jobs/8142708002?gh_jid=8142708002",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Chicago, Illinois, United States",
-    "Chicago, Illinois, United States"
+    "Austin, Texas, United States",
+    "Austin, Texas, United States"
    ],
    "remote": false,
    "dept": "Software",
-   "posted": "2026-01-22",
+   "posted": "2025-09-25",
    "first_seen": "2026-10-09",
-   "pay": "$200k–$200k",
+   "pay": "",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -13690,33 +13746,6 @@
   {
    "company": "Old Mission",
    "title": "C++ Software Engineer ",
-   "url": "https://www.oldmissioncapital.com/careers?gh_jid=5607340003",
-   "ats": "greenhouse",
-   "tier": "us_other",
-   "locations": [
-    "Chicago, IL, United States",
-    "Chicago, IL, United States"
-   ],
-   "remote": false,
-   "dept": "Technology",
-   "posted": "2023-05-08",
-   "first_seen": "2026-10-09",
-   "pay": "$175k–$300k",
-   "yoe_min": null,
-   "yoe_pref": 2,
-   "yoe_text": [
-    "[preferred] - 2+ years of experience developing applications in C++, preferably with high availability systems with very tight latency constraints"
-   ],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "c++",
-    "python"
-   ]
-  },
-  {
-   "company": "Old Mission",
-   "title": "C++ Software Engineer ",
    "url": "https://www.oldmissioncapital.com/careers?gh_jid=5607344003",
    "ats": "greenhouse",
    "tier": "nyc",
@@ -13733,6 +13762,33 @@
    "yoe_pref": 3,
    "yoe_text": [
     "[preferred] - 5+ years of experience developing applications in C++ (with at least 3 years of C++ 11) preferably with high availability systems with very tight latency constraints"
+   ],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "python"
+   ]
+  },
+  {
+   "company": "Old Mission",
+   "title": "C++ Software Engineer ",
+   "url": "https://www.oldmissioncapital.com/careers?gh_jid=5607340003",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Chicago, IL, United States",
+    "Chicago, IL, United States"
+   ],
+   "remote": false,
+   "dept": "Technology",
+   "posted": "2023-05-08",
+   "first_seen": "2026-10-09",
+   "pay": "$175k–$300k",
+   "yoe_min": null,
+   "yoe_pref": 2,
+   "yoe_text": [
+    "[preferred] - 2+ years of experience developing applications in C++, preferably with high availability systems with very tight latency constraints"
    ],
    "level_text": [],
    "role_hits": [],
@@ -17139,16 +17195,16 @@
   {
    "company": "Glean",
    "title": "Machine Learning Engineer, Search Quality",
-   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4006735005",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4738120005",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Mountain View, CA",
+    "San Francisco, CA",
     "Mountain View, California, United States"
    ],
    "remote": false,
    "dept": "Engineering",
-   "posted": "2022-04-08",
+   "posted": "2026-09-25",
    "first_seen": "2026-10-09",
    "pay": "$140k–$265k",
    "yoe_min": 2,
@@ -17170,16 +17226,16 @@
   {
    "company": "Glean",
    "title": "Machine Learning Engineer, Search Quality",
-   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4738120005",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4006735005",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "San Francisco, CA",
+    "Mountain View, CA",
     "Mountain View, California, United States"
    ],
    "remote": false,
    "dept": "Engineering",
-   "posted": "2026-09-25",
+   "posted": "2022-04-08",
    "first_seen": "2026-10-09",
    "pay": "$140k–$265k",
    "yoe_min": 2,
@@ -18596,18 +18652,18 @@
   {
    "company": "DRW",
    "title": "Platform Engineer - AI Engineering",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/8186711",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/8261675",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Chicago",
+    "Montreal",
     "Chicago, IL, United States"
    ],
    "remote": false,
    "dept": "IO - Development & Operations",
-   "posted": "2026-09-09",
+   "posted": "2026-10-07",
    "first_seen": "2026-10-09",
-   "pay": "$130k–$190k",
+   "pay": "",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -18625,18 +18681,18 @@
   {
    "company": "DRW",
    "title": "Platform Engineer - AI Engineering",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/8261675",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/8186711",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Montreal",
+    "Chicago",
     "Chicago, IL, United States"
    ],
    "remote": false,
    "dept": "IO - Development & Operations",
-   "posted": "2026-10-07",
+   "posted": "2026-09-09",
    "first_seen": "2026-10-09",
-   "pay": "",
+   "pay": "$130k–$190k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -18716,33 +18772,6 @@
   {
    "company": "DRW",
    "title": "Research Engineer (Options)",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7377915",
-   "ats": "greenhouse",
-   "tier": "us_other",
-   "locations": [
-    "Chicago",
-    "Chicago, IL, United States"
-   ],
-   "remote": false,
-   "dept": "FICC Options Execution Software Engineering",
-   "posted": "2025-11-05",
-   "first_seen": "2026-10-09",
-   "pay": "$175k–$225k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [
-    "execution"
-   ],
-   "lang_hits": [
-    "c++",
-    "python"
-   ]
-  },
-  {
-   "company": "DRW",
-   "title": "Research Engineer (Options)",
    "url": "https://job-boards.greenhouse.io/drweng/jobs/7097016",
    "ats": "greenhouse",
    "tier": "us_other",
@@ -18770,6 +18799,33 @@
     "c++",
     "python",
     "rust"
+   ]
+  },
+  {
+   "company": "DRW",
+   "title": "Research Engineer (Options)",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7377915",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Chicago",
+    "Chicago, IL, United States"
+   ],
+   "remote": false,
+   "dept": "FICC Options Execution Software Engineering",
+   "posted": "2025-11-05",
+   "first_seen": "2026-10-09",
+   "pay": "$175k–$225k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "execution"
+   ],
+   "lang_hits": [
+    "c++",
+    "python"
    ]
   },
   {
@@ -18830,37 +18886,6 @@
   {
    "company": "DRW",
    "title": "Software Engineer, Cumberland/Options Tools Engineering",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7288315",
-   "ats": "greenhouse",
-   "tier": "us_other",
-   "locations": [
-    "Greenwich",
-    "Greenwich, Connecticut, United States"
-   ],
-   "remote": false,
-   "dept": "FICC Options Infrastructure, Tools, & Analytics",
-   "posted": "2025-09-30",
-   "first_seen": "2026-10-09",
-   "pay": "$175k–$225k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- A minimum of 2+ years’ experience using Python, Java, C++, and can work comfortably in multiple programming languages"
-   ],
-   "level_text": [],
-   "role_hits": [
-    "infrastructure"
-   ],
-   "lang_hits": [
-    "c++",
-    "java",
-    "python",
-    "typescript"
-   ]
-  },
-  {
-   "company": "DRW",
-   "title": "Software Engineer, Cumberland/Options Tools Engineering",
    "url": "https://job-boards.greenhouse.io/drweng/jobs/7392396",
    "ats": "greenhouse",
    "tier": "nyc",
@@ -18891,17 +18916,48 @@
   },
   {
    "company": "DRW",
-   "title": "Software Engineer, Research – Cumberland Systematic",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7283668",
+   "title": "Software Engineer, Cumberland/Options Tools Engineering",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7288315",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Chicago",
+    "Greenwich",
+    "Greenwich, Connecticut, United States"
+   ],
+   "remote": false,
+   "dept": "FICC Options Infrastructure, Tools, & Analytics",
+   "posted": "2025-09-30",
+   "first_seen": "2026-10-09",
+   "pay": "$175k–$225k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- A minimum of 2+ years’ experience using Python, Java, C++, and can work comfortably in multiple programming languages"
+   ],
+   "level_text": [],
+   "role_hits": [
+    "infrastructure"
+   ],
+   "lang_hits": [
+    "c++",
+    "java",
+    "python",
+    "typescript"
+   ]
+  },
+  {
+   "company": "DRW",
+   "title": "Software Engineer, Research – Cumberland Systematic",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7743648",
+   "ats": "greenhouse",
+   "tier": "nyc",
+   "locations": [
+    "New York City",
     "Chicago, IL, United States"
    ],
    "remote": false,
    "dept": "Cumberland Engineering & DevOps",
-   "posted": "2025-09-30",
+   "posted": "2026-03-23",
    "first_seen": "2026-10-09",
    "pay": "$175k–$225k",
    "yoe_min": null,
@@ -18919,16 +18975,16 @@
   {
    "company": "DRW",
    "title": "Software Engineer, Research – Cumberland Systematic",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7743648",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7283668",
    "ats": "greenhouse",
-   "tier": "nyc",
+   "tier": "us_other",
    "locations": [
-    "New York City",
+    "Chicago",
     "Chicago, IL, United States"
    ],
    "remote": false,
    "dept": "Cumberland Engineering & DevOps",
-   "posted": "2026-03-23",
+   "posted": "2025-09-30",
    "first_seen": "2026-10-09",
    "pay": "$175k–$225k",
    "yoe_min": null,
@@ -23318,11 +23374,11 @@
   {
    "company": "Anduril",
    "title": "GNC Engineer, Space",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870847007?gh_jid=4870847007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870871007?gh_jid=4870871007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Costa Mesa, California, United States",
+    "Washington, District of Columbia, United States",
     "Costa Mesa, California, United States",
     "Reston, Virginia, United States",
     "Washington, District of Columbia, United States"
@@ -23346,11 +23402,11 @@
   {
    "company": "Anduril",
    "title": "GNC Engineer, Space",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870871007?gh_jid=4870871007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870847007?gh_jid=4870847007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Washington, District of Columbia, United States",
+    "Costa Mesa, California, United States",
     "Costa Mesa, California, United States",
     "Reston, Virginia, United States",
     "Washington, District of Columbia, United States"
@@ -24119,11 +24175,11 @@
   {
    "company": "Anduril",
    "title": "Product Security Engineer, Programs",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5042721007?gh_jid=5042721007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5041620007?gh_jid=5041620007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Washington, District of Columbia, United States",
+    "Costa Mesa, California, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
@@ -24173,11 +24229,11 @@
   {
    "company": "Anduril",
    "title": "Product Security Engineer, Programs",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5041620007?gh_jid=5041620007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5042721007?gh_jid=5042721007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Costa Mesa, California, United States",
+    "Washington, District of Columbia, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
@@ -24450,34 +24506,6 @@
   {
    "company": "Anduril",
    "title": "Security Software Engineer, Endpoint Security",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5002801007?gh_jid=5002801007",
-   "ats": "greenhouse",
-   "tier": "us_other",
-   "locations": [
-    "Costa Mesa, California, United States",
-    "Costa Mesa, California, United States"
-   ],
-   "remote": false,
-   "dept": "Corporate Technology : Information Security : Product Security",
-   "posted": "2026-02-13",
-   "first_seen": "2026-10-09",
-   "pay": "$166k–$220k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- 2+ years of software development experience in some combination of Golang, Rust, or C/C++."
-   ],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "c++",
-    "golang",
-    "rust"
-   ]
-  },
-  {
-   "company": "Anduril",
-   "title": "Security Software Engineer, Endpoint Security",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248750007?gh_jid=5248750007",
    "ats": "greenhouse",
    "tier": "us_other",
@@ -24506,11 +24534,11 @@
   {
    "company": "Anduril",
    "title": "Security Software Engineer, Endpoint Security",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248751007?gh_jid=5248751007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248741007?gh_jid=5248741007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Boston, Massachusetts, United States",
+    "Seattle, Washington, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
@@ -24534,11 +24562,39 @@
   {
    "company": "Anduril",
    "title": "Security Software Engineer, Endpoint Security",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248741007?gh_jid=5248741007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5002801007?gh_jid=5002801007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Seattle, Washington, United States",
+    "Costa Mesa, California, United States",
+    "Costa Mesa, California, United States"
+   ],
+   "remote": false,
+   "dept": "Corporate Technology : Information Security : Product Security",
+   "posted": "2026-02-13",
+   "first_seen": "2026-10-09",
+   "pay": "$166k–$220k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 2+ years of software development experience in some combination of Golang, Rust, or C/C++."
+   ],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "golang",
+    "rust"
+   ]
+  },
+  {
+   "company": "Anduril",
+   "title": "Security Software Engineer, Endpoint Security",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248751007?gh_jid=5248751007",
+   "ats": "greenhouse",
+   "tier": "us_other",
+   "locations": [
+    "Boston, Massachusetts, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
@@ -24652,7 +24708,7 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, C++",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226943007?gh_jid=5226943007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240168007?gh_jid=5240168007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
@@ -24663,7 +24719,7 @@
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering",
-   "posted": "2026-08-31",
+   "posted": "2026-09-16",
    "first_seen": "2026-10-09",
    "pay": "$126k–$167k",
    "yoe_min": 2,
@@ -24683,7 +24739,7 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, C++",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240168007?gh_jid=5240168007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226943007?gh_jid=5226943007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
@@ -24694,7 +24750,7 @@
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering",
-   "posted": "2026-09-16",
+   "posted": "2026-08-31",
    "first_seen": "2026-10-09",
    "pay": "$126k–$167k",
    "yoe_min": 2,
@@ -24771,18 +24827,18 @@
   {
    "company": "Anduril",
    "title": "Software Engineer- Infrastructure ",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5124336007?gh_jid=5124336007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248872007?gh_jid=5248872007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Broomfield, Colorado, United States",
+    "Waltham, Massachusetts, United States",
     "Broomfield, Colorado, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering : Battlespace Awareness C2 Systems",
    "posted": "2026-09-24",
    "first_seen": "2026-10-09",
-   "pay": "$143k–$191k",
+   "pay": "$166k–$220k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -24802,18 +24858,18 @@
   {
    "company": "Anduril",
    "title": "Software Engineer- Infrastructure ",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248872007?gh_jid=5248872007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5124336007?gh_jid=5124336007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Waltham, Massachusetts, United States",
+    "Broomfield, Colorado, United States",
     "Broomfield, Colorado, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering : Battlespace Awareness C2 Systems",
    "posted": "2026-09-24",
    "first_seen": "2026-10-09",
-   "pay": "$166k–$220k",
+   "pay": "$143k–$191k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -24953,16 +25009,16 @@
   {
    "company": "Anduril",
    "title": "Software Engineer - Maritime Integrated Systems",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167630007?gh_jid=5167630007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185389007?gh_jid=5185389007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Quincy, Massachusetts, United States",
+    "Boston, Massachusetts, United States",
     "Quincy, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "Maritime & Maneuver Dominance : Undersea Reconnaissance & Strike - Engineering & Operations",
-   "posted": "2026-07-07",
+   "posted": "2026-07-13",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -24984,16 +25040,16 @@
   {
    "company": "Anduril",
    "title": "Software Engineer - Maritime Integrated Systems",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185389007?gh_jid=5185389007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167630007?gh_jid=5167630007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Boston, Massachusetts, United States",
+    "Quincy, Massachusetts, United States",
     "Quincy, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "Maritime & Maneuver Dominance : Undersea Reconnaissance & Strike - Engineering & Operations",
-   "posted": "2026-07-13",
+   "posted": "2026-07-07",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -25094,16 +25150,16 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, Robotics Data Foundation (Cloud)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5247292007?gh_jid=5247292007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185965007?gh_jid=5185965007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Boston, Massachusetts, United States",
+    "Seattle, Washington, United States",
     "Boston, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "AFS : Discovery Engineering ",
-   "posted": "2026-09-23",
+   "posted": "2026-07-14",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -25123,16 +25179,16 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, Robotics Data Foundation (Cloud)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185965007?gh_jid=5185965007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5247292007?gh_jid=5247292007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Seattle, Washington, United States",
+    "Boston, Massachusetts, United States",
     "Boston, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "AFS : Discovery Engineering ",
-   "posted": "2026-07-14",
+   "posted": "2026-09-23",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -25179,11 +25235,11 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, Robotics Tracking and Fusion",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236493007?gh_jid=5236493007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236494007?gh_jid=5236494007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Waltham, Massachusetts, United States",
+    "Washington, District of Columbia, United States",
     "Waltham, Massachusetts, United States"
    ],
    "remote": false,
@@ -25206,11 +25262,11 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, Robotics Tracking and Fusion",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236494007?gh_jid=5236494007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236493007?gh_jid=5236493007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Washington, District of Columbia, United States",
+    "Waltham, Massachusetts, United States",
     "Waltham, Massachusetts, United States"
    ],
    "remote": false,
@@ -26178,11 +26234,11 @@
   {
    "company": "Anduril",
    "title": "Thermal Engineer, Thermal Protection Systems (TPS)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243041007?gh_jid=5243041007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243042007?gh_jid=5243042007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Costa Mesa, California, United States",
+    "Seattle, Washington, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
@@ -26207,11 +26263,11 @@
   {
    "company": "Anduril",
    "title": "Thermal Engineer, Thermal Protection Systems (TPS)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243042007?gh_jid=5243042007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243041007?gh_jid=5243041007",
    "ats": "greenhouse",
    "tier": "us_other",
    "locations": [
-    "Seattle, Washington, United States",
+    "Costa Mesa, California, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
