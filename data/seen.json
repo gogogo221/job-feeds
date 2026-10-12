@@ -95,6 +95,10 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
 },
+"ashby:benchling:a0b8e8ed-99ff-4f80-a933-34f9a12e06fa": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
 "ashby:browserbase:689df609-4658-4769-bc2c-5962516237bb": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
@@ -359,6 +363,10 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09"
 },
+"ashby:cursor:aef8f0e7-37cd-4d6e-96c9-3af72f588bae": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
 "ashby:cursor:b6807f07-c4b7-4435-8c4c-0bef35865ad7": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
@@ -391,6 +399,10 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
 },
+"ashby:e2b:49a87668-9f2a-40dc-bfc3-b262aca62b39": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
 "ashby:elevenlabs:0b3a97d4-193c-4b47-9888-7ef5803ed945": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
@@ -409,6 +421,10 @@
 },
 "ashby:elevenlabs:31a6f0f4-8e1d-4d77-9d00-026ed12213f2": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-12"
+},
+"ashby:elevenlabs:34dbe44c-9815-40b2-81f4-91c607fd84b2": {
+"first_seen": "2026-10-12",
 "last_seen": "2026-10-12"
 },
 "ashby:elevenlabs:35813150-a851-4821-b732-a037b4e6c4fe": {
@@ -447,6 +463,26 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
 },
+"ashby:factory:2243dab2-62dc-4c64-b4bc-8f7314475607": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
+"ashby:factory:c5c92ee0-6ab9-4e91-b73a-63700c85fa5f": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
+"ashby:fal-ai:ae1ab033-5e45-46da-9f20-55ac350eb0e9": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
+"ashby:fal-ai:ea301cfb-6954-4428-9d54-2b9df6048bc1": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
+"ashby:fal-ai:fd88a273-808a-4f96-8707-bbd722df18bc": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
 "ashby:fireworks:01166f87-1b1f-4e2e-8b7d-be6708566434": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09"
@@ -467,6 +503,10 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
 },
+"ashby:headway:03326a1d-f7de-4c71-a4e0-68b575d43ec0": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
 "ashby:hex:4159564c-f4a6-4034-93a6-928c579d96ce": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
@@ -477,6 +517,10 @@
 },
 "ashby:hinge-health:7564ec75-617b-4065-8da6-72210460a6ef": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-12"
+},
+"ashby:inngest:ae72d036-b98b-4abb-8454-a687870cf0ca": {
+"first_seen": "2026-10-12",
 "last_seen": "2026-10-12"
 },
 "ashby:ironcladhq:9af62746-1c31-44d7-b2a7-faf6eefeffc1": {
@@ -1251,6 +1295,26 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
 },
+"ashby:posthog:1464036f-94d5-4dbd-aef8-fe99246a26d4": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
+"ashby:posthog:20ab9628-20ff-4ae3-bd6a-46ae7e9dc6b8": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
+"ashby:posthog:43dbf072-0fc1-48c9-8c1e-7416db7d4a14": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
+"ashby:profound:8dc1abbf-3090-41ad-9670-5fe5dbd0cc51": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
+"ashby:profound:d36f6229-0ab5-495d-86c5-c7458d2f1931": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
 "ashby:pylon:5e3de934-d746-4753-8436-ea70143baeae": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
@@ -1314,6 +1378,10 @@
 "ashby:ramp:f1b3ca8d-d55f-4159-9a3b-f69ad0d981bc": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-09"
+},
+"ashby:render:a3f88090-5e37-43a7-b392-04b02056db6d": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
 },
 "ashby:replit:b7f12834-78d2-424d-bf83-0c942815fbf7": {
 "first_seen": "2026-10-09",
@@ -1537,6 +1605,10 @@
 },
 "ashby:tennr:77166b21-9d4a-4af1-a45f-c224d596ab3b": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-12"
+},
+"ashby:turbopuffer:317f14bf-49dc-46ae-a4d8-6aea3fa41ecc": {
+"first_seen": "2026-10-12",
 "last_seen": "2026-10-12"
 },
 "ashby:voleon:2528194e-34a3-49c1-b477-59ab978efb82": {
@@ -1801,6 +1873,10 @@
 },
 "greenhouse:akunacapital:8016687": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-12"
+},
+"greenhouse:alloy:8846379002": {
+"first_seen": "2026-10-12",
 "last_seen": "2026-10-12"
 },
 "greenhouse:andurilindustries:4159543007": {
@@ -2463,6 +2539,10 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
 },
+"greenhouse:cloudflare:7742773": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
 "greenhouse:cloudflare:8050813": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
@@ -2687,6 +2767,10 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
 },
+"greenhouse:elastic:8244449": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
 "greenhouse:figma:5552530004": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
@@ -2735,12 +2819,20 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
 },
+"greenhouse:flatironhealth:8123090": {
+"first_seen": "2026-10-12",
+"last_seen": "2026-10-12"
+},
 "greenhouse:gleanwork:4006734005": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-12"
 },
 "greenhouse:gleanwork:4006735005": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-12"
+},
+"greenhouse:gleanwork:4428090005": {
+"first_seen": "2026-10-12",
 "last_seen": "2026-10-12"
 },
 "greenhouse:gleanwork:4501783005": {
@@ -2801,6 +2893,10 @@
 },
 "greenhouse:jumptrading:8162411": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-12"
+},
+"greenhouse:lithic:5737189004": {
+"first_seen": "2026-10-12",
 "last_seen": "2026-10-12"
 },
 "greenhouse:mercury:6101145004": {
@@ -3121,6 +3217,10 @@
 },
 "greenhouse:squarepointcapital:1433622": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-12"
+},
+"greenhouse:starburst:5430686008": {
+"first_seen": "2026-10-12",
 "last_seen": "2026-10-12"
 },
 "greenhouse:stripe:6042172": {
@@ -3841,6 +3941,10 @@
 },
 "workday:salesforce:JR361861": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-12"
+},
+"workday:salesforce:JR363374": {
+"first_seen": "2026-10-12",
 "last_seen": "2026-10-12"
 },
 "workday:workday:JR-0105400": {

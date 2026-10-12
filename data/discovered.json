@@ -4,6 +4,11 @@
   "checked": "2026-10-09",
   "token": "abnormalsecurity"
  },
+ "Airbyte": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "airbyte"
+ },
  "Airwallex": {
   "ats": "ashby",
   "checked": "2026-10-09",
@@ -13,6 +18,11 @@
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "akunacapital"
+ },
+ "Alloy": {
+  "ats": "greenhouse",
+  "checked": "2026-10-12",
+  "token": "alloy"
  },
  "Anduril": {
   "ats": "greenhouse",
@@ -27,18 +37,44 @@
  "Applied Intuition": {
   "checked": "2026-10-09"
  },
+ "Arcadia": {
+  "ats": "lever",
+  "checked": "2026-10-12",
+  "token": "arcadia"
+ },
  "Arrowstreet": {
   "checked": "2026-10-09"
+ },
+ "Astronomer": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "astronomer"
+ },
+ "Augment Code": {
+  "checked": "2026-10-12"
+ },
+ "Basis": {
+  "ats": "lever",
+  "checked": "2026-10-12",
+  "token": "basis"
  },
  "Betterment": {
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "betterment"
  },
+ "Bilt": {
+  "checked": "2026-10-12"
+ },
  "Block": {
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "block"
+ },
+ "Buildkite": {
+  "ats": "greenhouse",
+  "checked": "2026-10-12",
+  "token": "buildkite"
  },
  "Canva": {
   "checked": "2026-10-09"
@@ -50,6 +86,11 @@
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "chainguard"
+ },
+ "Chroma": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "trychroma"
  },
  "Clay": {
   "ats": "ashby",
@@ -81,6 +122,9 @@
   "checked": "2026-10-09",
   "token": "cursor"
  },
+ "Dagster Labs": {
+  "checked": "2026-10-12"
+ },
  "Databricks": {
   "ats": "greenhouse",
   "checked": "2026-10-09",
@@ -91,6 +135,12 @@
   "checked": "2026-10-09",
   "token": "datadog"
  },
+ "Dataminr": {
+  "checked": "2026-10-12"
+ },
+ "Daytona": {
+  "checked": "2026-10-12"
+ },
  "Decagon": {
   "ats": "ashby",
   "checked": "2026-10-09",
@@ -99,15 +149,35 @@
  "Deel": {
   "checked": "2026-10-09"
  },
+ "Depot": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "depot"
+ },
  "Duolingo": {
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "duolingo"
  },
+ "E2B": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "e2b"
+ },
  "Elastic": {
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "elastic"
+ },
+ "Factory": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "factory"
+ },
+ "Fal": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "fal-ai"
  },
  "Figure AI": {
   "ats": "greenhouse",
@@ -118,6 +188,11 @@
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "fivetran"
+ },
+ "Flatiron Health": {
+  "ats": "greenhouse",
+  "checked": "2026-10-12",
+  "token": "flatironhealth"
  },
  "Google DeepMind": {
   "checked": "2026-10-09"
@@ -130,8 +205,16 @@
  "Groq": {
   "checked": "2026-10-09"
  },
+ "Harness": {
+  "checked": "2026-10-12"
+ },
  "Headlands": {
   "checked": "2026-10-09"
+ },
+ "Headway": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "headway"
  },
  "Hebbia": {
   "checked": "2026-10-09"
@@ -154,6 +237,11 @@
  "Hippocratic AI": {
   "checked": "2026-10-09"
  },
+ "Honeycomb": {
+  "ats": "greenhouse",
+  "checked": "2026-10-12",
+  "token": "honeycomb"
+ },
  "HubSpot": {
   "checked": "2026-10-09"
  },
@@ -172,6 +260,11 @@
  },
  "Increase": {
   "checked": "2026-10-09"
+ },
+ "Inngest": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "inngest"
  },
  "Instacart": {
   "ats": "greenhouse",
@@ -197,6 +290,11 @@
   "ats": "ashby",
   "checked": "2026-10-09",
   "token": "linear"
+ },
+ "Lithic": {
+  "ats": "greenhouse",
+  "checked": "2026-10-12",
+  "token": "lithic"
  },
  "Materialize": {
   "ats": "ashby",
@@ -242,6 +340,11 @@
  "Nscale": {
   "checked": "2026-10-09"
  },
+ "Omni Analytics": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "omni"
+ },
  "OpenEvidence": {
   "ats": "ashby",
   "checked": "2026-10-09",
@@ -262,20 +365,53 @@
   "checked": "2026-10-09",
   "token": "physicalintelligence"
  },
+ "Pinecone": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "pinecone"
+ },
  "PlanetScale": {
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "planetscale"
+ },
+ "Poolside": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "poolside"
+ },
+ "PostHog": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "posthog"
+ },
+ "Prefect": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "prefect"
+ },
+ "Profound": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "profound"
  },
  "Pylon": {
   "ats": "ashby",
   "checked": "2026-10-09",
   "token": "pylon"
  },
+ "Qdrant": {
+  "checked": "2026-10-12"
+ },
  "Railway": {
   "ats": "ashby",
   "checked": "2026-10-09",
   "token": "railway"
+ },
+ "Render": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "render"
  },
  "Replit": {
   "ats": "ashby",
@@ -289,6 +425,11 @@
  },
  "Retool": {
   "checked": "2026-10-09"
+ },
+ "Rho": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "rho"
  },
  "Rilla": {
   "ats": "ashby",
@@ -310,6 +451,11 @@
   "checked": "2026-10-09",
   "token": "sardine"
  },
+ "Semgrep": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "semgrep"
+ },
  "Sentry": {
   "ats": "ashby",
   "checked": "2026-10-09",
@@ -328,13 +474,31 @@
   "checked": "2026-10-09",
   "token": "sofi"
  },
+ "Socket": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "socket"
+ },
+ "Spring Health": {
+  "checked": "2026-10-12"
+ },
  "Squarepoint": {
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "squarepointcapital"
  },
+ "Squarespace": {
+  "ats": "greenhouse",
+  "checked": "2026-10-12",
+  "token": "squarespace"
+ },
  "Stainless": {
   "checked": "2026-10-09"
+ },
+ "Starburst": {
+  "ats": "greenhouse",
+  "checked": "2026-10-12",
+  "token": "starburst"
  },
  "Stripe": {
   "ats": "greenhouse",
@@ -350,6 +514,9 @@
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "tailscale"
+ },
+ "Teleport": {
+  "checked": "2026-10-12"
  },
  "Temporal": {
   "ats": "ashby",
@@ -370,6 +537,11 @@
   "ats": "greenhouse",
   "checked": "2026-10-09",
   "token": "towerresearchcapital"
+ },
+ "Turbopuffer": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "turbopuffer"
  },
  "Voleon": {
   "ats": "ashby",
@@ -396,10 +568,20 @@
   "checked": "2026-10-09",
   "token": "workos"
  },
+ "Writer": {
+  "ats": "ashby",
+  "checked": "2026-10-12",
+  "token": "writer"
+ },
  "Zip": {
   "ats": "ashby",
   "checked": "2026-10-09",
   "token": "zip"
+ },
+ "Zocdoc": {
+  "ats": "greenhouse",
+  "checked": "2026-10-12",
+  "token": "zocdoc"
  },
  "Zscaler": {
   "ats": "greenhouse",
