@@ -1064,6 +1064,219 @@
    "slugs": [
     "arrowstreetcapital"
    ]
+  },
+  "Pinecone": {
+   "slugs": [
+    "pinecone"
+   ]
+  },
+  "Turbopuffer": {
+   "slugs": [
+    "turbopuffer"
+   ]
+  },
+  "Chroma": {
+   "slugs": [
+    "chroma",
+    "trychroma"
+   ]
+  },
+  "Qdrant": {
+   "slugs": [
+    "qdrant"
+   ]
+  },
+  "Fal": {
+   "slugs": [
+    "fal",
+    "fal-ai",
+    "falai"
+   ]
+  },
+  "Augment Code": {
+   "slugs": [
+    "augmentcode",
+    "augment"
+   ]
+  },
+  "Factory": {
+   "slugs": [
+    "factory",
+    "factoryai"
+   ]
+  },
+  "Poolside": {
+   "slugs": [
+    "poolside"
+   ]
+  },
+  "Writer": {
+   "slugs": [
+    "writer"
+   ]
+  },
+  "Basis": {
+   "slugs": [
+    "basis",
+    "basisai"
+   ]
+  },
+  "Profound": {
+   "slugs": [
+    "profound",
+    "tryprofound"
+   ]
+  },
+  "Render": {
+   "slugs": [
+    "render"
+   ]
+  },
+  "Inngest": {
+   "slugs": [
+    "inngest"
+   ]
+  },
+  "Prefect": {
+   "slugs": [
+    "prefect"
+   ]
+  },
+  "Dagster Labs": {
+   "slugs": [
+    "dagster",
+    "dagsterlabs"
+   ]
+  },
+  "Airbyte": {
+   "slugs": [
+    "airbyte"
+   ]
+  },
+  "Astronomer": {
+   "slugs": [
+    "astronomer"
+   ]
+  },
+  "Starburst": {
+   "slugs": [
+    "starburst"
+   ]
+  },
+  "PostHog": {
+   "slugs": [
+    "posthog"
+   ]
+  },
+  "Honeycomb": {
+   "slugs": [
+    "honeycomb"
+   ]
+  },
+  "Harness": {
+   "slugs": [
+    "harness"
+   ]
+  },
+  "Semgrep": {
+   "slugs": [
+    "semgrep"
+   ]
+  },
+  "Socket": {
+   "slugs": [
+    "socket",
+    "socketdev"
+   ]
+  },
+  "Teleport": {
+   "slugs": [
+    "teleport",
+    "gravitational"
+   ]
+  },
+  "Buildkite": {
+   "slugs": [
+    "buildkite"
+   ]
+  },
+  "Depot": {
+   "slugs": [
+    "depot"
+   ]
+  },
+  "Daytona": {
+   "slugs": [
+    "daytona"
+   ]
+  },
+  "E2B": {
+   "slugs": [
+    "e2b"
+   ]
+  },
+  "Omni Analytics": {
+   "slugs": [
+    "omni",
+    "omnianalytics"
+   ]
+  },
+  "Alloy": {
+   "slugs": [
+    "alloy"
+   ]
+  },
+  "Lithic": {
+   "slugs": [
+    "lithic"
+   ]
+  },
+  "Bilt": {
+   "slugs": [
+    "bilt",
+    "biltrewards"
+   ]
+  },
+  "Rho": {
+   "slugs": [
+    "rho"
+   ]
+  },
+  "Arcadia": {
+   "slugs": [
+    "arcadia"
+   ]
+  },
+  "Headway": {
+   "slugs": [
+    "headway"
+   ]
+  },
+  "Spring Health": {
+   "slugs": [
+    "springhealth",
+    "springhealth66"
+   ]
+  },
+  "Zocdoc": {
+   "slugs": [
+    "zocdoc"
+   ]
+  },
+  "Flatiron Health": {
+   "slugs": [
+    "flatironhealth"
+   ]
+  },
+  "Dataminr": {
+   "slugs": [
+    "dataminr"
+   ]
+  },
+  "Squarespace": {
+   "slugs": [
+    "squarespace"
+   ]
   }
  }
 }
