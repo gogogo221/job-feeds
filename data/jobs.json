@@ -1,164 +1,117 @@
 {
- "generated_at": "2026-10-16T11:58:19+00:00",
+ "generated_at": "2026-10-16T12:06:09+00:00",
  "counts": {
   "boards": 183,
-  "boards_ok": 182,
-  "boards_failed": 1,
-  "jobs": 1138,
-  "new_today": 208,
-  "dropped_experience": 1083,
-  "broad_boards": 140,
-  "broad_boards_ok": 133,
-  "jobs_curated": 1094,
-  "jobs_broad": 39,
+  "boards_ok": 183,
+  "boards_failed": 0,
+  "jobs": 1161,
+  "new_today": 231,
+  "dropped_experience": 1098,
+  "broad_boards": 232,
+  "broad_boards_ok": 223,
+  "jobs_curated": 1095,
+  "jobs_broad": 61,
   "jobs_hn": 5,
-  "broad_dropped_pay": 69
+  "broad_dropped_pay": 125
  },
  "broad_log": [
-  "HN: 20 salaried NYC/remote posts, 39 new boards",
-  "YC: 102 new boards (731 NYC/remote YC companies)"
+  "HN: 20 salaried NYC/remote posts, 0 new boards",
+  "YC: 93 new boards (731 NYC/remote YC companies)"
  ],
  "new_boards": [
-  "AIOS",
-  "Abacum",
-  "Algolia",
-  "Ambient.ai",
-  "Amplitude",
-  "Anterior",
-  "Apollo",
-  "Apollo.io",
-  "Ashby",
-  "Astranis",
-  "Athelas",
-  "Avoca",
-  "Belvo",
-  "BillionToOne",
-  "BioRender",
-  "Bitmovin",
-  "Broccoli AI",
-  "Camber",
-  "Cambly",
-  "Campfire",
-  "Canary Technologies",
-  "Candid Health",
-  "CaptivateIQ",
-  "Chariotclaims",
-  "Checkly",
-  "Checkr",
-  "Classdojo",
-  "Clickhouse",
-  "Clipboard",
-  "Close",
-  "Coast",
-  "Collectly",
-  "Colonist",
-  "Curai",
-  "Curri",
-  "Deepgram",
-  "Deepl",
-  "Deeter Analytics",
-  "Double",
-  "Duck Duck Go",
-  "Eight Sleep",
-  "Fieldguide",
-  "Findigs",
-  "Fleek",
-  "Flexport",
-  "Freshpaint",
-  "GOAT Group",
-  "Gecko Robotics",
-  "Gigs",
-  "Ginkgo Bioworks",
-  "GiveCampus",
-  "GiveDirectly",
-  "Gridware",
-  "HackerRank",
-  "HappyRobot",
-  "Human Archive",
-  "Human Interest",
-  "InfluxData",
-  "Instawork",
-  "Instrumentl",
-  "Juicebox",
-  "Jupus",
-  "Krakentech",
-  "Langfuse",
-  "Lattice",
-  "Legora",
-  "Livekit",
-  "Lob",
-  "Manifest",
-  "Mashgin",
-  "Mattermost",
-  "May Mobility",
-  "Meesho",
-  "Middesk",
-  "Modern Health",
-  "Moonvalley",
-  "Nabis",
-  "NanoNets",
-  "Neon",
-  "Nomic Bio",
-  "Noora Health",
-  "Norm Ai",
-  "Nourish",
-  "Nova Credit",
-  "Numeral",
-  "Odeko",
-  "Odyssey",
-  "Oklo",
-  "Ophelia",
-  "Oscilar",
-  "Pair Team",
-  "Pave",
-  "Pelago",
-  "People.ai",
-  "PermitFlow",
-  "PicnicAI",
-  "Podium",
-  "Postscript",
-  "Prior Labs",
-  "Prodigal",
-  "Productgenius",
-  "Prolific",
-  "Promise",
-  "Qventus",
-  "RADAR",
-  "Rappi",
-  "Razorpay",
-  "Rebar",
-  "Recidiviz",
-  "Rescale",
-  "RevenueCat",
-  "Riot",
-  "Roboflow",
-  "Runway Ml",
-  "Sendbird",
-  "Sentilink",
-  "Sheerhealth",
-  "Short Story",
-  "Snappr",
-  "Solace",
-  "Somana Tech",
-  "Stepful",
-  "Stream",
-  "Taktile",
-  "Tempo",
-  "Tovala",
-  "Turquoise Health",
-  "Verse Medical",
-  "Verto",
-  "Vetcove",
-  "Voize",
-  "Voladynamics",
-  "Webflow",
-  "Weekend (fmr. Volley)",
-  "Whatnot",
-  "Wikimedia Foundation",
-  "Within",
-  "Xendit",
-  "Y Combinator",
-  "Zapier"
+  "AON3D",
+  "Agave",
+  "Agency",
+  "AiPrise",
+  "Albedo",
+  "Arketa",
+  "Artisan",
+  "AssemblyAI",
+  "Astro Mechanica",
+  "AtoB",
+  "Atomic Industries",
+  "Aurelian",
+  "Benepass",
+  "Bland AI",
+  "Cambio",
+  "Capi Money",
+  "Casca",
+  "CircuitHub",
+  "Confido",
+  "Domu Technology Inc.",
+  "Doola",
+  "Duffel",
+  "Ello",
+  "Enode",
+  "Finch",
+  "Finni Health",
+  "Flagright",
+  "Flai",
+  "Flint",
+  "Flutterflow",
+  "FurtherAI",
+  "Gather",
+  "Glimpse",
+  "GoLinks",
+  "GovDash",
+  "Great Question",
+  "Heron",
+  "HitPay",
+  "Hive",
+  "Humaans",
+  "Icarus",
+  "Infisical",
+  "Kivo Health",
+  "Latent",
+  "Legalist",
+  "LineLeap",
+  "LiveFlow",
+  "Living Carbon",
+  "Luminai",
+  "Meru Health",
+  "Method Financial",
+  "Multiply Labs",
+  "Nash",
+  "Novig",
+  "Nox Metals",
+  "OneChronos",
+  "Oneleet",
+  "Overview",
+  "Padlet",
+  "Paragon",
+  "Phoenix",
+  "Pirros",
+  "Popl",
+  "PostEra",
+  "Prelim",
+  "Prospa",
+  "Prosper",
+  "Pulley",
+  "Pump.co",
+  "Quindar",
+  "Reach",
+  "Ready",
+  "Reality Defender",
+  "Retell AI",
+  "Salient",
+  "Shepherd",
+  "Signoz",
+  "Speak",
+  "Suger",
+  "Tailor",
+  "Tavus",
+  "Thunkable",
+  "Tint",
+  "Titan",
+  "Triomics",
+  "Vapi",
+  "Verge Genomics",
+  "VergeSense",
+  "Vitable Health",
+  "Volta Labs, Inc.",
+  "Vooma",
+  "Ziina",
+  "Zippi"
  ],
  "not_covered": [
   "Arrowstreet",
@@ -194,17 +147,6 @@
   "dbt Labs"
  ],
  "boards": [
-  {
-   "company": "Microsoft",
-   "ats": "microsoft",
-   "token": "",
-   "discovered": false,
-   "status": "failed",
-   "error": "HTTP 429",
-   "total": 0,
-   "matched": 0,
-   "dropped": {}
-  },
   {
    "company": "Abnormal Security",
    "ats": "greenhouse",
@@ -690,11 +632,11 @@
    "discovered": true,
    "status": "ok",
    "error": "",
-   "total": 79,
+   "total": 78,
    "matched": 0,
    "dropped": {
     "title_role": 50,
-    "title_senior": 22,
+    "title_senior": 21,
     "title_offtrack": 7
    }
   },
@@ -1670,6 +1612,19 @@
    }
   },
   {
+   "company": "Microsoft",
+   "ats": "microsoft",
+   "token": "",
+   "discovered": false,
+   "status": "ok",
+   "error": "",
+   "total": 483,
+   "matched": 1,
+   "dropped": {
+    "experience": 4
+   }
+  },
+  {
    "company": "Mintlify",
    "ats": "ashby",
    "token": "mintlify",
@@ -1691,10 +1646,10 @@
    "discovered": false,
    "status": "ok",
    "error": "",
-   "total": 218,
+   "total": 217,
    "matched": 3,
    "dropped": {
-    "title_role": 138,
+    "title_role": 137,
     "title_senior": 24,
     "location": 29,
     "title_offtrack": 13,
@@ -1917,8 +1872,8 @@
    "dropped": {
     "title_junior": 13,
     "title_role": 86,
-    "location": 23,
     "experience": 3,
+    "location": 23,
     "title_senior": 19,
     "title_offtrack": 9
    }
@@ -3684,6 +3639,199 @@
    ]
   },
   {
+   "company": "Vapi",
+   "title": "Member of Technical Staff, Backend",
+   "url": "https://jobs.ashbyhq.com/vapi/d270d613-30b8-4fdc-96e0-514993ca7a82",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "remote_us",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": true,
+   "dept": "Engineering / Product Engineering",
+   "posted": "2026-05-21",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $325K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [
+    " - A track record operating at senior or staff scope: independently owning customer-facing backend product areas from an ambiguous problem through measurable production outcomes."
+   ],
+   "role_hits": [
+    "backend"
+   ],
+   "lang_hits": [
+    "go",
+    "typescript"
+   ]
+  },
+  {
+   "company": "Vapi",
+   "title": "Member of Technical Staff, Infrastructure",
+   "url": "https://jobs.ashbyhq.com/vapi/295f5269-1bb5-4740-81fa-9716adc32ad5",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "us_other",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": false,
+   "dept": "Engineering / Core Engineering",
+   "posted": "2026-05-21",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $280K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "core",
+    "infrastructure"
+   ],
+   "lang_hits": [
+    "go"
+   ]
+  },
+  {
+   "company": "Vapi",
+   "title": "Member of Technical Staff, Site Reliablity Engineer",
+   "url": "https://jobs.ashbyhq.com/vapi/4b6abd59-ac74-40e9-8cab-74253078aaf4",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "remote_us",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": true,
+   "dept": "Engineering / Core Engineering",
+   "posted": "2026-06-03",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $270K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "core"
+   ],
+   "lang_hits": [
+    "go",
+    "typescript"
+   ]
+  },
+  {
+   "company": "Vapi",
+   "title": "Member of Technical Staff, DevOps",
+   "url": "https://jobs.ashbyhq.com/vapi/2d702840-a588-4273-8b98-49ed815c0c50",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "remote_us",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": true,
+   "dept": "Engineering / Core Engineering",
+   "posted": "2026-06-03",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $270K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "core",
+    "devops"
+   ],
+   "lang_hits": [
+    "go",
+    "typescript"
+   ]
+  },
+  {
+   "company": "Vapi",
+   "title": "Member of Technical Staff, Agentic Release Engineer",
+   "url": "https://jobs.ashbyhq.com/vapi/250ac759-97a6-46b8-ad7c-9bb4f223dd26",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "remote_us",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": true,
+   "dept": "Engineering / Core Engineering",
+   "posted": "2026-09-22",
+   "first_seen": "2026-10-16",
+   "pay": "$235K - $264K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [
+    " - Our CI and deployment systems are critical product infrastructure. We need a senior/staff engineer to remove bottlenecks, repair fragile deploy paths, and increase confidence wi"
+   ],
+   "role_hits": [
+    "core"
+   ],
+   "lang_hits": [
+    "go",
+    "typescript"
+   ]
+  },
+  {
+   "company": "Vapi",
+   "title": "Member of Technical Staff, Infrastructure Engineer",
+   "url": "https://jobs.ashbyhq.com/vapi/a3bde43c-4762-4cf2-86f5-464abd4a78e6",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "remote_us",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": true,
+   "dept": "Engineering / Core Engineering",
+   "posted": "2026-09-12",
+   "first_seen": "2026-10-16",
+   "pay": "$280K - $314K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [
+    " - You are a senior or staff-level software engineer with meaningful SRE, production engineering, or infrastructure experience in distributed systems."
+   ],
+   "role_hits": [
+    "core",
+    "infrastructure"
+   ],
+   "lang_hits": [
+    "go"
+   ]
+  },
+  {
+   "company": "Triomics",
+   "title": "Platform Engineer",
+   "url": "https://jobs.ashbyhq.com/triomics/c95b0e2f-798e-44fd-a45f-25ecd90ce242",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "nyc",
+   "locations": [
+    "New York Office "
+   ],
+   "remote": true,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-06-17",
+   "first_seen": "2026-10-16",
+   "pay": "$150K - $200K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "platform"
+   ],
+   "lang_hits": []
+  },
+  {
    "company": "Together AI",
    "title": "Technical Sourcer - Engineering",
    "url": "https://job-boards.greenhouse.io/togetherai/jobs/5262787007",
@@ -3756,6 +3904,30 @@
    "role_hits": [],
    "lang_hits": [
     "go"
+   ]
+  },
+  {
+   "company": "Speak",
+   "title": "Machine Learning Engineer, Voice",
+   "url": "https://jobs.ashbyhq.com/speak/e78edff4-5135-4c68-932d-e449ee460ea3",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "remote_us",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": true,
+   "dept": "Engineering / Machine Learning",
+   "posted": "2024-03-05",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $300K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "python"
    ]
   },
   {
@@ -3845,6 +4017,107 @@
     "java",
     "python",
     "scala"
+   ]
+  },
+  {
+   "company": "Salient",
+   "title": "Applied AI Engineer",
+   "url": "https://jobs.ashbyhq.com/salient/5bef27e7-17b3-4ad0-93e0-9e430409acd4",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "us_other",
+   "locations": [
+    "SF Headquarters"
+   ],
+   "remote": false,
+   "dept": "Applied AI / Applied AI",
+   "posted": "2026-05-20",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $300K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": []
+  },
+  {
+   "company": "Salient",
+   "title": "Infrastructure Engineer",
+   "url": "https://jobs.ashbyhq.com/salient/cae6bf34-0e59-449d-86e8-02fd0e6cf0eb",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "us_other",
+   "locations": [
+    "SF Headquarters"
+   ],
+   "remote": false,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-03-19",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $300K",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    " - 2-8 years of software engineering experience, with 2+ years at the senior or staff level in infrastructure/platform roles, working on large-scale distributed systems."
+   ],
+   "level_text": [
+    " - 2-8 years of software engineering experience, with 2+ years at the senior or staff level in infrastructure/platform roles, working on large-scale distributed systems."
+   ],
+   "role_hits": [
+    "infrastructure"
+   ],
+   "lang_hits": []
+  },
+  {
+   "company": "Salient",
+   "title": "Cloud Infrastructure Engineer",
+   "url": "https://jobs.ashbyhq.com/salient/f88db9d8-cadb-453d-9ee4-76576c379eb0",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "us_other",
+   "locations": [
+    "SF Headquarters"
+   ],
+   "remote": false,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-09-26",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $300K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "cloud",
+    "infrastructure"
+   ],
+   "lang_hits": []
+  },
+  {
+   "company": "Salient",
+   "title": "Telephony Infrastructure Engineer",
+   "url": "https://jobs.ashbyhq.com/salient/6af0cafd-bd6b-425e-9154-020ec8711776",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "us_other",
+   "locations": [
+    "SF Headquarters"
+   ],
+   "remote": false,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-09-26",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $300K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "infrastructure"
+   ],
+   "lang_hits": [
+    "go"
    ]
   },
   {
@@ -3974,6 +4247,33 @@
    "level_text": [],
    "role_hits": [],
    "lang_hits": []
+  },
+  {
+   "company": "Quindar",
+   "title": "Software Engineer - AI & Internal Systems",
+   "url": "https://jobs.ashbyhq.com/quindar/b5843e59-4ebc-425a-8e24-fa61167242a3",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "remote_us",
+   "locations": [
+    "Denver, CO",
+    "Washington, DC"
+   ],
+   "remote": true,
+   "dept": "Operations / Operations",
+   "posted": "2026-09-02",
+   "first_seen": "2026-10-16",
+   "pay": "$160K - $185K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "systems"
+   ],
+   "lang_hits": [
+    "go"
+   ]
   },
   {
    "company": "Pylon",
@@ -4441,6 +4741,35 @@
     "python",
     "rust"
    ]
+  },
+  {
+   "company": "Prelim",
+   "title": "Software Engineer, Product",
+   "url": "https://jobs.ashbyhq.com/prelim/bf4c1a5d-32d5-4f3b-b1d2-42a3e1fd7409",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "nyc",
+   "locations": [
+    "San Francisco",
+    "New York",
+    "Chicago",
+    "Los Angeles",
+    "Seattle",
+    "Atlanta"
+   ],
+   "remote": false,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-08-31",
+   "first_seen": "2026-10-16",
+   "pay": "$140K - $230K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [
+    " - Experience with modern web technologies (React, Node.js, PostgreSQL preferred). Whether you're a new graduate with impressive projects or an experienced engineer, we want to hea"
+   ],
+   "role_hits": [],
+   "lang_hits": []
   },
   {
    "company": "PrairieLearn",
@@ -4931,6 +5260,34 @@
    ]
   },
   {
+   "company": "Novig",
+   "title": "Software Engineer",
+   "url": "https://jobs.ashbyhq.com/novig/ff741902-a4e7-4d91-8d1d-e6d7af599043",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "nyc",
+   "locations": [
+    "New York"
+   ],
+   "remote": false,
+   "dept": "Tech / Tech",
+   "posted": "2026-08-17",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $260K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [
+    " - Experienced developing distributed systems with cloud-based architecture"
+   ],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "go",
+    "rust"
+   ]
+  },
+  {
    "company": "Netflix",
    "title": "Full Stack Software Engineer 4 - Account Consumer Experiences",
    "url": "https://explore.jobs.netflix.net/careers/job/790318346280",
@@ -5210,6 +5567,67 @@
    ]
   },
   {
+   "company": "Microsoft",
+   "title": "Software Engineer II, Foundry Agents - CoreAI",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556863227",
+   "ats": "microsoft",
+   "source": "curated",
+   "tier": "nyc",
+   "locations": [
+    "New York, NY, US",
+    "Redmond, WA, US",
+    "Mountain View, CA, US"
+   ],
+   "remote": false,
+   "dept": "Software Engineering",
+   "posted": "2026-08-06",
+   "first_seen": "2026-10-16",
+   "pay": "$102k–$202k",
+   "yoe_min": 2,
+   "yoe_pref": 1,
+   "yoe_text": [
+    "Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or ",
+    "- Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud background check upon hire/transfer and every two years thereafter.",
+    "[preferred] 1+ years of experience in backend service development (APIs, microservices, or distributed systems)"
+   ],
+   "level_text": [
+    "- Debug issues across services, models, and infrastructure with support from senior team members",
+    "Software Engineering IC3 - The typical base pay range for this role across the U.S. is USD $102,100 - $202,200 per year. There is a different range applicable to specific work loca"
+   ],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "java",
+    "python"
+   ]
+  },
+  {
+   "company": "Method Financial",
+   "title": "Software Engineer  ",
+   "url": "https://jobs.ashbyhq.com/method/33e8b312-a0a6-479d-81cf-24fd048f8303",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "nyc",
+   "locations": [
+    "New York, NY",
+    "Washington D.C.",
+    "Austin, TX"
+   ],
+   "remote": false,
+   "dept": "Engineering, Product & Design / Engineering",
+   "posted": "2026-04-06",
+   "first_seen": "2026-10-16",
+   "pay": "$175k–$215k",
+   "yoe_min": null,
+   "yoe_pref": 3,
+   "yoe_text": [
+    "[preferred]  - 3+ years of full-time software engineering experience, ideally full-stack "
+   ],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": []
+  },
+  {
    "company": "Mercor",
    "title": "Member of Technical Staff, Deeptune Environments",
    "url": "https://jobs.ashbyhq.com/mercor/a24b4495-e8b8-475c-9946-7b7a35403bc2",
@@ -5328,6 +5746,29 @@
    ]
   },
   {
+   "company": "Luminai",
+   "title": "Applied AI Engineer",
+   "url": "https://jobs.ashbyhq.com/luminai/4b580dd6-0675-4f55-86c7-6d694285b6d8",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "nyc",
+   "locations": [
+    "SF Bay Area",
+    "New York"
+   ],
+   "remote": false,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-01-09",
+   "first_seen": "2026-10-16",
+   "pay": "$170K - $250K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": []
+  },
+  {
    "company": "Livekit",
    "title": "Software Engineer, Agents",
    "url": "https://jobs.ashbyhq.com/livekit/1757f49e-7e19-4c45-85f7-e4637dff66fb",
@@ -5385,6 +5826,80 @@
     "go",
     "java",
     "rust"
+   ]
+  },
+  {
+   "company": "Latent",
+   "title": "Site Reliability Engineer",
+   "url": "https://jobs.ashbyhq.com/latent/bbd1a8e3-b943-4c8c-b239-e87951504f71",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "us_other",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": false,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-09-29",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $275K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "reliability"
+   ],
+   "lang_hits": [
+    "python",
+    "typescript"
+   ]
+  },
+  {
+   "company": "Latent",
+   "title": "Machine Learning Engineer",
+   "url": "https://jobs.ashbyhq.com/latent/233bbaac-d589-49f4-a8eb-6bb16673b060",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "us_other",
+   "locations": [
+    "San Francisco"
+   ],
+   "remote": false,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-09-29",
+   "first_seen": "2026-10-16",
+   "pay": "$225K - $300K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": []
+  },
+  {
+   "company": "Latent",
+   "title": "Software Engineer",
+   "url": "https://jobs.ashbyhq.com/latent/37081ba7-cd44-4a40-bc5f-4a2829c0d079",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "nyc",
+   "locations": [
+    "San Francisco",
+    "New York City"
+   ],
+   "remote": false,
+   "dept": "Engineering / Engineering",
+   "posted": "2026-04-28",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $285K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "typescript"
    ]
   },
   {
@@ -6890,6 +7405,52 @@
    "lang_hits": [
     "python"
    ]
+  },
+  {
+   "company": "Confido",
+   "title": "Software Engineer",
+   "url": "https://jobs.ashbyhq.com/confido/d5520ce5-bc5f-4947-8912-292615b0c5ac",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "nyc",
+   "locations": [
+    "NYC Office"
+   ],
+   "remote": false,
+   "dept": "Product & Technology / Engineering",
+   "posted": "2025-11-08",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $230K",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    " - 2+ years of software engineering experience"
+   ],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": []
+  },
+  {
+   "company": "Confido",
+   "title": "Applied AI/ML Engineer",
+   "url": "https://jobs.ashbyhq.com/confido/3a95d866-2e8f-432a-927d-8679386cefe2",
+   "ats": "ashby",
+   "source": "broad",
+   "tier": "nyc",
+   "locations": [
+    "NYC Office"
+   ],
+   "remote": false,
+   "dept": "Product & Technology / ML/AI",
+   "posted": "2026-08-14",
+   "first_seen": "2026-10-16",
+   "pay": "$200K - $250K",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": []
   },
   {
    "company": "Cohere",
@@ -8563,12 +9124,12 @@
   {
    "company": "Affirm",
    "title": "Software Engineer I, Fullstack (Search)",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8017342003",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8017340003",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "remote_us",
    "locations": [
-    "Remote Canada",
+    "Remote US",
     "Remote Canada",
     "Remote US"
    ],
@@ -8576,7 +9137,7 @@
    "dept": "Consumer Engineering",
    "posted": "2026-10-15",
    "first_seen": "2026-10-16",
-   "pay": "$101k–$151k",
+   "pay": "$130k–$180k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -8593,12 +9154,12 @@
   {
    "company": "Affirm",
    "title": "Software Engineer I, Fullstack (Search)",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8017340003",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8017342003",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "remote_us",
    "locations": [
-    "Remote US",
+    "Remote Canada",
     "Remote Canada",
     "Remote US"
    ],
@@ -8606,7 +9167,7 @@
    "dept": "Consumer Engineering",
    "posted": "2026-10-15",
    "first_seen": "2026-10-16",
-   "pay": "$130k–$180k",
+   "pay": "$101k–$151k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -12777,36 +13338,6 @@
   {
    "company": "Tailscale",
    "title": "Software Engineer, Networking (Dataplane)",
-   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4732874005",
-   "ats": "greenhouse",
-   "source": "curated",
-   "tier": "us_other",
-   "locations": [
-    "Remote (Canada)",
-    "Canada",
-    "United States"
-   ],
-   "remote": false,
-   "dept": "Engineering",
-   "posted": "2026-09-10",
-   "first_seen": "2026-10-09",
-   "pay": "$218k–$302k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [
-    "networking"
-   ],
-   "lang_hits": [
-    "c++",
-    "go",
-    "rust"
-   ]
-  },
-  {
-   "company": "Tailscale",
-   "title": "Software Engineer, Networking (Dataplane)",
    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4732897005",
    "ats": "greenhouse",
    "source": "curated",
@@ -12836,8 +13367,8 @@
   },
   {
    "company": "Tailscale",
-   "title": "Software Engineer, Networking (Features)",
-   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4739666005",
+   "title": "Software Engineer, Networking (Dataplane)",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4732874005",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
@@ -12848,9 +13379,9 @@
    ],
    "remote": false,
    "dept": "Engineering",
-   "posted": "2026-10-02",
+   "posted": "2026-09-10",
    "first_seen": "2026-10-09",
-   "pay": "$242k–$302k",
+   "pay": "$218k–$302k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -12859,8 +13390,9 @@
     "networking"
    ],
    "lang_hits": [
+    "c++",
     "go",
-    "golang"
+    "rust"
    ]
   },
   {
@@ -12880,6 +13412,35 @@
    "posted": "2026-10-02",
    "first_seen": "2026-10-09",
    "pay": "$181k–$226k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "networking"
+   ],
+   "lang_hits": [
+    "go",
+    "golang"
+   ]
+  },
+  {
+   "company": "Tailscale",
+   "title": "Software Engineer, Networking (Features)",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4739666005",
+   "ats": "greenhouse",
+   "source": "curated",
+   "tier": "us_other",
+   "locations": [
+    "Remote (Canada)",
+    "Canada",
+    "United States"
+   ],
+   "remote": false,
+   "dept": "Engineering",
+   "posted": "2026-10-02",
+   "first_seen": "2026-10-09",
+   "pay": "$242k–$302k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -15519,37 +16080,6 @@
   {
    "company": "Robinhood",
    "title": "Software Engineer, Tokenization",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/8189007?t=gh_src%3D&gh_jid=8189007",
-   "ats": "greenhouse",
-   "source": "curated",
-   "tier": "nyc",
-   "locations": [
-    "Toronto, Canada",
-    "Menlo Park, CA",
-    "New York, NY",
-    "Toronto, Canada"
-   ],
-   "remote": false,
-   "dept": "Crypto Engineering",
-   "posted": "2026-09-10",
-   "first_seen": "2026-10-09",
-   "pay": "$136k–$160k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- 2+ years of experience in software development"
-   ],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "go",
-    "java",
-    "python"
-   ]
-  },
-  {
-   "company": "Robinhood",
-   "title": "Software Engineer, Tokenization",
    "url": "https://boards.greenhouse.io/robinhood/jobs/8189005?t=gh_src%3D&gh_jid=8189005",
    "ats": "greenhouse",
    "source": "curated",
@@ -15566,6 +16096,37 @@
    "posted": "2026-09-10",
    "first_seen": "2026-10-09",
    "pay": "$166k–$195k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 2+ years of experience in software development"
+   ],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "go",
+    "java",
+    "python"
+   ]
+  },
+  {
+   "company": "Robinhood",
+   "title": "Software Engineer, Tokenization",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8189007?t=gh_src%3D&gh_jid=8189007",
+   "ats": "greenhouse",
+   "source": "curated",
+   "tier": "nyc",
+   "locations": [
+    "Toronto, Canada",
+    "Menlo Park, CA",
+    "New York, NY",
+    "Toronto, Canada"
+   ],
+   "remote": false,
+   "dept": "Crypto Engineering",
+   "posted": "2026-09-10",
+   "first_seen": "2026-10-09",
+   "pay": "$136k–$160k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
@@ -26463,19 +27024,19 @@
   {
    "company": "DRW",
    "title": "Platform Engineer - AI Engineering",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/8261675",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/8186711",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Montreal",
+    "Chicago",
     "Chicago, IL, United States"
    ],
    "remote": false,
    "dept": "IO - Development & Operations",
-   "posted": "2026-10-07",
+   "posted": "2026-09-09",
    "first_seen": "2026-10-09",
-   "pay": "",
+   "pay": "$130k–$190k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -26493,19 +27054,19 @@
   {
    "company": "DRW",
    "title": "Platform Engineer - AI Engineering",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/8186711",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/8261675",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Chicago",
+    "Montreal",
     "Chicago, IL, United States"
    ],
    "remote": false,
    "dept": "IO - Development & Operations",
-   "posted": "2026-09-09",
+   "posted": "2026-10-07",
    "first_seen": "2026-10-09",
-   "pay": "$130k–$190k",
+   "pay": "",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -26587,6 +27148,34 @@
   {
    "company": "DRW",
    "title": "Research Engineer (Options)",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7377915",
+   "ats": "greenhouse",
+   "source": "curated",
+   "tier": "us_other",
+   "locations": [
+    "Chicago",
+    "Chicago, IL, United States"
+   ],
+   "remote": false,
+   "dept": "FICC Options Execution Software Engineering",
+   "posted": "2025-11-05",
+   "first_seen": "2026-10-09",
+   "pay": "$175k–$225k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "execution"
+   ],
+   "lang_hits": [
+    "c++",
+    "python"
+   ]
+  },
+  {
+   "company": "DRW",
+   "title": "Research Engineer (Options)",
    "url": "https://job-boards.greenhouse.io/drweng/jobs/7097016",
    "ats": "greenhouse",
    "source": "curated",
@@ -26615,34 +27204,6 @@
     "c++",
     "python",
     "rust"
-   ]
-  },
-  {
-   "company": "DRW",
-   "title": "Research Engineer (Options)",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7377915",
-   "ats": "greenhouse",
-   "source": "curated",
-   "tier": "us_other",
-   "locations": [
-    "Chicago",
-    "Chicago, IL, United States"
-   ],
-   "remote": false,
-   "dept": "FICC Options Execution Software Engineering",
-   "posted": "2025-11-05",
-   "first_seen": "2026-10-09",
-   "pay": "$175k–$225k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [
-    "execution"
-   ],
-   "lang_hits": [
-    "c++",
-    "python"
    ]
   },
   {
@@ -26705,38 +27266,6 @@
   {
    "company": "DRW",
    "title": "Software Engineer, Cumberland/Options Tools Engineering",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7288315",
-   "ats": "greenhouse",
-   "source": "curated",
-   "tier": "us_other",
-   "locations": [
-    "Greenwich",
-    "Greenwich, Connecticut, United States"
-   ],
-   "remote": false,
-   "dept": "FICC Options Infrastructure, Tools, & Analytics",
-   "posted": "2025-09-30",
-   "first_seen": "2026-10-09",
-   "pay": "$175k–$225k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- A minimum of 2+ years’ experience using Python, Java, C++, and can work comfortably in multiple programming languages"
-   ],
-   "level_text": [],
-   "role_hits": [
-    "infrastructure"
-   ],
-   "lang_hits": [
-    "c++",
-    "java",
-    "python",
-    "typescript"
-   ]
-  },
-  {
-   "company": "DRW",
-   "title": "Software Engineer, Cumberland/Options Tools Engineering",
    "url": "https://job-boards.greenhouse.io/drweng/jobs/7392396",
    "ats": "greenhouse",
    "source": "curated",
@@ -26758,6 +27287,38 @@
    "level_text": [],
    "role_hits": [
     "execution"
+   ],
+   "lang_hits": [
+    "c++",
+    "java",
+    "python",
+    "typescript"
+   ]
+  },
+  {
+   "company": "DRW",
+   "title": "Software Engineer, Cumberland/Options Tools Engineering",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7288315",
+   "ats": "greenhouse",
+   "source": "curated",
+   "tier": "us_other",
+   "locations": [
+    "Greenwich",
+    "Greenwich, Connecticut, United States"
+   ],
+   "remote": false,
+   "dept": "FICC Options Infrastructure, Tools, & Analytics",
+   "posted": "2025-09-30",
+   "first_seen": "2026-10-09",
+   "pay": "$175k–$225k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- A minimum of 2+ years’ experience using Python, Java, C++, and can work comfortably in multiple programming languages"
+   ],
+   "level_text": [],
+   "role_hits": [
+    "infrastructure"
    ],
    "lang_hits": [
     "c++",
@@ -31214,12 +31775,12 @@
   {
    "company": "Anduril",
    "title": "GNC Engineer, Space",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870871007?gh_jid=4870871007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870847007?gh_jid=4870847007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Washington, District of Columbia, United States",
+    "Costa Mesa, California, United States",
     "Costa Mesa, California, United States",
     "Reston, Virginia, United States",
     "Washington, District of Columbia, United States"
@@ -31243,12 +31804,12 @@
   {
    "company": "Anduril",
    "title": "GNC Engineer, Space",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870847007?gh_jid=4870847007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/4870871007?gh_jid=4870871007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Costa Mesa, California, United States",
+    "Washington, District of Columbia, United States",
     "Costa Mesa, California, United States",
     "Reston, Virginia, United States",
     "Washington, District of Columbia, United States"
@@ -31710,34 +32271,6 @@
   {
    "company": "Anduril",
    "title": "Mission Software Engineer - Undersea Reconnaissance & Strike",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226471007?gh_jid=5226471007",
-   "ats": "greenhouse",
-   "source": "curated",
-   "tier": "us_other",
-   "locations": [
-    "Boston, Massachusetts, United States",
-    "Quincy, Massachusetts, United States"
-   ],
-   "remote": false,
-   "dept": "Maritime & Maneuver Dominance : Undersea Reconnaissance & Strike - Engineering & Operations",
-   "posted": "2026-08-31",
-   "first_seen": "2026-10-09",
-   "pay": "$166k–$220k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "c++",
-    "go",
-    "python",
-    "rust"
-   ]
-  },
-  {
-   "company": "Anduril",
-   "title": "Mission Software Engineer - Undersea Reconnaissance & Strike",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226473007?gh_jid=5226473007",
    "ats": "greenhouse",
    "source": "curated",
@@ -31777,6 +32310,34 @@
    "remote": false,
    "dept": "Maritime & Maneuver Dominance : Undersea Reconnaissance & Strike - Engineering & Operations",
    "posted": "2026-08-25",
+   "first_seen": "2026-10-09",
+   "pay": "$166k–$220k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "go",
+    "python",
+    "rust"
+   ]
+  },
+  {
+   "company": "Anduril",
+   "title": "Mission Software Engineer - Undersea Reconnaissance & Strike",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226471007?gh_jid=5226471007",
+   "ats": "greenhouse",
+   "source": "curated",
+   "tier": "us_other",
+   "locations": [
+    "Boston, Massachusetts, United States",
+    "Quincy, Massachusetts, United States"
+   ],
+   "remote": false,
+   "dept": "Maritime & Maneuver Dominance : Undersea Reconnaissance & Strike - Engineering & Operations",
+   "posted": "2026-08-31",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -32017,17 +32578,45 @@
   {
    "company": "Anduril",
    "title": "Product Security Engineer, Programs",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5183808007?gh_jid=5183808007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5042718007?gh_jid=5042718007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Quincy, Massachusetts, United States",
+    "Costa Mesa, California, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
    "dept": "Corporate Technology : Product Security : Product Security",
-   "posted": "2026-07-09",
+   "posted": "2026-02-04",
+   "first_seen": "2026-10-09",
+   "pay": "$156k–$253k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "golang",
+    "python",
+    "rust"
+   ]
+  },
+  {
+   "company": "Anduril",
+   "title": "Product Security Engineer, Programs",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5041620007?gh_jid=5041620007",
+   "ats": "greenhouse",
+   "source": "curated",
+   "tier": "us_other",
+   "locations": [
+    "Costa Mesa, California, United States",
+    "Costa Mesa, California, United States"
+   ],
+   "remote": false,
+   "dept": "Corporate Technology : Product Security : Product Security",
+   "posted": "2026-02-04",
    "first_seen": "2026-10-09",
    "pay": "$156k–$253k",
    "yoe_min": null,
@@ -32073,45 +32662,17 @@
   {
    "company": "Anduril",
    "title": "Product Security Engineer, Programs",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5042718007?gh_jid=5042718007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5183808007?gh_jid=5183808007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Costa Mesa, California, United States",
+    "Quincy, Massachusetts, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
    "dept": "Corporate Technology : Product Security : Product Security",
-   "posted": "2026-02-04",
-   "first_seen": "2026-10-09",
-   "pay": "$156k–$253k",
-   "yoe_min": null,
-   "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "c++",
-    "golang",
-    "python",
-    "rust"
-   ]
-  },
-  {
-   "company": "Anduril",
-   "title": "Product Security Engineer, Programs",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5041620007?gh_jid=5041620007",
-   "ats": "greenhouse",
-   "source": "curated",
-   "tier": "us_other",
-   "locations": [
-    "Costa Mesa, California, United States",
-    "Costa Mesa, California, United States"
-   ],
-   "remote": false,
-   "dept": "Corporate Technology : Product Security : Product Security",
-   "posted": "2026-02-04",
+   "posted": "2026-07-09",
    "first_seen": "2026-10-09",
    "pay": "$156k–$253k",
    "yoe_min": null,
@@ -32324,38 +32885,6 @@
   {
    "company": "Anduril",
    "title": "Scientific Software Engineer",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240161007?gh_jid=5240161007",
-   "ats": "greenhouse",
-   "source": "curated",
-   "tier": "us_other",
-   "locations": [
-    "Broomfield, Colorado, United States",
-    "Fort Collins, Colorado, United States",
-    "Broomfield, Colorado, United States",
-    "Fort Collins, Colorado, United States"
-   ],
-   "remote": false,
-   "dept": "Mission Systems : Battlespace Awareness Engineering",
-   "posted": "2026-09-16",
-   "first_seen": "2026-10-09",
-   "pay": "$126k–$167k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- 2 years of relevant experience & Bachelor's degree in Computer Science, Engineering, Mathematics, Physics, or related technical field (or equivalent experience)"
-   ],
-   "level_text": [],
-   "role_hits": [
-    "systems"
-   ],
-   "lang_hits": [
-    "c++",
-    "python"
-   ]
-  },
-  {
-   "company": "Anduril",
-   "title": "Scientific Software Engineer",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226942007?gh_jid=5226942007",
    "ats": "greenhouse",
    "source": "curated",
@@ -32387,60 +32916,34 @@
   },
   {
    "company": "Anduril",
-   "title": "Security Software Engineer, Endpoint Security",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248750007?gh_jid=5248750007",
+   "title": "Scientific Software Engineer",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240161007?gh_jid=5240161007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Washington, District of Columbia, United States",
-    "Costa Mesa, California, United States"
+    "Broomfield, Colorado, United States",
+    "Fort Collins, Colorado, United States",
+    "Broomfield, Colorado, United States",
+    "Fort Collins, Colorado, United States"
    ],
    "remote": false,
-   "dept": "Corporate Technology : Information Security : Product Security",
-   "posted": "2026-09-24",
+   "dept": "Mission Systems : Battlespace Awareness Engineering",
+   "posted": "2026-09-16",
    "first_seen": "2026-10-09",
-   "pay": "$166k–$220k",
+   "pay": "$126k–$167k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
-    "- 2+ years of software development experience in some combination of Golang, Rust, or C/C++."
+    "- 2 years of relevant experience & Bachelor's degree in Computer Science, Engineering, Mathematics, Physics, or related technical field (or equivalent experience)"
    ],
    "level_text": [],
-   "role_hits": [],
+   "role_hits": [
+    "systems"
+   ],
    "lang_hits": [
     "c++",
-    "golang",
-    "rust"
-   ]
-  },
-  {
-   "company": "Anduril",
-   "title": "Security Software Engineer, Endpoint Security",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5002801007?gh_jid=5002801007",
-   "ats": "greenhouse",
-   "source": "curated",
-   "tier": "us_other",
-   "locations": [
-    "Costa Mesa, California, United States",
-    "Costa Mesa, California, United States"
-   ],
-   "remote": false,
-   "dept": "Corporate Technology : Information Security : Product Security",
-   "posted": "2026-02-13",
-   "first_seen": "2026-10-09",
-   "pay": "$166k–$220k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- 2+ years of software development experience in some combination of Golang, Rust, or C/C++."
-   ],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "c++",
-    "golang",
-    "rust"
+    "python"
    ]
   },
   {
@@ -32475,6 +32978,35 @@
   {
    "company": "Anduril",
    "title": "Security Software Engineer, Endpoint Security",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248750007?gh_jid=5248750007",
+   "ats": "greenhouse",
+   "source": "curated",
+   "tier": "us_other",
+   "locations": [
+    "Washington, District of Columbia, United States",
+    "Costa Mesa, California, United States"
+   ],
+   "remote": false,
+   "dept": "Corporate Technology : Information Security : Product Security",
+   "posted": "2026-09-24",
+   "first_seen": "2026-10-09",
+   "pay": "$166k–$220k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 2+ years of software development experience in some combination of Golang, Rust, or C/C++."
+   ],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "golang",
+    "rust"
+   ]
+  },
+  {
+   "company": "Anduril",
+   "title": "Security Software Engineer, Endpoint Security",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248741007?gh_jid=5248741007",
    "ats": "greenhouse",
    "source": "curated",
@@ -32486,6 +33018,35 @@
    "remote": false,
    "dept": "Corporate Technology : Information Security : Product Security",
    "posted": "2026-09-24",
+   "first_seen": "2026-10-09",
+   "pay": "$166k–$220k",
+   "yoe_min": 2,
+   "yoe_pref": null,
+   "yoe_text": [
+    "- 2+ years of software development experience in some combination of Golang, Rust, or C/C++."
+   ],
+   "level_text": [],
+   "role_hits": [],
+   "lang_hits": [
+    "c++",
+    "golang",
+    "rust"
+   ]
+  },
+  {
+   "company": "Anduril",
+   "title": "Security Software Engineer, Endpoint Security",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5002801007?gh_jid=5002801007",
+   "ats": "greenhouse",
+   "source": "curated",
+   "tier": "us_other",
+   "locations": [
+    "Costa Mesa, California, United States",
+    "Costa Mesa, California, United States"
+   ],
+   "remote": false,
+   "dept": "Corporate Technology : Information Security : Product Security",
+   "posted": "2026-02-13",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": 2,
@@ -32597,7 +33158,7 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, C++",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226943007?gh_jid=5226943007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240168007?gh_jid=5240168007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
@@ -32609,7 +33170,7 @@
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering",
-   "posted": "2026-08-31",
+   "posted": "2026-09-16",
    "first_seen": "2026-10-09",
    "pay": "$126k–$167k",
    "yoe_min": 2,
@@ -32629,7 +33190,7 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, C++",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5240168007?gh_jid=5240168007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5226943007?gh_jid=5226943007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
@@ -32641,7 +33202,7 @@
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering",
-   "posted": "2026-09-16",
+   "posted": "2026-08-31",
    "first_seen": "2026-10-09",
    "pay": "$126k–$167k",
    "yoe_min": 2,
@@ -32814,19 +33375,19 @@
   {
    "company": "Anduril",
    "title": "Software Engineer- Machine Learning",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5124403007?gh_jid=5124403007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248869007?gh_jid=5248869007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Broomfield, Colorado, United States",
+    "Waltham, Massachusetts, United States",
     "Waltham, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering : Battlespace Awareness C2 Systems",
    "posted": "2026-09-24",
    "first_seen": "2026-10-09",
-   "pay": "$165k–$218k",
+   "pay": "$191k–$253k",
    "yoe_min": null,
    "yoe_pref": 2,
    "yoe_text": [
@@ -32846,19 +33407,19 @@
   {
    "company": "Anduril",
    "title": "Software Engineer- Machine Learning",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248869007?gh_jid=5248869007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5124403007?gh_jid=5124403007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Waltham, Massachusetts, United States",
+    "Broomfield, Colorado, United States",
     "Waltham, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "Mission Systems : Battlespace Awareness Engineering : Battlespace Awareness C2 Systems",
    "posted": "2026-09-24",
    "first_seen": "2026-10-09",
-   "pay": "$191k–$253k",
+   "pay": "$165k–$218k",
    "yoe_min": null,
    "yoe_pref": 2,
    "yoe_text": [
@@ -32908,17 +33469,17 @@
   {
    "company": "Anduril",
    "title": "Software Engineer - Maritime Integrated Systems",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185389007?gh_jid=5185389007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167630007?gh_jid=5167630007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Boston, Massachusetts, United States",
+    "Quincy, Massachusetts, United States",
     "Quincy, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "Maritime & Maneuver Dominance : Undersea Reconnaissance & Strike - Engineering & Operations",
-   "posted": "2026-07-13",
+   "posted": "2026-07-07",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -32940,17 +33501,17 @@
   {
    "company": "Anduril",
    "title": "Software Engineer - Maritime Integrated Systems",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167630007?gh_jid=5167630007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185389007?gh_jid=5185389007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Quincy, Massachusetts, United States",
+    "Boston, Massachusetts, United States",
     "Quincy, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "Maritime & Maneuver Dominance : Undersea Reconnaissance & Strike - Engineering & Operations",
-   "posted": "2026-07-07",
+   "posted": "2026-07-13",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -33054,17 +33615,17 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, Robotics Data Foundation (Cloud)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5247292007?gh_jid=5247292007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185965007?gh_jid=5185965007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Boston, Massachusetts, United States",
+    "Seattle, Washington, United States",
     "Boston, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "AFS : Discovery Engineering ",
-   "posted": "2026-09-23",
+   "posted": "2026-07-14",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -33084,17 +33645,17 @@
   {
    "company": "Anduril",
    "title": "Software Engineer, Robotics Data Foundation (Cloud)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5185965007?gh_jid=5185965007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5247292007?gh_jid=5247292007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Seattle, Washington, United States",
+    "Boston, Massachusetts, United States",
     "Boston, Massachusetts, United States"
    ],
    "remote": false,
    "dept": "AFS : Discovery Engineering ",
-   "posted": "2026-07-14",
+   "posted": "2026-09-23",
    "first_seen": "2026-10-09",
    "pay": "$166k–$220k",
    "yoe_min": null,
@@ -34115,19 +34676,19 @@
   {
    "company": "Anduril",
    "title": "Thermal Engineer, Thermal Protection Systems (TPS)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243041007?gh_jid=5243041007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243043007?gh_jid=5243043007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Costa Mesa, California, United States",
+    "Mountain View, California, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
    "dept": "Hardware Platform : Hardware Engineering Services",
    "posted": "2026-09-18",
    "first_seen": "2026-10-09",
-   "pay": "$129k–$171k",
+   "pay": "$140k–$186k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
@@ -34145,19 +34706,19 @@
   {
    "company": "Anduril",
    "title": "Thermal Engineer, Thermal Protection Systems (TPS)",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243043007?gh_jid=5243043007",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5243041007?gh_jid=5243041007",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "us_other",
    "locations": [
-    "Mountain View, California, United States",
+    "Costa Mesa, California, United States",
     "Costa Mesa, California, United States"
    ],
    "remote": false,
    "dept": "Hardware Platform : Hardware Engineering Services",
    "posted": "2026-09-18",
    "first_seen": "2026-10-09",
-   "pay": "$140k–$186k",
+   "pay": "$129k–$171k",
    "yoe_min": 2,
    "yoe_pref": null,
    "yoe_text": [
@@ -34317,34 +34878,6 @@
   {
    "company": "Affirm",
    "title": "Machine Learning Engineer II (Underwriting ML)",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003",
-   "ats": "greenhouse",
-   "source": "curated",
-   "tier": "remote_us",
-   "locations": [
-    "Remote Canada",
-    "Remote Canada",
-    "Remote US"
-   ],
-   "remote": false,
-   "dept": "Checkout",
-   "posted": "2026-08-06",
-   "first_seen": "2026-10-09",
-   "pay": "$133k–$183k",
-   "yoe_min": 2,
-   "yoe_pref": null,
-   "yoe_text": [
-    "- You have a total of 2+ years of experience as a machine learning engineer or a PhD in a relevant field."
-   ],
-   "level_text": [],
-   "role_hits": [],
-   "lang_hits": [
-    "python"
-   ]
-  },
-  {
-   "company": "Affirm",
-   "title": "Machine Learning Engineer II (Underwriting ML)",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003",
    "ats": "greenhouse",
    "source": "curated",
@@ -34372,30 +34905,29 @@
   },
   {
    "company": "Affirm",
-   "title": "Software Engineer II, Backend (Decisions Orchestration)",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8003016003",
+   "title": "Machine Learning Engineer II (Underwriting ML)",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003",
    "ats": "greenhouse",
    "source": "curated",
    "tier": "remote_us",
    "locations": [
-    "Remote US",
+    "Remote Canada",
+    "Remote Canada",
     "Remote US"
    ],
    "remote": false,
    "dept": "Checkout",
-   "posted": "2026-10-06",
+   "posted": "2026-08-06",
    "first_seen": "2026-10-09",
-   "pay": "$165k–$225k",
-   "yoe_min": null,
+   "pay": "$133k–$183k",
+   "yoe_min": 2,
    "yoe_pref": null,
-   "yoe_text": [],
-   "level_text": [],
-   "role_hits": [
-    "backend"
+   "yoe_text": [
+    "- You have a total of 2+ years of experience as a machine learning engineer or a PhD in a relevant field."
    ],
+   "level_text": [],
+   "role_hits": [],
    "lang_hits": [
-    "go",
-    "kotlin",
     "python"
    ]
   },
@@ -34415,6 +34947,35 @@
    "posted": "2026-10-06",
    "first_seen": "2026-10-09",
    "pay": "$133k–$183k",
+   "yoe_min": null,
+   "yoe_pref": null,
+   "yoe_text": [],
+   "level_text": [],
+   "role_hits": [
+    "backend"
+   ],
+   "lang_hits": [
+    "go",
+    "kotlin",
+    "python"
+   ]
+  },
+  {
+   "company": "Affirm",
+   "title": "Software Engineer II, Backend (Decisions Orchestration)",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8003016003",
+   "ats": "greenhouse",
+   "source": "curated",
+   "tier": "remote_us",
+   "locations": [
+    "Remote US",
+    "Remote US"
+   ],
+   "remote": false,
+   "dept": "Checkout",
+   "posted": "2026-10-06",
+   "first_seen": "2026-10-09",
+   "pay": "$165k–$225k",
    "yoe_min": null,
    "yoe_pref": null,
    "yoe_text": [],
@@ -34613,6 +35174,34 @@
    "req_min": 5,
    "pref_max": null,
    "url": "https://jobs.apple.com/en-us/details/200667427-2459/security-engineer-apple-pay"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Azure Cloud Infrastructure Engineer",
+   "req_min": 4,
+   "pref_max": 8,
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556983222"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Member of Technical Staff - Responsible AI (CoreAI)",
+   "req_min": 2,
+   "pref_max": 6,
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556753211"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Creative Technologist",
+   "req_min": 3,
+   "pref_max": null,
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393556972769"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Strategic Account Technologist, Financial Services",
+   "req_min": 7,
+   "pref_max": 14,
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557040170"
   },
   {
    "company": "Netflix",
@@ -36629,34 +37218,6 @@
    "req_min": 10,
    "pref_max": null,
    "url": "https://jobs.ashbyhq.com/harvey/313d5aa8-bfc9-4057-b9a3-b73b4894f6a7"
-  },
-  {
-   "company": "Harvey",
-   "title": "Trust Engineer",
-   "req_min": 6,
-   "pref_max": null,
-   "url": "https://jobs.ashbyhq.com/harvey/2afeecc1-d272-4562-a8df-50f720f5991d"
-  },
-  {
-   "company": "Harvey",
-   "title": "Broadcast Engineer",
-   "req_min": 7,
-   "pref_max": null,
-   "url": "https://jobs.ashbyhq.com/harvey/42c60b1a-5be4-4b8b-9c36-288c0d214551"
-  },
-  {
-   "company": "Glean",
-   "title": "Application Security Engineer",
-   "req_min": 8,
-   "pref_max": null,
-   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4728513005"
-  },
-  {
-   "company": "Glean",
-   "title": "Platform Security Engineer",
-   "req_min": null,
-   "pref_max": 5,
-   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4728507005"
   }
  ]
 }

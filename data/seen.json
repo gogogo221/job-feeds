@@ -531,6 +531,14 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-13"
 },
+"ashby:confido:3a95d866-2e8f-432a-927d-8679386cefe2": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:confido:d5520ce5-bc5f-4947-8912-292615b0c5ac": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
 "ashby:curri:25fff41f-da1c-4b34-9120-0d91c251a111": {
 "first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
@@ -891,6 +899,18 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-16"
 },
+"ashby:latent:233bbaac-d589-49f4-a8eb-6bb16673b060": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:latent:37081ba7-cd44-4a40-bc5f-4a2829c0d079": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:latent:bbd1a8e3-b943-4c8c-b239-e87951504f71": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
 "ashby:linear:0c7c2e26-0a98-42cf-a47c-9a3999fb513b": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-16"
@@ -900,6 +920,10 @@
 "last_seen": "2026-10-16"
 },
 "ashby:livekit:c4a4b4ac-ee45-4eda-800a-6dfb5a573e6e": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:luminai:4b580dd6-0675-4f55-86c7-6d694285b6d8": {
 "first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
 },
@@ -1011,6 +1035,10 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-16"
 },
+"ashby:method:33e8b312-a0a6-479d-81cf-24fd048f8303": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
 "ashby:middesk:e1c6af86-dce1-495f-a710-ad369fd1308c": {
 "first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
@@ -1101,6 +1129,10 @@
 },
 "ashby:notion:e3d8dc06-da05-4e9d-a143-2e9c51fa3d51": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-16"
+},
+"ashby:novig:ff741902-a4e7-4d91-8d1d-e6d7af599043": {
+"first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
 },
 "ashby:numeral:26400013-a45f-4504-a0f9-f288069ee32c": {
@@ -1779,6 +1811,10 @@
 "first_seen": "2026-10-12",
 "last_seen": "2026-10-15"
 },
+"ashby:prelim:bf4c1a5d-32d5-4f3b-b1d2-42a3e1fd7409": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
 "ashby:profound:043bb5b3-3f78-45d8-a115-fb10f4ed3b09": {
 "first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
@@ -1852,6 +1888,10 @@
 "last_seen": "2026-10-16"
 },
 "ashby:pylon:d1ef993a-9d43-432c-8700-f185de00a1e4": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:quindar:b5843e59-4ebc-425a-8e24-fa61167242a3": {
 "first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
 },
@@ -1999,6 +2039,22 @@
 "first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
 },
+"ashby:salient:5bef27e7-17b3-4ad0-93e0-9e430409acd4": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:salient:6af0cafd-bd6b-425e-9154-020ec8711776": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:salient:cae6bf34-0e59-449d-86e8-02fd0e6cf0eb": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:salient:f88db9d8-cadb-453d-9ee4-76576c379eb0": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
 "ashby:sardine:2c8f0342-b8af-4cc2-85cd-67bc48275568": {
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-16"
@@ -2119,6 +2175,10 @@
 "first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
 },
+"ashby:speak:e78edff4-5135-4c68-932d-e449ee460ea3": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
 "ashby:suno:f19de1aa-0965-43db-acbe-b6917e268ff0": {
 "first_seen": "2026-10-10",
 "last_seen": "2026-10-16"
@@ -2179,12 +2239,40 @@
 "first_seen": "2026-10-09",
 "last_seen": "2026-10-16"
 },
+"ashby:triomics:c95b0e2f-798e-44fd-a45f-25ecd90ce242": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
 "ashby:trychroma:9ed3aee8-07dd-44e3-9ca1-dd1a3020fb6f": {
 "first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
 },
 "ashby:turbopuffer:317f14bf-49dc-46ae-a4d8-6aea3fa41ecc": {
 "first_seen": "2026-10-12",
+"last_seen": "2026-10-16"
+},
+"ashby:vapi:250ac759-97a6-46b8-ad7c-9bb4f223dd26": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:vapi:295f5269-1bb5-4740-81fa-9716adc32ad5": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:vapi:2d702840-a588-4273-8b98-49ed815c0c50": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:vapi:4b6abd59-ac74-40e9-8cab-74253078aaf4": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:vapi:a3bde43c-4762-4cf2-86f5-464abd4a78e6": {
+"first_seen": "2026-10-16",
+"last_seen": "2026-10-16"
+},
+"ashby:vapi:d270d613-30b8-4fdc-96e0-514993ca7a82": {
+"first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
 },
 "ashby:voladynamics:14e53a69-2795-4d84-9182-8c0aa0e1a924": {
@@ -4717,6 +4805,10 @@
 },
 "lever:wealthfront:f5a0963a-ca1a-4140-b9e6-dbf6072093fe": {
 "first_seen": "2026-10-09",
+"last_seen": "2026-10-16"
+},
+"microsoft:x:1970393556863227": {
+"first_seen": "2026-10-16",
 "last_seen": "2026-10-16"
 },
 "smartrecruiters:ServiceNow:744000107369741": {
