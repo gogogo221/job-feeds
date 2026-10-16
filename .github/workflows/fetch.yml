@@ -2,7 +2,7 @@ name: fetch-job-feeds
 
 on:
   schedule:
-    - cron: "17 3 * * *"   # 03:17 UTC = 11:17pm ET (EDT); digest runs at 04:58 UTC
+    - cron: "17 3 * * *"   # 03:17 UTC = 11:17pm ET (EDT); digest runs at 07:00 UTC
   workflow_dispatch:
   push:
     branches: [main]
@@ -18,7 +18,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

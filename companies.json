@@ -1,10 +1,28 @@
 {
- "_doc": "Per company: {\"boards\": [...]} = known board(s); {\"slugs\": [...]} or {} = auto-discover on Greenhouse/Lever/Ashby (re-probed weekly); \"own_site\" = no public API, covered by the digest's web search. Excluded companies (Amazon, Bloomberg, Citadel, crypto) are simply not listed.",
+ "_doc": "Per company: {\"boards\": [...]} = known board(s); {\"slugs\": [...]} or {} = auto-discover on Greenhouse/Lever/Ashby (re-probed weekly); \"own_site\" = no public API, covered by the digest's web search. Excluded companies (Amazon, Bloomberg, Citadel, crypto) are simply not listed. Board types also include google, microsoft, apple, janestreet (custom APIs).",
  "companies": {
-  "Google": "own_site",
+  "Google": {
+   "boards": [
+    {
+     "ats": "google"
+    }
+   ]
+  },
   "Meta": "own_site",
-  "Apple": "own_site",
-  "Microsoft": "own_site",
+  "Apple": {
+   "boards": [
+    {
+     "ats": "apple"
+    }
+   ]
+  },
+  "Microsoft": {
+   "boards": [
+    {
+     "ats": "microsoft"
+    }
+   ]
+  },
   "Netflix": {
    "boards": [
     {
@@ -77,9 +95,11 @@
    ]
   },
   "Mistral": {
-   "slugs": [
-    "mistral",
-    "mistralai"
+   "boards": [
+    {
+     "ats": "ashby",
+     "token": "mistral.ai"
+    }
    ]
   },
   "Cohere": {
@@ -202,8 +222,11 @@
    ]
   },
   "Hebbia": {
-   "slugs": [
-    "hebbia"
+   "boards": [
+    {
+     "ats": "ashby",
+     "token": "hebbia-ai"
+    }
    ]
   },
   "Runway": {
@@ -348,11 +371,7 @@
     "databricks"
    ]
   },
-  "Confluent": {
-   "slugs": [
-    "confluent"
-   ]
-  },
+  "Confluent": "own_site",
   "Cloudflare": {
    "boards": [
     {
@@ -427,7 +446,16 @@
     }
    ]
   },
-  "Palo Alto Networks": "own_site",
+  "Palo Alto Networks": {
+   "boards": [
+    {
+     "ats": "workday",
+     "host": "paloaltonetworks.wd5.myworkdayjobs.com",
+     "tenant": "paloaltonetworks",
+     "site": "panwexternalcareers"
+    }
+   ]
+  },
   "CrowdStrike": {
    "boards": [
     {
@@ -574,8 +602,11 @@
    ]
   },
   "Applied Intuition": {
-   "slugs": [
-    "appliedintuition"
+   "boards": [
+    {
+     "ats": "ashby",
+     "token": "applied"
+    }
    ]
   },
   "Wiz": {
@@ -714,9 +745,11 @@
    ]
   },
   "Stainless": {
-   "slugs": [
-    "stainlessapi",
-    "stainless"
+   "boards": [
+    {
+     "ats": "ashby",
+     "token": "stainlessapi"
+    }
    ]
   },
   "Clay": {
@@ -927,8 +960,11 @@
    ]
   },
   "Captions": {
-   "slugs": [
-    "captions"
+   "boards": [
+    {
+     "ats": "ashby",
+     "token": "mirage"
+    }
    ]
   },
   "Hippocratic AI": {
@@ -951,7 +987,13 @@
     "nscale"
    ]
   },
-  "Jane Street": "own_site",
+  "Jane Street": {
+   "boards": [
+    {
+     "ats": "janestreet"
+    }
+   ]
+  },
   "Hudson River Trading": {
    "slugs": [
     "wehrtyou",
@@ -1043,8 +1085,11 @@
    ]
   },
   "Headlands": {
-   "slugs": [
-    "headlandstech"
+   "boards": [
+    {
+     "ats": "greenhouse",
+     "token": "headlandstechnologiesllc"
+    }
    ]
   },
   "Voleon": {
@@ -1174,8 +1219,11 @@
    ]
   },
   "Harness": {
-   "slugs": [
-    "harness"
+   "boards": [
+    {
+     "ats": "greenhouse",
+     "token": "harnessinc"
+    }
    ]
   },
   "Semgrep": {
@@ -1190,9 +1238,11 @@
    ]
   },
   "Teleport": {
-   "slugs": [
-    "teleport",
-    "gravitational"
+   "boards": [
+    {
+     "ats": "ashby",
+     "token": "goteleport"
+    }
    ]
   },
   "Buildkite": {

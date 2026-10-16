@@ -48,9 +48,14 @@ def _polite(host: str, gap: float = 0.5):
         _host_last[host] = time.time()
 
 
-def http(url, body=None, headers=None, timeout=40):
-    """Return (status, parsed_json_or_None, error_str)."""
-    h = {"User-Agent": UA, "Accept": "application/json"}
+# Slower pacing for big-company career sites (they rate-limit quickly).
+HOST_GAP = {"apply.careers.microsoft.com": 2.5, "jobs.apple.com": 1.0, "www.google.com": 2.0,
+            "hn.algolia.com": 1.0, "yc-oss.github.io": 1.0}
+
+
+def http(url, body=None, headers=None, timeout=40, raw=False, opener=None):
+    """Return (status, parsed_json_or_None, error_str). raw=True returns the text instead of JSON."""
+    h = {"User-Agent": UA, "Accept": "text/html,application/json" if raw else "application/json"}
     data = None
     if body is not None:
         data = json.dumps(body).encode()
@@ -58,13 +63,15 @@ def http(url, body=None, headers=None, timeout=40):
     h.update(headers or {})
     host = urllib.parse.urlsplit(url).hostname or ""
     for attempt in range(3):
-        _polite(host)
+        _polite(host, HOST_GAP.get(host, 0.5))
         try:
             req = urllib.request.Request(url, data=data, headers=h, method="POST" if body is not None else "GET")
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                raw = r.read().decode("utf-8", "replace")
+            with (opener.open if opener else urllib.request.urlopen)(req, timeout=timeout) as r:
+                txt = r.read().decode("utf-8", "replace")
+                if raw:
+                    return r.status, txt, ""
                 try:
-                    return r.status, json.loads(raw), ""
+                    return r.status, json.loads(txt), ""
                 except json.JSONDecodeError:
                     return r.status, None, "non-JSON response"
         except urllib.error.HTTPError as e:
@@ -97,7 +104,9 @@ def html_to_text(s: str) -> str:
 
 # ---------------------------------------------------------------- filters
 
-ROLE = re.compile(r"\b(engineer|engineering|developer|swe|sde|programmer|technologist)\b", re.I)
+ROLE = re.compile(r"\b(engineer|engineering|developer|swe|sde|programmer|technologist|mts|computer scientist)\b", re.I)
+# "Member of Technical Staff" is the standard IC title at AI labs; normalize it so "staff" isn't read as senior.
+MTS = re.compile(r"\bmember of (the )?technical staff\b", re.I)
 SENIOR = re.compile(
     r"\b(senior|sr\.?|staff|principal|lead|leader|manager|management|director|head|vp|vice president|chief|"
     r"distinguished|fellow|architect|iv|v|l[5-9]|e[5-9]|ic[4-9]|level [5-9])\b",
@@ -110,11 +119,12 @@ JUNIOR = re.compile(
 )
 OFFTRACK = re.compile(
     r"\b(front[- ]?end|ios|android|mobile|ui|ux|design|designer|sales|solutions?|customer|support|success|"
-    r"forward[- ]deployed|field|deployment|recruit\w*|marketing|account|partner\w*|advocate|devrel|"
+    r"forward[- ]deployed|field|deployment (strategist|specialist|manager)|recruit\w*|marketing|"
+    r"account (executive|manager|director)|partner\w*|advocate|devrel|"
     r"developer relations|technical writer|writer|qa|quality assurance|test engineer|sdet|help ?desk|"
     r"hardware|mechanical|electrical|asic|fpga|rtl|analog|silicon|chip|verification|physical design|"
     r"manufacturing|firmware|embedded|it engineer|desktop|network technician|facilities|legal|finance|"
-    r"accounting|payroll|tax|audit|compliance|gtm|go-to-market|growth|technical services|services|"
+    r"accounting|payroll|tax|audit|compliance|gtm|go-to-market|growth|technical services|customer services|"
     r"techno-functional|functional|erp|oracle fusion|netsuite|salesforce developer|implementation|"
     r"professional services|consultant|onboarding)\b",
     re.I,
@@ -255,7 +265,8 @@ def level_lines(text, n=2):
 
 
 PAY = re.compile(
-    r"\$\s?(\d{2,3}(?:,\d{3})+|\d{2,3}(?:\.\d+)?\s?[kK])\s*(?:-|–|—|to)\s*\$?\s?(\d{2,3}(?:,\d{3})+|\d{2,3}(?:\.\d+)?\s?[kK])"
+    r"\$\s?(\d{2,3}(?:,\d{3})+|\d{5,7}|\d{2,3}(?:\.\d+)?\s?[kK])(?:\.00)?\s*(?:USD|\(USD\))?\s*(?:-|–|—|to|and)\s*"
+    r"(?:USD\s*)?\$?\s?(\d{2,3}(?:,\d{3})+|\d{5,7}|\d{2,3}(?:\.\d+)?\s?[kK])"
 )
 
 
@@ -290,7 +301,7 @@ def gh(b):
         desc = html_to_text(j.get("content", ""))
         out.append(dict(
             id=str(j["id"]), title=j.get("title", ""), url=j.get("absolute_url", ""),
-            locations=locs, remote=False, country="",
+            company_name=j.get("company_name", ""), locations=locs, remote=False, country="",
             dept=", ".join(x.get("name", "") for x in j.get("departments", [])),
             posted=(j.get("first_published") or j.get("updated_at") or "")[:10],
             desc=desc, pay=pay_from_text(desc)))
@@ -476,8 +487,151 @@ def uber(b):
     return out, total
 
 
+# ---- big companies with their own career sites (no shared ATS) ----
+
+
+def microsoft(b):
+    """Microsoft's Eightfold 'pcsx' API: NYC roles, plus US roles flagged remote."""
+    base = "https://apply.careers.microsoft.com/api/pcsx"
+    out, seen, total = [], set(), 0
+    passes = [("New York, NY, United States", False, q) for q in b.get("queries", ["software engineer", "backend", "infrastructure"])]
+    passes.append(("United States", True, "software engineer"))
+    for loc, remote_only, q in passes:
+        if True:
+            for start in range(0, b.get("max_results", 100), 10):
+                qs = urllib.parse.urlencode({"domain": "microsoft.com", "query": q, "location": loc, "start": start})
+                st, d, err = http(f"{base}/search?{qs}")
+                ps = ((d or {}).get("data") or {}).get("positions")
+                if ps is None:
+                    if not out and not seen and start == 0:
+                        raise RuntimeError(err or f"HTTP {st}")
+                    break
+                total = max(total, (d.get("data") or {}).get("count", 0))
+                for p in ps:
+                    if p["id"] in seen:
+                        continue
+                    seen.add(p["id"])
+                    is_remote = p.get("workLocationOption") == "remote"
+                    if (remote_only and not is_remote) or not title_ok(p.get("name", ""))[0]:
+                        continue
+                    st2, dd, _ = http(f"{base}/position_details?position_id={p['id']}&domain=microsoft.com&hl=en")
+                    desc = html_to_text(((dd or {}).get("data") or {}).get("jobDescription", ""))
+                    locs = p.get("standardizedLocations") or p.get("locations") or []
+                    out.append(dict(
+                        id=str(p["id"]), title=p["name"], url=f"https://apply.careers.microsoft.com/careers/job/{p['id']}",
+                        locations=locs, remote=is_remote, country="US", dept=p.get("department", ""),
+                        posted=dt.datetime.fromtimestamp(p["postedTs"], dt.timezone.utc).date().isoformat() if p.get("postedTs") else "",
+                        desc=desc, pay=pay_from_text(desc)))
+                if len(ps) < 10:
+                    break
+    return out, total
+
+
+GOOGLE_DS = re.compile(r"AF_initDataCallback\(\{key: 'ds:1'.*?data:(.*?), sideChannel", re.S)
+
+
+def google(b):
+    """Google careers results pages embed the job list as JSON (ds:1)."""
+    out, seen, total = [], set(), 0
+    for loc in b.get("locations", ["New York, NY, USA"]):
+        for q in b.get("queries", ["software engineer"]):
+            for page in range(1, b.get("max_pages", 15) + 1):
+                qs = urllib.parse.urlencode({"q": q, "location": loc, "page": page})
+                st, txt, err = http(f"https://www.google.com/about/careers/applications/jobs/results/?{qs}", raw=True)
+                m = GOOGLE_DS.search(txt or "")
+                if not m:
+                    if page == 1 and not out:
+                        raise RuntimeError(err or f"HTTP {st}: job data not found")
+                    break
+                d = json.loads(m.group(1))
+                jobs = d[0] or []
+                total = max(total, d[2] if len(d) > 2 and isinstance(d[2], int) else 0)
+                for j in jobs:
+                    if j[0] in seen:
+                        continue
+                    seen.add(j[0])
+                    if not title_ok(j[1])[0]:
+                        continue
+                    part = lambda i: (j[i][1] if len(j) > i and isinstance(j[i], list) and len(j[i]) > 1 else "") or ""
+                    desc = html_to_text("\n".join([part(4), part(3), part(10)]))
+                    locs = [x[0] for x in (j[9] or []) if x] if len(j) > 9 else []
+                    out.append(dict(
+                        id=j[0], title=j[1], url=f"https://www.google.com/about/careers/applications/jobs/results/{j[0]}",
+                        locations=locs, remote=False, country="", dept=j[7] if len(j) > 7 and isinstance(j[7], str) else "",
+                        posted="", desc=desc, pay=pay_from_text(desc + "\n" + part(15))))
+                if len(jobs) < 20:
+                    break
+    return out, total
+
+
+def apple(b):
+    """jobs.apple.com search API (needs a CSRF token + cookie). NYC software/services engineering."""
+    from http.cookiejar import CookieJar
+    op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(CookieJar()))
+    req = urllib.request.Request("https://jobs.apple.com/api/v1/CSRFToken", headers={"User-Agent": UA})
+    _polite("jobs.apple.com", 1.0)
+    with op.open(req, timeout=30) as r:
+        tok = r.headers.get("x-apple-csrf-token", "")
+    if not tok:
+        raise RuntimeError("no CSRF token")
+    hdr = {"x-apple-csrf-token": tok, "Origin": "https://jobs.apple.com"}
+    out, seen, total = [], set(), 0
+    for page in range(1, 11):
+        body = {"query": "", "filters": {"locations": b.get("locations", ["postLocation-NYC"]),
+                                         "teams": [{"team": t} for t in b.get("teams", ["teamsAndSubTeams-SFTWR"])]},
+                "page": page, "locale": "en-us", "sort": "newest",
+                "format": {"longDate": "MMMM D, YYYY", "mediumDate": "MMM D, YYYY"}}
+        st, d, err = http("https://jobs.apple.com/api/v1/search", body=body, headers=hdr, opener=op)
+        res = (d or {}).get("res") or {}
+        rs = res.get("searchResults")
+        if rs is None:
+            if page == 1:
+                raise RuntimeError(err or f"HTTP {st}")
+            break
+        total = res.get("totalRecords", total)
+        for x in rs:
+            if x["id"] in seen or not title_ok(x.get("postingTitle", ""))[0]:
+                continue
+            seen.add(x["id"])
+            st2, dd, _ = http(f"https://jobs.apple.com/api/v1/jobDetails/{x['id']}?locale=en-us", headers=hdr, opener=op)
+            r2 = (dd or {}).get("res") or {}
+            desc = html_to_text("\n".join(str(r2.get(k) or "") for k in (
+                "jobSummary", "description", "minimumQualifications", "preferredQualifications", "postingFooters")))
+            out.append(dict(
+                id=x["id"], title=x["postingTitle"],
+                url=f"https://jobs.apple.com/en-us/details/{x['id']}/{x.get('transformedPostingTitle', '')}",
+                locations=[l.get("name", "") + ", NY" if l.get("name") == "New York City" else l.get("name", "") for l in x.get("locations", [])],
+                remote=False, country="US", dept=(x.get("team") or {}).get("teamName", ""),
+                posted=(x.get("postDateInGMT") or "")[:10], desc=desc, pay=pay_from_text(desc)))
+        if len(rs) < 20:
+            break
+    return out, total
+
+
+def janestreet(b):
+    st, d, err = http("https://www.janestreet.com/jobs/main.json")
+    if not isinstance(d, list):
+        raise RuntimeError(err or f"HTTP {st}")
+    city = {"NYC": "New York, NY", "CHI": "Chicago, IL", "ATX": "Austin, TX"}
+    out = []
+    for j in d:
+        if j.get("availability") != "Full-Time: Experienced" or j.get("city") not in city:
+            continue
+        lo, hi = j.get("min_salary"), j.get("max_salary")
+        pay = ""
+        if lo and hi:
+            pay = f"${int(lo.replace(',', '')) // 1000}k–${int(hi.replace(',', '')) // 1000}k"
+        out.append(dict(
+            id=str(j["id"]), title=j.get("position", ""),
+            url=f"https://www.janestreet.com/join-jane-street/position/{j['id']}/",
+            locations=[city[j["city"]]], remote=False, country="US", dept=f"{j.get('category', '')} / {j.get('team', '')}",
+            posted="", desc=html_to_text(j.get("overview", "")), pay=pay))
+    return out, len(d)
+
+
 FETCHERS = {"greenhouse": gh, "lever": lever, "ashby": ashby, "workday": workday,
-            "smartrecruiters": smartrecruiters, "eightfold": eightfold, "uber": uber}
+            "smartrecruiters": smartrecruiters, "eightfold": eightfold, "uber": uber,
+            "microsoft": microsoft, "google": google, "apple": apple, "janestreet": janestreet}
 
 
 # ---------------------------------------------------------------- discovery
@@ -522,12 +676,18 @@ def discover(name, hints):
             if not d:
                 continue
             n = len(d) if isinstance(d, list) else len(d.get("jobs", []))
-            if n and _mentions(name, d) and (best is None or n > best["n"]):
+            # Hand-picked slug hints are trusted; guessed slugs must mention the company
+            # (Ashby/Lever postings often omit the company name, which used to reject valid boards).
+            if n and (s in (hints or []) or _mentions(name, d)) and (best is None or n > best["n"]):
                 best = {"ats": ats, "token": s, "n": n}
         if best:
             return best
     return None
 
+
+# Never surfaced from the broad scan (curated list already omits them).
+EXCLUDE_COMPANIES = {"amazon", "aws", "amazon web services", "bloomberg", "citadel", "citadel securities", "palantir",
+                     "trm labs", "coinbase", "kraken", "chainalysis", "circle", "ripple", "gemini"}
 
 # ---------------------------------------------------------------- main
 
@@ -541,6 +701,7 @@ def clean_url(u):
 
 
 def title_ok(title):
+    title = MTS.sub("MTS", title or "")
     if not ROLE.search(title):
         return False, "role"
     if SENIOR.search(title):
@@ -562,6 +723,7 @@ def load(path, default):
 
 
 def main():
+    sys.modules.setdefault("fetch", sys.modules[__name__])  # broad.py imports us; share one module instance
     DATA.mkdir(exist_ok=True)
     cfg = json.loads((ROOT / "companies.json").read_text())
     disc = load(DATA / "discovered.json", {})
@@ -595,6 +757,27 @@ def main():
             else:
                 own_site.append(name)
 
+    # 1b. broad coverage: grow the extra-board registry (HN + YC) and add its boards
+    import broad
+    bstate = load(DATA / "broad.json", {})
+    blog, hn_jobs = [], []
+    curated_keys = {broad.board_key(b) for b in boards if b.get("token") or b.get("tenant")}
+    curated_names = {n.lower() for n in cfg["companies"]} | {x.lower() for x in EXCLUDE_COMPANIES}
+    before = set(bstate.get("boards", {}))
+    try:
+        hn_jobs, n = broad.hn_collect(bstate, blog)
+        blog.append(f"HN: {len(hn_jobs)} salaried NYC/remote posts, {n} new boards")
+    except Exception as e:
+        blog.append(f"HN failed: {type(e).__name__}: {str(e)[:120]}")
+    try:
+        n = broad.yc_discover(bstate, blog, curated_names)
+        blog.append(f"YC: {n} new boards ({bstate.get('yc_candidates', 0)} NYC/remote YC companies)")
+    except Exception as e:
+        blog.append(f"YC failed: {type(e).__name__}: {str(e)[:120]}")
+    new_keys = set(bstate.get("boards", {})) - before
+    broad_boards = broad.active_boards(bstate, curated_keys, curated_names)
+    boards += broad_boards
+
     # 2. fetch all boards
     def run(b):
         t0 = time.time()
@@ -611,25 +794,47 @@ def main():
     # 3. filter
     out_jobs, dropped_exp, board_status = [], [], []
     seen_urls = set()
+    broad_stats = collections.Counter()
+    hn_board = {"company": "", "ats": "hn", "token": "hn", "broad": True, "hn": True}
+    results.append((hn_board, hn_jobs, len(hn_jobs), ""))
     for b, jobs, total, err in results:
         matched = 0
         why_dropped = collections.Counter()
+        if b.get("key"):
+            gname = next((j.get("company_name") for j in jobs if j.get("company_name")), "")
+            broad.record_result(bstate, b["key"], not err, total, gname)
+            if not b.get("company") or b["company"] == b.get("token"):
+                b["company"] = gname or broad.company_from_token(b.get("token") or b.get("tenant"))
+                bstate["boards"][b["key"]]["company"] = b["company"]
         for j in jobs:
             ok, why = title_ok(j["title"])
             if not ok:
                 why_dropped["title_" + why] += 1
                 continue
-            tier = tier_of(j["locations"], j.get("remote", False), j.get("country", ""))
+            tier = j.get("tier") or tier_of(j["locations"], j.get("remote", False), j.get("country", ""))
             if tier is None:
                 why_dropped["location"] += 1
                 continue
+            company = j.get("company") if b.get("hn") else b["company"]
+            if b.get("broad"):
+                # Outside the curated list a posted salary is the quality gate.
+                top = broad.pay_max(j.get("pay"))
+                if top < (broad.RELOC_PAY_FLOOR if tier == "us_other" else broad.PAY_FLOOR):
+                    why_dropped["pay"] += 1
+                    broad_stats["dropped_pay"] += 1
+                    continue
+                if company.lower() in curated_names:
+                    continue
+                if not broad.SOFTWARE.search(MTS.sub("MTS", j["title"])) or broad.crypto_heavy(j.get("desc")):
+                    why_dropped["broad_role"] += 1
+                    continue
             req_min, pref_max, yoe_lines = experience(j["desc"])
             if (req_min is not None and req_min >= 3) or (pref_max is not None and pref_max >= 4):
                 why_dropped["experience"] += 1
-                dropped_exp.append({"company": b["company"], "title": j["title"], "req_min": req_min, "pref_max": pref_max, "url": j["url"]})
+                dropped_exp.append({"company": company, "title": j["title"], "req_min": req_min, "pref_max": pref_max, "url": j["url"]})
                 continue
             url = clean_url(j["url"])
-            ident = (b["company"], str(j["id"]))
+            ident = (company, str(j["id"]))
             if ident in seen_urls or url in seen_urls:
                 continue
             seen_urls.update([ident, url])
@@ -637,8 +842,10 @@ def main():
             rec = seen.setdefault(key, {"first_seen": TODAY})
             rec["last_seen"] = TODAY
             matched += 1
+            source = "hn" if b.get("hn") else "broad" if b.get("broad") else "curated"
+            broad_stats[source] += 1
             out_jobs.append({
-                "company": b["company"], "title": j["title"], "url": url, "ats": b["ats"],
+                "company": company, "title": j["title"], "url": url, "ats": b["ats"], "source": source,
                 "tier": tier, "locations": j["locations"][:6], "remote": j.get("remote", False),
                 "dept": j.get("dept", ""), "posted": j.get("posted", ""), "first_seen": rec["first_seen"],
                 "pay": j.get("pay", ""), "yoe_min": req_min, "yoe_pref": pref_max, "yoe_text": yoe_lines,
@@ -646,6 +853,9 @@ def main():
                 "role_hits": sorted(set(m.lower() for m in ROLE_HITS.findall(j["title"] + " " + j.get("dept", "")))),
                 "lang_hits": sorted(set(m.lower() for m in LANG_HITS.findall(j["desc"])))[:6],
             })
+        if b.get("broad"):
+            broad_stats["boards_ok" if not err else "boards_failed"] += 1
+            continue
         board_status.append({"company": b["company"], "ats": b["ats"], "token": b.get("token") or b.get("tenant") or b.get("domain") or "",
                              "discovered": bool(b.get("discovered")), "status": "failed" if err else "ok",
                              "error": err, "total": total, "matched": matched, "dropped": dict(why_dropped)})
@@ -656,10 +866,16 @@ def main():
     out_jobs.sort(key=lambda x: (x["first_seen"], x["company"]), reverse=True)
     summary = {
         "generated_at": NOW.isoformat(timespec="seconds"),
-        "counts": {"boards": len(boards), "boards_ok": sum(s["status"] == "ok" for s in board_status),
+        "counts": {"boards": len(board_status), "boards_ok": sum(s["status"] == "ok" for s in board_status),
                    "boards_failed": sum(s["status"] == "failed" for s in board_status),
                    "jobs": len(out_jobs), "new_today": sum(j["first_seen"] == TODAY for j in out_jobs),
-                   "dropped_experience": len(dropped_exp)},
+                   "dropped_experience": len(dropped_exp),
+                   "broad_boards": len(broad_boards), "broad_boards_ok": broad_stats["boards_ok"],
+                   "jobs_curated": broad_stats["curated"], "jobs_broad": broad_stats["broad"], "jobs_hn": broad_stats["hn"],
+                   "broad_dropped_pay": broad_stats["dropped_pay"]},
+        "broad_log": blog,
+        "new_boards": sorted({n for k in new_keys
+                              if (n := bstate["boards"][k].get("company") or broad.company_from_token(bstate["boards"][k].get("token", "")))}),
         "not_covered": sorted(own_site),
         "boards": sorted(board_status, key=lambda s: (s["status"], s["company"])),
         "jobs": out_jobs,
@@ -668,9 +884,14 @@ def main():
     (DATA / "jobs.json").write_text(json.dumps(summary, indent=1, ensure_ascii=False))
     (DATA / "seen.json").write_text(json.dumps(seen, indent=0, sort_keys=True))
     (DATA / "discovered.json").write_text(json.dumps(disc, indent=1, sort_keys=True))
+    (DATA / "broad.json").write_text(json.dumps(bstate, indent=0, sort_keys=True))
     c = summary["counts"]
     print(f"boards {c['boards_ok']}/{c['boards']} ok · {c['jobs']} jobs ({c['new_today']} new) · "
           f"{c['dropped_experience']} dropped for experience · not covered: {len(own_site)}")
+    print(f"broad: {c['broad_boards']} boards ({c['broad_boards_ok']} ok) · {c['jobs_broad']} broad + {c['jobs_hn']} HN jobs kept · "
+          f"{c['broad_dropped_pay']} dropped for no/low posted pay · {len(summary['new_boards'])} new boards")
+    for line in blog:
+        print("  " + line)
     for s in board_status:
         if s["status"] == "failed":
             print(f"  FAILED {s['company']} [{s['ats']}:{s['token']}] {s['error']}")
