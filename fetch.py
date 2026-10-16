@@ -49,7 +49,7 @@ def _polite(host: str, gap: float = 0.5):
 
 
 # Slower pacing for big-company career sites (they rate-limit quickly).
-HOST_GAP = {"apply.careers.microsoft.com": 2.5, "jobs.apple.com": 1.0, "www.google.com": 2.0,
+HOST_GAP = {"apply.careers.microsoft.com": 5.0, "jobs.apple.com": 1.0, "www.google.com": 2.0,
             "hn.algolia.com": 1.0, "yc-oss.github.io": 1.0}
 
 
@@ -76,7 +76,8 @@ def http(url, body=None, headers=None, timeout=40, raw=False, opener=None):
                     return r.status, None, "non-JSON response"
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503, 504) and attempt < 2:
-                time.sleep(4 * (attempt + 1))
+                # big-company sites rate-limit harder: back off longer there
+                time.sleep((20 if host in HOST_GAP else 4) * (attempt + 1))
                 continue
             return e.code, None, f"HTTP {e.code}"
         except Exception as e:  # timeouts, DNS, TLS
@@ -494,7 +495,7 @@ def microsoft(b):
     """Microsoft's Eightfold 'pcsx' API: NYC roles, plus US roles flagged remote."""
     base = "https://apply.careers.microsoft.com/api/pcsx"
     out, seen, total = [], set(), 0
-    passes = [("New York, NY, United States", False, q) for q in b.get("queries", ["software engineer", "backend", "infrastructure"])]
+    passes = [("New York, NY, United States", False, q) for q in b.get("queries", ["software engineer", "infrastructure"])]
     passes.append(("United States", True, "software engineer"))
     for loc, remote_only, q in passes:
         if True:
@@ -859,6 +860,11 @@ def main():
         board_status.append({"company": b["company"], "ats": b["ats"], "token": b.get("token") or b.get("tenant") or b.get("domain") or "",
                              "discovered": bool(b.get("discovered")), "status": "failed" if err else "ok",
                              "error": err, "total": total, "matched": matched, "dropped": dict(why_dropped)})
+
+    # A failed custom big-company fetcher hands the company back to the digest's web search.
+    for s_ in board_status:
+        if s_["status"] == "failed" and s_["ats"] in ("google", "microsoft", "apple", "janestreet", "uber"):
+            own_site.append(s_["company"])
 
     # 4. prune seen + write
     cutoff = (NOW.date() - dt.timedelta(days=SEEN_TTL_DAYS)).isoformat()
