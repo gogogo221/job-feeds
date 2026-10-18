@@ -1,20 +1,38 @@
 {
 "boards": {
+"ashby:9-mothers": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "9 Mothers",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "9-mothers"
+},
 "ashby:abacum": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Abacum",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "abacum"
+},
+"ashby:accord": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Accord",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "accord"
 },
 "ashby:afterquery": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Afterquery",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "AfterQuery"
 },
@@ -23,7 +41,7 @@
 "ats": "ashby",
 "company": "Agave",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Agave"
 },
@@ -32,7 +50,7 @@
 "ats": "ashby",
 "company": "AIOS",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "aios"
 },
@@ -41,7 +59,7 @@
 "ats": "ashby",
 "company": "AiPrise",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "aiprise"
 },
@@ -50,7 +68,7 @@
 "ats": "ashby",
 "company": "Aleph",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "aleph"
 },
@@ -59,7 +77,7 @@
 "ats": "ashby",
 "company": "Alex",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "alexai"
 },
@@ -68,7 +86,7 @@
 "ats": "ashby",
 "company": "Ambient.ai",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ambient.ai"
 },
@@ -77,43 +95,79 @@
 "ats": "ashby",
 "company": "Amplitude",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "amplitude"
+},
+"ashby:anima": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Anima",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Anima"
 },
 "ashby:anterior": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Anterior",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "anterior"
+},
+"ashby:anthrogen": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Anthrogen",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "anthrogen"
 },
 "ashby:apollo-graphql": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Apollo",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "apollo-graphql"
+},
+"ashby:arini": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Arini",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "arini"
 },
 "ashby:arketa": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Arketa",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "arketa"
+},
+"ashby:artie": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Artie",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "artie"
 },
 "ashby:artisan": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Artisan",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "artisan"
 },
@@ -122,7 +176,7 @@
 "ats": "ashby",
 "company": "Ashby",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ashby"
 },
@@ -131,7 +185,7 @@
 "ats": "ashby",
 "company": "Assembly",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "assembly"
 },
@@ -140,7 +194,7 @@
 "ats": "ashby",
 "company": "Astro Mechanica",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Astro-Mechanica"
 },
@@ -149,7 +203,7 @@
 "ats": "ashby",
 "company": "Atlas",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "atlas"
 },
@@ -158,7 +212,7 @@
 "ats": "ashby",
 "company": "AtoB",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "atob"
 },
@@ -167,7 +221,7 @@
 "ats": "ashby",
 "company": "Atomic Industries",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "atomic"
 },
@@ -176,7 +230,7 @@
 "ats": "ashby",
 "company": "Auctor",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "auctor"
 },
@@ -185,7 +239,7 @@
 "ats": "ashby",
 "company": "Aurelian",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "aurelian"
 },
@@ -194,7 +248,7 @@
 "ats": "ashby",
 "company": "Authzed",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "authzed"
 },
@@ -203,25 +257,43 @@
 "ats": "ashby",
 "company": "Avoca",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "avoca"
+},
+"ashby:axel": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Axel Travel",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Axel"
 },
 "ashby:axle-health": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Axle Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "axle-health"
+},
+"ashby:axleinsure": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Axle",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "axleinsure"
 },
 "ashby:belvo": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Belvo",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "belvo"
 },
@@ -230,16 +302,25 @@
 "ats": "ashby",
 "company": "Benepass",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "benepass"
+},
+"ashby:beyondreachlabs": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Beyond Reach Labs",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "beyondreachlabs"
 },
 "ashby:billiontoone": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "BillionToOne",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "billiontoone"
 },
@@ -248,16 +329,25 @@
 "ats": "ashby",
 "company": "Bland AI",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "bland"
+},
+"ashby:blee": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Blee",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Blee"
 },
 "ashby:blissway": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Blissway",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "blissway"
 },
@@ -266,7 +356,7 @@
 "ats": "ashby",
 "company": "Bolna AI",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "bolna"
 },
@@ -275,7 +365,7 @@
 "ats": "ashby",
 "company": "Bretton AI",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "brettonai"
 },
@@ -284,7 +374,7 @@
 "ats": "ashby",
 "company": "Broccoli AI",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "broccoli"
 },
@@ -293,7 +383,7 @@
 "ats": "ashby",
 "company": "Bunkerhill Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "bunkerhillhealth"
 },
@@ -302,7 +392,7 @@
 "ats": "ashby",
 "company": "Camber",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "camber"
 },
@@ -311,7 +401,7 @@
 "ats": "ashby",
 "company": "Cambio",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "cambio"
 },
@@ -320,7 +410,7 @@
 "ats": "ashby",
 "company": "Cambly",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Cambly"
 },
@@ -329,7 +419,7 @@
 "ats": "ashby",
 "company": "Campfire",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "campfire"
 },
@@ -338,7 +428,7 @@
 "ats": "ashby",
 "company": "Candid Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "candidhealth"
 },
@@ -346,7 +436,8 @@
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Capi Money",
-"fails": 2,
+"dead": "2026-10-18",
+"fails": 3,
 "source": "yc",
 "token": "capimoney"
 },
@@ -355,16 +446,25 @@
 "ats": "ashby",
 "company": "Casca",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "casca"
+},
+"ashby:castle": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Castle",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "castle"
 },
 "ashby:charge-robotics": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Charge Robotics",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "charge-robotics"
 },
@@ -373,7 +473,7 @@
 "ats": "ashby",
 "company": "Chariot",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "chariot"
 },
@@ -382,7 +482,7 @@
 "ats": "ashby",
 "company": "Chariotclaims",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "chariotclaims"
 },
@@ -391,7 +491,7 @@
 "ats": "ashby",
 "company": "Checkly",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "checkly"
 },
@@ -400,7 +500,7 @@
 "ats": "ashby",
 "company": "Cinder",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "cinder"
 },
@@ -409,18 +509,45 @@
 "ats": "ashby",
 "company": "CircuitHub",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "circuithub"
+},
+"ashby:claimsorted": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "ClaimSorted",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "claimsorted"
+},
+"ashby:clarion": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Clarion",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "clarion"
 },
 "ashby:classdojo": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Classdojo",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ClassDojo"
+},
+"ashby:clearly-ai": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Clearly AI",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "clearly-ai"
 },
 "ashby:clickhouse": {
 "added": "2026-10-16",
@@ -435,7 +562,7 @@
 "ats": "ashby",
 "company": "Clipboard",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "clipboard"
 },
@@ -444,7 +571,7 @@
 "ats": "ashby",
 "company": "Close",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "close"
 },
@@ -453,7 +580,7 @@
 "ats": "ashby",
 "company": "Codes Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "codes-health"
 },
@@ -462,7 +589,7 @@
 "ats": "ashby",
 "company": "Colonist",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "colonist"
 },
@@ -475,21 +602,57 @@
 "source": "yc",
 "token": "Commure-Athelas"
 },
+"ashby:complir": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Complir",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "complir"
+},
+"ashby:concourse": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Concourse",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "concourse"
+},
+"ashby:conduit": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Conduit",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "conduit"
+},
 "ashby:confido": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Confido",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "confido"
+},
+"ashby:credal": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Credal.ai",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "credal"
 },
 "ashby:curri": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Curri",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "curri"
 },
@@ -498,16 +661,25 @@
 "ats": "ashby",
 "company": "Datafold",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "datafold"
+},
+"ashby:decodahealth": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Decoda Health",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "decodahealth"
 },
 "ashby:deepgram": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Deepgram",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Deepgram"
 },
@@ -516,7 +688,7 @@
 "ats": "ashby",
 "company": "Deepl",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "DeepL"
 },
@@ -525,16 +697,25 @@
 "ats": "ashby",
 "company": "Deeter Analytics",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "deeter-analytics"
+},
+"ashby:ditto": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Ditto",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "ditto"
 },
 "ashby:domu": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Domu Technology Inc.",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "domu"
 },
@@ -543,7 +724,7 @@
 "ats": "ashby",
 "company": "Double",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "double"
 },
@@ -552,7 +733,7 @@
 "ats": "ashby",
 "company": "Duck Duck Go",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "duck-duck-go"
 },
@@ -561,7 +742,7 @@
 "ats": "ashby",
 "company": "Duffel",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "duffel"
 },
@@ -570,7 +751,7 @@
 "ats": "ashby",
 "company": "Eight Sleep",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "eightsleep"
 },
@@ -579,16 +760,25 @@
 "ats": "ashby",
 "company": "Ekho",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ekho"
+},
+"ashby:electricair": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Electric Air",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "electricair"
 },
 "ashby:ello": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Ello",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ello"
 },
@@ -597,7 +787,7 @@
 "ats": "ashby",
 "company": "Ember",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "emberai"
 },
@@ -606,7 +796,7 @@
 "ats": "ashby",
 "company": "Enode",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Enode"
 },
@@ -615,16 +805,34 @@
 "ats": "ashby",
 "company": "Escape",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "escape"
+},
+"ashby:eventualcomputing": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Eventual",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "eventualcomputing"
+},
+"ashby:f2-ai": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "F2",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "f2-ai"
 },
 "ashby:fieldguide": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Fieldguide",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "fieldguide"
 },
@@ -633,7 +841,7 @@
 "ats": "ashby",
 "company": "Finch",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "finch"
 },
@@ -642,7 +850,7 @@
 "ats": "ashby",
 "company": "Finni Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "finni-health"
 },
@@ -651,7 +859,7 @@
 "ats": "ashby",
 "company": "FINNY AI",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "FINNY"
 },
@@ -660,7 +868,7 @@
 "ats": "ashby",
 "company": "Flagright",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "flagright.com"
 },
@@ -669,7 +877,7 @@
 "ats": "ashby",
 "company": "Flai",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "flai"
 },
@@ -678,16 +886,25 @@
 "ats": "ashby",
 "company": "Fleek",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "fleek"
+},
+"ashby:fleetworks": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "FleetWorks",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "fleetworks"
 },
 "ashby:flint": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Flint",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "flint"
 },
@@ -696,7 +913,7 @@
 "ats": "ashby",
 "company": "Flutterflow",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "FlutterFlow"
 },
@@ -705,7 +922,7 @@
 "ats": "ashby",
 "company": "Formance",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "formance"
 },
@@ -714,7 +931,7 @@
 "ats": "ashby",
 "company": "Fortuna Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "fortuna-health"
 },
@@ -723,7 +940,7 @@
 "ats": "ashby",
 "company": "Freshpaint",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "freshpaint"
 },
@@ -732,7 +949,7 @@
 "ats": "ashby",
 "company": "FurtherAI",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "furtherai"
 },
@@ -741,7 +958,7 @@
 "ats": "ashby",
 "company": "Garage",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "garage"
 },
@@ -750,7 +967,7 @@
 "ats": "ashby",
 "company": "Gecko Robotics",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "gecko-robotics"
 },
@@ -759,7 +976,7 @@
 "ats": "ashby",
 "company": "Giga",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "gigaml"
 },
@@ -768,7 +985,7 @@
 "ats": "ashby",
 "company": "Gigs",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "gigs"
 },
@@ -777,7 +994,7 @@
 "ats": "ashby",
 "company": "Glimpse",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "glimpse"
 },
@@ -786,7 +1003,7 @@
 "ats": "ashby",
 "company": "GoLinks",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "golinks"
 },
@@ -795,7 +1012,7 @@
 "ats": "ashby",
 "company": "GovDash",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "govdash"
 },
@@ -804,7 +1021,7 @@
 "ats": "ashby",
 "company": "Goveagle",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "GovEagle"
 },
@@ -813,7 +1030,7 @@
 "ats": "ashby",
 "company": "Great Question",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "greatquestion"
 },
@@ -822,7 +1039,7 @@
 "ats": "ashby",
 "company": "Greenboard",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "greenboard"
 },
@@ -831,7 +1048,7 @@
 "ats": "ashby",
 "company": "HappyRobot",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "happyrobot.ai"
 },
@@ -840,7 +1057,7 @@
 "ats": "ashby",
 "company": "Harper",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "harperinsure"
 },
@@ -849,7 +1066,7 @@
 "ats": "ashby",
 "company": "Heron",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "herondata"
 },
@@ -857,7 +1074,8 @@
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "HitPay",
-"fails": 2,
+"dead": "2026-10-18",
+"fails": 3,
 "source": "yc",
 "token": "hitpayapp.com"
 },
@@ -866,7 +1084,7 @@
 "ats": "ashby",
 "company": "Hive",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "hive.co"
 },
@@ -875,7 +1093,7 @@
 "ats": "ashby",
 "company": "HockeyStack",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "hockeystack"
 },
@@ -884,7 +1102,7 @@
 "ats": "ashby",
 "company": "HUD",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "hud"
 },
@@ -893,7 +1111,7 @@
 "ats": "ashby",
 "company": "Humaans",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "humaans"
 },
@@ -902,7 +1120,7 @@
 "ats": "ashby",
 "company": "Human Archive",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "humanarchive"
 },
@@ -911,7 +1129,7 @@
 "ats": "ashby",
 "company": "Hyperbound",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Hyperbound"
 },
@@ -920,7 +1138,7 @@
 "ats": "ashby",
 "company": "Infisical",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "infisical"
 },
@@ -929,16 +1147,25 @@
 "ats": "ashby",
 "company": "InfluxData",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Influxdata"
+},
+"ashby:inkeep": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Inkeep",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "inkeep"
 },
 "ashby:inscribeai": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Inscribe",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "InscribeAI"
 },
@@ -947,7 +1174,7 @@
 "ats": "ashby",
 "company": "Invert",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "invert"
 },
@@ -956,7 +1183,7 @@
 "ats": "ashby",
 "company": "Jiga",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "jiga"
 },
@@ -965,25 +1192,43 @@
 "ats": "ashby",
 "company": "Juicebox",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "juicebox"
+},
+"ashby:junction": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Junction",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "junction"
 },
 "ashby:jupus": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Jupus",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "jupus"
+},
+"ashby:kastle": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Kastle",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Kastle"
 },
 "ashby:kingdom": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Kingdom",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Kingdom"
 },
@@ -992,16 +1237,24 @@
 "ats": "ashby",
 "company": "Kivo Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "kivo-health"
+},
+"ashby:kobalt labs": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Kobalt Labs",
+"fails": 1,
+"source": "yc",
+"token": "Kobalt Labs"
 },
 "ashby:kodex": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Kodex",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "kodex"
 },
@@ -1010,7 +1263,7 @@
 "ats": "ashby",
 "company": "Krakentech",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "krakentech"
 },
@@ -1019,9 +1272,18 @@
 "ats": "ashby",
 "company": "Lago",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "lago"
+},
+"ashby:laminar-jobs": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Laminar",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "laminar-jobs"
 },
 "ashby:langfuse": {
 "added": "2026-10-16",
@@ -1032,12 +1294,21 @@
 "source": "hn:49522897",
 "token": "langfuse"
 },
+"ashby:lapel": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Lapel",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Lapel"
+},
 "ashby:latent": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Latent",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "latent"
 },
@@ -1046,7 +1317,7 @@
 "ats": "ashby",
 "company": "Legora",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "legora"
 },
@@ -1055,16 +1326,25 @@
 "ats": "ashby",
 "company": "Lightdash",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "lightdash"
+},
+"ashby:litellm": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "LiteLLM",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "litellm"
 },
 "ashby:liveflow": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "LiveFlow",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "liveflow"
 },
@@ -1073,16 +1353,25 @@
 "ats": "ashby",
 "company": "Livekit",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "livekit"
+},
+"ashby:lucis": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Lucis",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "lucis"
 },
 "ashby:luminai": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Luminai",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "luminai"
 },
@@ -1091,7 +1380,7 @@
 "ats": "ashby",
 "company": "Mach9",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "mach9"
 },
@@ -1100,16 +1389,25 @@
 "ats": "ashby",
 "company": "Mednet",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "mednet"
+},
+"ashby:metal": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Metal",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "metal"
 },
 "ashby:method": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Method Financial",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "method"
 },
@@ -1118,7 +1416,7 @@
 "ats": "ashby",
 "company": "Metriport",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "metriport"
 },
@@ -1127,9 +1425,18 @@
 "ats": "ashby",
 "company": "Middesk",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "middesk"
+},
+"ashby:momentic": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Momentic",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "momentic"
 },
 "ashby:moonvalley-ai": {
 "added": "2026-10-16",
@@ -1139,6 +1446,15 @@
 "fails": 3,
 "source": "yc",
 "token": "moonvalley-ai"
+},
+"ashby:mutiny": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Mutiny",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Mutiny"
 },
 "ashby:nanonets": {
 "added": "2026-10-16",
@@ -1154,7 +1470,7 @@
 "ats": "ashby",
 "company": "Nash",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Nash"
 },
@@ -1167,12 +1483,20 @@
 "source": "hn:49522897",
 "token": "Neon"
 },
+"ashby:new": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "New Story",
+"fails": 1,
+"source": "yc",
+"token": "New"
+},
 "ashby:nomic": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Nomic Bio",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "nomic"
 },
@@ -1181,7 +1505,7 @@
 "ats": "ashby",
 "company": "Norm Ai",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "norm-ai"
 },
@@ -1190,7 +1514,7 @@
 "ats": "ashby",
 "company": "Novig",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "novig"
 },
@@ -1199,7 +1523,7 @@
 "ats": "ashby",
 "company": "Nox Metals",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "nox-metals"
 },
@@ -1208,7 +1532,7 @@
 "ats": "ashby",
 "company": "Numeral",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "numeral"
 },
@@ -1217,7 +1541,7 @@
 "ats": "ashby",
 "company": "Odyssey",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "odyssey"
 },
@@ -1226,7 +1550,7 @@
 "ats": "ashby",
 "company": "OffDeal",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "offdeal"
 },
@@ -1235,7 +1559,7 @@
 "ats": "ashby",
 "company": "OneChronos",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "onechronos"
 },
@@ -1244,16 +1568,25 @@
 "ats": "ashby",
 "company": "Oneleet",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "oneleet"
+},
+"ashby:oneschema": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "OneSchema",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "oneschema"
 },
 "ashby:oscilar": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Oscilar",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "oscilar"
 },
@@ -1262,7 +1595,7 @@
 "ats": "ashby",
 "company": "Outset",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "outset"
 },
@@ -1271,7 +1604,7 @@
 "ats": "ashby",
 "company": "Overview",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "overview"
 },
@@ -1280,7 +1613,7 @@
 "ats": "ashby",
 "company": "Padlet",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "padlet"
 },
@@ -1289,16 +1622,43 @@
 "ats": "ashby",
 "company": "Paragon",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Paragon"
+},
+"ashby:parallel-bio": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Parallel Bio",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "parallel-bio"
+},
+"ashby:parameter": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Parameter",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "parameter"
+},
+"ashby:pear-vc": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Spur",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Pear-VC"
 },
 "ashby:permitflow": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "PermitFlow",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "permitflow"
 },
@@ -1307,7 +1667,7 @@
 "ats": "ashby",
 "company": "Phoenix",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "phoenix"
 },
@@ -1316,16 +1676,25 @@
 "ats": "ashby",
 "company": "Pirros",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "pirros"
+},
+"ashby:ployai": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Ploy",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "ployai"
 },
 "ashby:pointone": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Pointone",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "PointOne"
 },
@@ -1334,7 +1703,7 @@
 "ats": "ashby",
 "company": "Popl",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "popl"
 },
@@ -1343,7 +1712,7 @@
 "ats": "ashby",
 "company": "Prelim",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "prelim"
 },
@@ -1352,16 +1721,25 @@
 "ats": "ashby",
 "company": "Prior Labs",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "prior-labs"
+},
+"ashby:probablygenetic": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Probably Genetic",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "probablygenetic"
 },
 "ashby:productgenius": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Productgenius",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "productgenius"
 },
@@ -1370,25 +1748,43 @@
 "ats": "ashby",
 "company": "Promise",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Promise"
+},
+"ashby:provision": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Provision",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "provision"
 },
 "ashby:pulse": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Pulse",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "pulse"
+},
+"ashby:pure": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Pure",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "pure"
 },
 "ashby:quindar": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Quindar",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "quindar"
 },
@@ -1397,7 +1793,7 @@
 "ats": "ashby",
 "company": "Rally",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "rallyuxr"
 },
@@ -1406,7 +1802,7 @@
 "ats": "ashby",
 "company": "Ready",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ready"
 },
@@ -1415,7 +1811,7 @@
 "ats": "ashby",
 "company": "Reality Defender",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "realitydefender"
 },
@@ -1424,7 +1820,7 @@
 "ats": "ashby",
 "company": "Rebar",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "rebar"
 },
@@ -1433,7 +1829,7 @@
 "ats": "ashby",
 "company": "Recall.ai",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Recall"
 },
@@ -1442,16 +1838,34 @@
 "ats": "ashby",
 "company": "Reducto",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "reducto"
+},
+"ashby:reform": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Reform",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "reform"
+},
+"ashby:replo": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Replo",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "replo"
 },
 "ashby:retell-ai": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Retell AI",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "retell-ai"
 },
@@ -1460,7 +1874,7 @@
 "ats": "ashby",
 "company": "RevenueCat",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "revenuecat"
 },
@@ -1469,7 +1883,7 @@
 "ats": "ashby",
 "company": "Roboflow",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "roboflow"
 },
@@ -1478,7 +1892,7 @@
 "ats": "ashby",
 "company": "Rollstack",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "rollstack"
 },
@@ -1487,7 +1901,7 @@
 "ats": "ashby",
 "company": "Runway Ml",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "runway-ml"
 },
@@ -1496,34 +1910,61 @@
 "ats": "ashby",
 "company": "Rutter",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "rutter"
+},
+"ashby:salespatriot": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Salespatriot",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "SalesPatriot"
 },
 "ashby:salient": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Salient",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "salient"
+},
+"ashby:sauna.ai": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Wordware",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "sauna.ai"
 },
 "ashby:sentilink": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Sentilink",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "sentilink"
+},
+"ashby:serifhealth": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Serif Health",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "serifhealth"
 },
 "ashby:sheerhealth": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Sheerhealth",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "sheerhealth"
 },
@@ -1532,7 +1973,7 @@
 "ats": "ashby",
 "company": "Shepherd",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "shepherd"
 },
@@ -1541,7 +1982,7 @@
 "ats": "ashby",
 "company": "Short Story",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ShortStory"
 },
@@ -1550,7 +1991,7 @@
 "ats": "ashby",
 "company": "Sieve",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "sieve"
 },
@@ -1559,16 +2000,25 @@
 "ats": "ashby",
 "company": "Signoz",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "SigNoz"
+},
+"ashby:slope": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Slope",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "slope"
 },
 "ashby:snapmagic": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "SnapMagic",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "snapmagic"
 },
@@ -1577,7 +2027,7 @@
 "ats": "ashby",
 "company": "Solace",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "Solace"
 },
@@ -1586,7 +2036,7 @@
 "ats": "ashby",
 "company": "Somana Tech",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "somana.tech"
 },
@@ -1595,7 +2045,7 @@
 "ats": "ashby",
 "company": "Spade",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "spade"
 },
@@ -1604,7 +2054,7 @@
 "ats": "ashby",
 "company": "Speak",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "speak"
 },
@@ -1613,7 +2063,7 @@
 "ats": "ashby",
 "company": "Spellbrush",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "spellbrush"
 },
@@ -1622,7 +2072,7 @@
 "ats": "ashby",
 "company": "Stable",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "stable"
 },
@@ -1631,7 +2081,7 @@
 "ats": "ashby",
 "company": "Stepful",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Stepful"
 },
@@ -1640,7 +2090,7 @@
 "ats": "ashby",
 "company": "Strada",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "stradahq"
 },
@@ -1649,16 +2099,25 @@
 "ats": "ashby",
 "company": "Stream",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "stream"
+},
+"ashby:svix": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Svix",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "svix"
 },
 "ashby:tailor": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Tailor",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "tailor"
 },
@@ -1667,25 +2126,43 @@
 "ats": "ashby",
 "company": "Taktile",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "taktile"
+},
+"ashby:tamarindbio": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Tamarind Bio",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "tamarindbio"
 },
 "ashby:tavus": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Tavus",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "tavus"
+},
+"ashby:terminal": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Terminal",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "terminal"
 },
 "ashby:tilt": {
 "added": "2026-10-17",
 "ats": "ashby",
 "company": "Tilt (f.k.a. Delphia)",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "tilt"
 },
@@ -1694,7 +2171,7 @@
 "ats": "ashby",
 "company": "Titan",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "titan"
 },
@@ -1703,7 +2180,7 @@
 "ats": "ashby",
 "company": "Topline Pro",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "topline-pro"
 },
@@ -1712,16 +2189,33 @@
 "ats": "ashby",
 "company": "Triomics",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "triomics"
+},
+"ashby:truss": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Truss",
+"fails": 1,
+"source": "yc",
+"token": "truss"
+},
+"ashby:turion-space": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Turion Space",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "turion-space"
 },
 "ashby:turquoise-health": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Turquoise Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "turquoise-health"
 },
@@ -1730,7 +2224,7 @@
 "ats": "ashby",
 "company": "UpCodes",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "upcodes"
 },
@@ -1739,25 +2233,43 @@
 "ats": "ashby",
 "company": "Uplane",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "uplane"
+},
+"ashby:usul": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Usul",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "usul"
 },
 "ashby:vapi": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Vapi",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "vapi"
+},
+"ashby:vector": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Vector",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "vector"
 },
 "ashby:verge-labs": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Verge Genomics",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "verge-labs"
 },
@@ -1766,7 +2278,7 @@
 "ats": "ashby",
 "company": "Verse Medical",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "versemedical"
 },
@@ -1775,7 +2287,7 @@
 "ats": "ashby",
 "company": "Verto",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "verto"
 },
@@ -1784,7 +2296,7 @@
 "ats": "ashby",
 "company": "Vetcove",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Vetcove"
 },
@@ -1793,7 +2305,7 @@
 "ats": "ashby",
 "company": "Vitable Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "vitable"
 },
@@ -1802,7 +2314,7 @@
 "ats": "ashby",
 "company": "Vitalize",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "vitalize"
 },
@@ -1811,7 +2323,7 @@
 "ats": "ashby",
 "company": "Voize",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "voize"
 },
@@ -1820,7 +2332,7 @@
 "ats": "ashby",
 "company": "Voladynamics",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "voladynamics"
 },
@@ -1829,7 +2341,7 @@
 "ats": "ashby",
 "company": "Vooma",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "vooma"
 },
@@ -1838,9 +2350,18 @@
 "ats": "ashby",
 "company": "Vori",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Vori"
+},
+"ashby:weave-os": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Weave",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "weave-os"
 },
 "ashby:whatnot": {
 "added": "2026-10-16",
@@ -1856,7 +2377,7 @@
 "ats": "ashby",
 "company": "Within",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "within.ai"
 },
@@ -1865,7 +2386,7 @@
 "ats": "ashby",
 "company": "Y Combinator",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ycombinator"
 },
@@ -1874,16 +2395,25 @@
 "ats": "ashby",
 "company": "Zapier",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "zapier"
+},
+"ashby:zensors": {
+"added": "2026-10-18",
+"ats": "ashby",
+"company": "Zensors",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Zensors"
 },
 "ashby:ziina": {
 "added": "2026-10-16",
 "ats": "ashby",
 "company": "Ziina",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ziina"
 },
@@ -1892,7 +2422,7 @@
 "ats": "greenhouse",
 "company": "Agency",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "agency"
 },
@@ -1901,7 +2431,7 @@
 "ats": "greenhouse",
 "company": "Albedo",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "albedo"
 },
@@ -1910,7 +2440,7 @@
 "ats": "greenhouse",
 "company": "Algolia",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "algolia"
 },
@@ -1919,7 +2449,7 @@
 "ats": "greenhouse",
 "company": "AON3D",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "aon3d"
 },
@@ -1928,7 +2458,7 @@
 "ats": "greenhouse",
 "company": "Apollo.io",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "apolloio"
 },
@@ -1937,7 +2467,7 @@
 "ats": "greenhouse",
 "company": "AssemblyAI",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "assemblyai"
 },
@@ -1946,7 +2476,7 @@
 "ats": "greenhouse",
 "company": "Astranis",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "astranis"
 },
@@ -1955,16 +2485,25 @@
 "ats": "greenhouse",
 "company": "Bitmovin",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "bitmovin"
+},
+"greenhouse:carbonchain": {
+"added": "2026-10-18",
+"ats": "greenhouse",
+"company": "CarbonChain",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "carbonchain"
 },
 "greenhouse:checkr": {
 "added": "2026-10-16",
 "ats": "greenhouse",
 "company": "Checkr",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "checkr"
 },
@@ -1973,7 +2512,7 @@
 "ats": "greenhouse",
 "company": "Coast",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "coast"
 },
@@ -1982,7 +2521,7 @@
 "ats": "greenhouse",
 "company": "Flexport",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "flexport"
 },
@@ -1990,16 +2529,26 @@
 "added": "2026-10-16",
 "ats": "greenhouse",
 "company": "Gather",
-"fails": 2,
+"dead": "2026-10-18",
+"fails": 3,
 "source": "yc",
 "token": "gather"
+},
+"greenhouse:generalproximity": {
+"added": "2026-10-18",
+"ats": "greenhouse",
+"company": "General Proximity",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "generalproximity"
 },
 "greenhouse:ginkgobioworks": {
 "added": "2026-10-16",
 "ats": "greenhouse",
 "company": "Ginkgo Bioworks",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ginkgobioworks"
 },
@@ -2008,7 +2557,7 @@
 "ats": "greenhouse",
 "company": "GiveCampus",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "givecampus"
 },
@@ -2017,7 +2566,7 @@
 "ats": "greenhouse",
 "company": "GiveDirectly",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "givedirectly"
 },
@@ -2026,7 +2575,7 @@
 "ats": "greenhouse",
 "company": "GOAT Group",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "goatgroup"
 },
@@ -2035,16 +2584,25 @@
 "ats": "greenhouse",
 "company": "HackerRank",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "hackerrank"
+},
+"greenhouse:haven": {
+"added": "2026-10-18",
+"ats": "greenhouse",
+"company": "Haven",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "haven"
 },
 "greenhouse:humaninterest": {
 "added": "2026-10-16",
 "ats": "greenhouse",
 "company": "Human Interest",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "humaninterest"
 },
@@ -2053,7 +2611,7 @@
 "ats": "greenhouse",
 "company": "Icarus",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "icarus"
 },
@@ -2062,7 +2620,7 @@
 "ats": "greenhouse",
 "company": "IMT Care",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "imt"
 },
@@ -2071,7 +2629,7 @@
 "ats": "greenhouse",
 "company": "Instawork",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "instawork"
 },
@@ -2080,7 +2638,7 @@
 "ats": "greenhouse",
 "company": "Lattice",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "lattice"
 },
@@ -2089,7 +2647,7 @@
 "ats": "greenhouse",
 "company": "Legalist",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "legalist"
 },
@@ -2097,7 +2655,8 @@
 "added": "2026-10-16",
 "ats": "greenhouse",
 "company": "LineLeap",
-"fails": 2,
+"dead": "2026-10-18",
+"fails": 3,
 "source": "yc",
 "token": "lineleap"
 },
@@ -2106,7 +2665,7 @@
 "ats": "greenhouse",
 "company": "Lob",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "lob"
 },
@@ -2115,7 +2674,7 @@
 "ats": "greenhouse",
 "company": "Manifest",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "manifest"
 },
@@ -2124,7 +2683,7 @@
 "ats": "greenhouse",
 "company": "Mattermost",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "mattermost"
 },
@@ -2133,7 +2692,7 @@
 "ats": "greenhouse",
 "company": "May Mobility",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "maymobility"
 },
@@ -2142,7 +2701,7 @@
 "ats": "greenhouse",
 "company": "Meru Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "meruhealth"
 },
@@ -2151,7 +2710,7 @@
 "ats": "greenhouse",
 "company": "Modern Health",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "modernhealth"
 },
@@ -2160,9 +2719,18 @@
 "ats": "greenhouse",
 "company": "Nabis",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "nabis"
+},
+"greenhouse:niraenergy": {
+"added": "2026-10-18",
+"ats": "greenhouse",
+"company": "Nira Energy",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "niraenergy"
 },
 "greenhouse:noorahealth": {
 "added": "2026-10-16",
@@ -2178,7 +2746,7 @@
 "ats": "greenhouse",
 "company": "Nova Credit",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "novacredit"
 },
@@ -2187,7 +2755,7 @@
 "ats": "greenhouse",
 "company": "Odeko",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "odeko"
 },
@@ -2196,7 +2764,7 @@
 "ats": "greenhouse",
 "company": "Oklo",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "oklo"
 },
@@ -2205,7 +2773,7 @@
 "ats": "greenhouse",
 "company": "Ophelia",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "ophelia"
 },
@@ -2214,7 +2782,7 @@
 "ats": "greenhouse",
 "company": "Pair Team",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "pairteam"
 },
@@ -2223,7 +2791,7 @@
 "ats": "greenhouse",
 "company": "Pave",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "paveakatroveinformationtechnologies"
 },
@@ -2232,7 +2800,7 @@
 "ats": "greenhouse",
 "company": "Pelago",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "pelago"
 },
@@ -2241,7 +2809,7 @@
 "ats": "greenhouse",
 "company": "PicnicAI",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "picnicai"
 },
@@ -2250,16 +2818,25 @@
 "ats": "greenhouse",
 "company": "Podium",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "podium81"
+},
+"greenhouse:porter": {
+"added": "2026-10-18",
+"ats": "greenhouse",
+"company": "Porter",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "porter"
 },
 "greenhouse:postscript": {
 "added": "2026-10-16",
 "ats": "greenhouse",
 "company": "Postscript",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "postscript"
 },
@@ -2268,7 +2845,7 @@
 "ats": "greenhouse",
 "company": "Prodigal",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "prodigal"
 },
@@ -2277,7 +2854,7 @@
 "ats": "greenhouse",
 "company": "Prolific",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "prolific"
 },
@@ -2286,7 +2863,7 @@
 "ats": "greenhouse",
 "company": "Prospa",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "prospa"
 },
@@ -2294,7 +2871,8 @@
 "added": "2026-10-16",
 "ats": "greenhouse",
 "company": "Pulley",
-"fails": 2,
+"dead": "2026-10-18",
+"fails": 3,
 "source": "yc",
 "token": "pulley"
 },
@@ -2303,7 +2881,7 @@
 "ats": "greenhouse",
 "company": "Pump.co",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "pumpcareers"
 },
@@ -2312,7 +2890,7 @@
 "ats": "greenhouse",
 "company": "Qventus",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "qventus"
 },
@@ -2321,7 +2899,7 @@
 "ats": "greenhouse",
 "company": "RADAR",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "radar"
 },
@@ -2330,7 +2908,7 @@
 "ats": "greenhouse",
 "company": "Razorpay",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "razorpaysoftwareprivatelimited"
 },
@@ -2339,7 +2917,7 @@
 "ats": "greenhouse",
 "company": "Recidiviz",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "recidiviz"
 },
@@ -2348,7 +2926,7 @@
 "ats": "greenhouse",
 "company": "Sendbird",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "sendbird"
 },
@@ -2357,7 +2935,7 @@
 "ats": "greenhouse",
 "company": "SimplyInsured",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "si"
 },
@@ -2366,7 +2944,7 @@
 "ats": "greenhouse",
 "company": "Swayable",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "swayable"
 },
@@ -2374,7 +2952,7 @@
 "added": "2026-10-17",
 "ats": "greenhouse",
 "company": "SwiftSku",
-"fails": 1,
+"fails": 2,
 "source": "yc",
 "token": "swiftsku"
 },
@@ -2383,7 +2961,7 @@
 "ats": "greenhouse",
 "company": "Tempo",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "tempo"
 },
@@ -2391,7 +2969,8 @@
 "added": "2026-10-16",
 "ats": "greenhouse",
 "company": "Tint",
-"fails": 2,
+"dead": "2026-10-18",
+"fails": 3,
 "source": "yc",
 "token": "tintai"
 },
@@ -2400,7 +2979,7 @@
 "ats": "greenhouse",
 "company": "Nourish",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "usenourish"
 },
@@ -2417,7 +2996,7 @@
 "added": "2026-10-16",
 "ats": "greenhouse",
 "company": "Webflow",
-"fails": 1,
+"fails": 2,
 "last_ok": "2026-10-16",
 "source": "yc",
 "token": "webflow"
@@ -2427,7 +3006,7 @@
 "ats": "greenhouse",
 "company": "Wikimedia Foundation",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "wikimedia"
 },
@@ -2436,7 +3015,7 @@
 "ats": "greenhouse",
 "company": "Xendit",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "xendit"
 },
@@ -2445,7 +3024,7 @@
 "ats": "lever",
 "company": "BioRender",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "biorender"
 },
@@ -2454,7 +3033,7 @@
 "ats": "lever",
 "company": "Bolster",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "bolster"
 },
@@ -2463,7 +3042,7 @@
 "ats": "lever",
 "company": "Canary Technologies",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "canarytechnologies"
 },
@@ -2472,16 +3051,25 @@
 "ats": "lever",
 "company": "CaptivateIQ",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "captivateiq"
+},
+"lever:cofactr": {
+"added": "2026-10-18",
+"ats": "lever",
+"company": "Cofactr",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Cofactr"
 },
 "lever:collectlyinc": {
 "added": "2026-10-16",
 "ats": "lever",
 "company": "Collectly",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "CollectlyInc"
 },
@@ -2490,7 +3078,7 @@
 "ats": "lever",
 "company": "Curai",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49922569",
 "token": "curai"
 },
@@ -2499,25 +3087,43 @@
 "ats": "lever",
 "company": "Doola",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "doola"
+},
+"lever:epsilon3": {
+"added": "2026-10-18",
+"ats": "lever",
+"company": "Epsilon3",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "epsilon3"
 },
 "lever:fampay": {
 "added": "2026-10-17",
 "ats": "lever",
 "company": "FamPay",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "fampay"
+},
+"lever:farcast": {
+"added": "2026-10-18",
+"ats": "lever",
+"company": "Farcast",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "Farcast"
 },
 "lever:findigs": {
 "added": "2026-10-16",
 "ats": "lever",
 "company": "Findigs",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "hn:49522897",
 "token": "findigs"
 },
@@ -2526,7 +3132,7 @@
 "ats": "lever",
 "company": "Suger",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "fours"
 },
@@ -2535,25 +3141,43 @@
 "ats": "lever",
 "company": "Gridware",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "gridware"
+},
+"lever:handoff": {
+"added": "2026-10-18",
+"ats": "lever",
+"company": "Handoff",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "handoff"
 },
 "lever:instrumentl": {
 "added": "2026-10-16",
 "ats": "lever",
 "company": "Instrumentl",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "Instrumentl"
+},
+"lever:jitxinc": {
+"added": "2026-10-18",
+"ats": "lever",
+"company": "JITX",
+"fails": 0,
+"last_ok": "2026-10-18",
+"source": "yc",
+"token": "jitxinc"
 },
 "lever:livingcarbon": {
 "added": "2026-10-16",
 "ats": "lever",
 "company": "Living Carbon",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "livingcarbon"
 },
@@ -2562,7 +3186,7 @@
 "ats": "lever",
 "company": "Mashgin",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "mashgin"
 },
@@ -2571,7 +3195,7 @@
 "ats": "lever",
 "company": "Meesho",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "meesho"
 },
@@ -2580,7 +3204,7 @@
 "ats": "lever",
 "company": "Multiply Labs",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "multiplylabs"
 },
@@ -2589,7 +3213,7 @@
 "ats": "lever",
 "company": "Mytos",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "mytos"
 },
@@ -2598,7 +3222,7 @@
 "ats": "lever",
 "company": "People.ai",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "people-ai"
 },
@@ -2607,7 +3231,7 @@
 "ats": "lever",
 "company": "PostEra",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "postera"
 },
@@ -2616,7 +3240,7 @@
 "ats": "lever",
 "company": "Prosper",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "prosper"
 },
@@ -2625,7 +3249,7 @@
 "ats": "lever",
 "company": "Reach",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "reachpower"
 },
@@ -2643,7 +3267,7 @@
 "ats": "lever",
 "company": "Skyways",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "skyways"
 },
@@ -2652,7 +3276,7 @@
 "ats": "lever",
 "company": "Snappr",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "snappr"
 },
@@ -2661,7 +3285,7 @@
 "ats": "lever",
 "company": "Thunkable",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "thunkable"
 },
@@ -2670,7 +3294,7 @@
 "ats": "lever",
 "company": "Tovala",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "tovala"
 },
@@ -2679,7 +3303,7 @@
 "ats": "lever",
 "company": "Riot",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "tryriot"
 },
@@ -2688,7 +3312,7 @@
 "ats": "lever",
 "company": "Two Dots",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "twodots"
 },
@@ -2697,7 +3321,7 @@
 "ats": "lever",
 "company": "VergeSense",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "vergesense"
 },
@@ -2706,7 +3330,7 @@
 "ats": "lever",
 "company": "Volta Labs, Inc.",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "voltalabs"
 },
@@ -2715,7 +3339,7 @@
 "ats": "lever",
 "company": "Zippi",
 "fails": 0,
-"last_ok": "2026-10-17",
+"last_ok": "2026-10-18",
 "source": "yc",
 "token": "zippi"
 },
@@ -2759,6 +3383,10 @@
 "222": {
 "checked": "2026-10-17"
 },
+"9-mothers-corporation": {
+"board": "ashby:9-mothers",
+"checked": "2026-10-18"
+},
 "99minutos": {
 "checked": "2026-10-16"
 },
@@ -2766,8 +3394,15 @@
 "board": "ashby:abacum",
 "checked": "2026-10-16"
 },
+"accord": {
+"board": "ashby:accord",
+"checked": "2026-10-18"
+},
 "acely": {
 "checked": "2026-10-17"
+},
+"activeloop": {
+"checked": "2026-10-18"
 },
 "afriex": {
 "checked": "2026-10-16"
@@ -2814,6 +3449,9 @@
 "algouniversity": {
 "checked": "2026-10-16"
 },
+"alinea": {
+"checked": "2026-10-18"
+},
 "alpha-vantage": {
 "checked": "2026-10-17"
 },
@@ -2825,8 +3463,19 @@
 "board": "ashby:amplitude",
 "checked": "2026-10-16"
 },
+"andson-biotech": {
+"checked": "2026-10-18"
+},
+"anima": {
+"board": "ashby:anima",
+"checked": "2026-10-18"
+},
 "ankr-health": {
 "checked": "2026-10-17"
+},
+"anthrogen": {
+"board": "ashby:anthrogen",
+"checked": "2026-10-18"
 },
 "aon3d": {
 "board": "greenhouse:aon3d",
@@ -2849,13 +3498,27 @@
 "archform": {
 "checked": "2026-10-17"
 },
+"arini": {
+"board": "ashby:arini",
+"checked": "2026-10-18"
+},
 "arketa": {
 "board": "ashby:arketa",
 "checked": "2026-10-16"
 },
+"arnata": {
+"checked": "2026-10-18"
+},
+"artie": {
+"board": "ashby:artie",
+"checked": "2026-10-18"
+},
 "artisan": {
 "board": "ashby:artisan",
 "checked": "2026-10-16"
+},
+"arva-ai": {
+"checked": "2026-10-18"
 },
 "ashby": {
 "board": "ashby:ashby",
@@ -2883,6 +3546,10 @@
 "athelas": {
 "board": "ashby:commure-athelas",
 "checked": "2026-10-16"
+},
+"atlas": {
+"board": "ashby:atlas",
+"checked": "2026-10-18"
 },
 "atlas-3": {
 "board": "ashby:atlas",
@@ -2919,6 +3586,14 @@
 "board": "ashby:avoca",
 "checked": "2026-10-16"
 },
+"axel-travel": {
+"board": "ashby:axel",
+"checked": "2026-10-18"
+},
+"axle": {
+"board": "ashby:axleinsure",
+"checked": "2026-10-18"
+},
 "axle-health": {
 "board": "ashby:axle-health",
 "checked": "2026-10-17"
@@ -2939,12 +3614,19 @@
 "board": "ashby:belvo",
 "checked": "2026-10-16"
 },
+"bemlo": {
+"checked": "2026-10-18"
+},
 "benepass": {
 "board": "ashby:benepass",
 "checked": "2026-10-16"
 },
 "betterhalf": {
 "checked": "2026-10-17"
+},
+"beyond-reach-labs": {
+"board": "ashby:beyondreachlabs",
+"checked": "2026-10-18"
 },
 "bik": {
 "checked": "2026-10-16"
@@ -2968,6 +3650,10 @@
 "board": "ashby:bland",
 "checked": "2026-10-16"
 },
+"blee": {
+"board": "ashby:blee",
+"checked": "2026-10-18"
+},
 "blissway": {
 "board": "ashby:blissway",
 "checked": "2026-10-17"
@@ -2981,6 +3667,9 @@
 "bluecargo": {
 "checked": "2026-10-17"
 },
+"boldvoice": {
+"checked": "2026-10-18"
+},
 "bolna-ai": {
 "board": "ashby:bolna",
 "checked": "2026-10-17"
@@ -2992,13 +3681,22 @@
 "borong": {
 "checked": "2026-10-16"
 },
+"bot-md": {
+"checked": "2026-10-18"
+},
 "bretton-ai": {
 "board": "ashby:brettonai",
 "checked": "2026-10-17"
 },
+"brighterway": {
+"checked": "2026-10-18"
+},
 "broccoli-ai": {
 "board": "ashby:broccoli",
 "checked": "2026-10-16"
+},
+"buildbuddy": {
+"checked": "2026-10-18"
 },
 "bunkerhill-health": {
 "board": "ashby:bunkerhillhealth",
@@ -3006,6 +3704,9 @@
 },
 "businessonbot": {
 "checked": "2026-10-17"
+},
+"calltree": {
+"checked": "2026-10-18"
 },
 "camber-2": {
 "board": "ashby:camber",
@@ -3042,12 +3743,23 @@
 "board": "lever:captivateiq",
 "checked": "2026-10-16"
 },
+"carbonchain": {
+"board": "greenhouse:carbonchain",
+"checked": "2026-10-18"
+},
 "casca": {
 "board": "ashby:casca",
 "checked": "2026-10-16"
 },
 "cashfree-payments": {
 "checked": "2026-10-16"
+},
+"castle-2": {
+"board": "ashby:castle",
+"checked": "2026-10-18"
+},
+"cekura-ai": {
+"checked": "2026-10-18"
 },
 "centaur": {
 "checked": "2026-10-16"
@@ -3064,6 +3776,9 @@
 "board": "greenhouse:checkr",
 "checked": "2026-10-16"
 },
+"cifrato": {
+"checked": "2026-10-18"
+},
 "cinder-2": {
 "board": "ashby:cinder",
 "checked": "2026-10-17"
@@ -3078,9 +3793,21 @@
 "cityfurnish": {
 "checked": "2026-10-16"
 },
+"claimsorted": {
+"board": "ashby:claimsorted",
+"checked": "2026-10-18"
+},
+"clarion": {
+"board": "ashby:clarion",
+"checked": "2026-10-18"
+},
 "classdojo": {
 "board": "ashby:classdojo",
 "checked": "2026-10-16"
+},
+"clearly-ai": {
+"board": "ashby:clearly-ai",
+"checked": "2026-10-18"
 },
 "clinikally": {
 "checked": "2026-10-16"
@@ -3106,6 +3833,13 @@
 "codingal": {
 "checked": "2026-10-16"
 },
+"cofactr": {
+"board": "lever:cofactr",
+"checked": "2026-10-18"
+},
+"cogram": {
+"checked": "2026-10-18"
+},
 "collectly": {
 "board": "lever:collectlyinc",
 "checked": "2026-10-16"
@@ -3116,12 +3850,31 @@
 "complif": {
 "checked": "2026-10-17"
 },
+"complir": {
+"board": "ashby:complir",
+"checked": "2026-10-18"
+},
+"concourse": {
+"board": "ashby:concourse",
+"checked": "2026-10-18"
+},
+"conduit": {
+"board": "ashby:conduit",
+"checked": "2026-10-18"
+},
+"conduit-ai": {
+"board": "ashby:conduit",
+"checked": "2026-10-18"
+},
 "confido": {
 "board": "ashby:confido",
 "checked": "2026-10-16"
 },
 "conta-simples": {
 "checked": "2026-10-16"
+},
+"contrario": {
+"checked": "2026-10-18"
 },
 "corgi-insurance": {
 "checked": "2026-10-16"
@@ -3131,6 +3884,10 @@
 },
 "craniometrix": {
 "checked": "2026-10-16"
+},
+"credal-ai": {
+"board": "ashby:credal",
+"checked": "2026-10-18"
 },
 "crustdata": {
 "checked": "2026-10-17"
@@ -3159,15 +3916,32 @@
 "datrics": {
 "checked": "2026-10-17"
 },
+"decoda-health": {
+"board": "ashby:decodahealth",
+"checked": "2026-10-18"
+},
 "deepgram": {
 "board": "ashby:deepgram",
 "checked": "2026-10-16"
 },
+"deepnight": {
+"checked": "2026-10-18"
+},
 "digi": {
 "checked": "2026-10-17"
 },
+"digibuild": {
+"checked": "2026-10-18"
+},
+"dili": {
+"checked": "2026-10-18"
+},
 "directshifts": {
 "checked": "2026-10-16"
+},
+"ditto": {
+"board": "ashby:ditto",
+"checked": "2026-10-18"
 },
 "domu-technology-inc": {
 "board": "ashby:domu",
@@ -3180,6 +3954,9 @@
 "doublehq": {
 "board": "ashby:double",
 "checked": "2026-10-16"
+},
+"dover": {
+"checked": "2026-10-18"
 },
 "draftwise": {
 "checked": "2026-10-16"
@@ -3208,6 +3985,10 @@
 "board": "ashby:ekho",
 "checked": "2026-10-17"
 },
+"electric-air-2": {
+"board": "ashby:electricair",
+"checked": "2026-10-18"
+},
 "ello": {
 "board": "ashby:ello",
 "checked": "2026-10-16"
@@ -3223,6 +4004,10 @@
 "entangl": {
 "checked": "2026-10-17"
 },
+"epsilon3-inc": {
+"board": "lever:epsilon3",
+"checked": "2026-10-18"
+},
 "equipmentshare": {
 "checked": "2026-10-16"
 },
@@ -3230,15 +4015,27 @@
 "board": "ashby:escape",
 "checked": "2026-10-17"
 },
+"eventual": {
+"board": "ashby:eventualcomputing",
+"checked": "2026-10-18"
+},
 "explorex": {
 "checked": "2026-10-17"
 },
 "eze": {
 "checked": "2026-10-17"
 },
+"f2": {
+"board": "ashby:f2-ai",
+"checked": "2026-10-18"
+},
 "fampay": {
 "board": "lever:fampay",
 "checked": "2026-10-17"
+},
+"farcast": {
+"board": "lever:farcast",
+"checked": "2026-10-18"
 },
 "fieldguide": {
 "board": "ashby:fieldguide",
@@ -3248,6 +4045,9 @@
 "board": "ashby:finch",
 "checked": "2026-10-16"
 },
+"finku": {
+"checked": "2026-10-18"
+},
 "finni-health": {
 "board": "ashby:finni-health",
 "checked": "2026-10-16"
@@ -3255,6 +4055,9 @@
 "finny-ai": {
 "board": "ashby:finny",
 "checked": "2026-10-17"
+},
+"first": {
+"checked": "2026-10-18"
 },
 "firstbase-io": {
 "checked": "2026-10-16"
@@ -3271,6 +4074,10 @@
 "board": "ashby:fleek",
 "checked": "2026-10-16"
 },
+"fleetworks": {
+"board": "ashby:fleetworks",
+"checked": "2026-10-18"
+},
 "flexport": {
 "board": "greenhouse:flexport",
 "checked": "2026-10-16"
@@ -3278,6 +4085,10 @@
 "flint": {
 "board": "ashby:flint",
 "checked": "2026-10-16"
+},
+"flint-2": {
+"board": "ashby:flint",
+"checked": "2026-10-18"
 },
 "flock-safety": {
 "checked": "2026-10-16"
@@ -3319,12 +4130,19 @@
 "board": "greenhouse:gather",
 "checked": "2026-10-16"
 },
+"gauss": {
+"checked": "2026-10-18"
+},
 "gecko-robotics": {
 "board": "ashby:gecko-robotics",
 "checked": "2026-10-16"
 },
 "gemnote": {
 "checked": "2026-10-16"
+},
+"general-proximity": {
+"board": "greenhouse:generalproximity",
+"checked": "2026-10-18"
 },
 "getasap": {
 "checked": "2026-10-17"
@@ -3392,6 +4210,12 @@
 "growthbook": {
 "checked": "2026-10-16"
 },
+"guardian-rf": {
+"checked": "2026-10-18"
+},
+"gym-class": {
+"checked": "2026-10-18"
+},
 "hackerrank": {
 "board": "greenhouse:hackerrank",
 "checked": "2026-10-16"
@@ -3402,6 +4226,10 @@
 "handle": {
 "checked": "2026-10-16"
 },
+"handoff": {
+"board": "lever:handoff",
+"checked": "2026-10-18"
+},
 "happyrobot": {
 "board": "ashby:happyrobot.ai",
 "checked": "2026-10-16"
@@ -3410,12 +4238,22 @@
 "board": "ashby:harperinsure",
 "checked": "2026-10-17"
 },
+"haven": {
+"board": "greenhouse:haven",
+"checked": "2026-10-18"
+},
+"healia": {
+"checked": "2026-10-18"
+},
 "helloverify": {
 "checked": "2026-10-16"
 },
 "heron": {
 "board": "ashby:herondata",
 "checked": "2026-10-16"
+},
+"heycharge": {
+"checked": "2026-10-18"
 },
 "hioperator": {
 "checked": "2026-10-16"
@@ -3431,6 +4269,12 @@
 "hockeystack": {
 "board": "ashby:hockeystack",
 "checked": "2026-10-17"
+},
+"hokali": {
+"checked": "2026-10-18"
+},
+"homli": {
+"checked": "2026-10-18"
 },
 "hub": {
 "checked": "2026-10-16"
@@ -3459,6 +4303,9 @@
 "board": "ashby:hyperbound",
 "checked": "2026-10-17"
 },
+"hypotenuse-ai": {
+"checked": "2026-10-18"
+},
 "icarus": {
 "board": "greenhouse:icarus",
 "checked": "2026-10-16"
@@ -3483,6 +4330,10 @@
 },
 "inito": {
 "checked": "2026-10-16"
+},
+"inkeep": {
+"board": "ashby:inkeep",
+"checked": "2026-10-18"
 },
 "inscribe": {
 "board": "ashby:inscribeai",
@@ -3517,12 +4368,20 @@
 "board": "ashby:jiga",
 "checked": "2026-10-17"
 },
+"jitx": {
+"board": "lever:jitxinc",
+"checked": "2026-10-18"
+},
 "joy": {
 "checked": "2026-10-16"
 },
 "juicebox": {
 "board": "ashby:juicebox",
 "checked": "2026-10-16"
+},
+"junction": {
+"board": "ashby:junction",
+"checked": "2026-10-18"
 },
 "just-appraised": {
 "checked": "2026-10-16"
@@ -3539,6 +4398,10 @@
 "karat-financial": {
 "checked": "2026-10-17"
 },
+"kastle": {
+"board": "ashby:kastle",
+"checked": "2026-10-18"
+},
 "kingdom": {
 "board": "ashby:kingdom",
 "checked": "2026-10-17"
@@ -3546,6 +4409,10 @@
 "kivo-health": {
 "board": "ashby:kivo-health",
 "checked": "2026-10-16"
+},
+"kobalt-labs": {
+"board": "ashby:kobalt labs",
+"checked": "2026-10-18"
 },
 "kodex": {
 "board": "ashby:kodex",
@@ -3558,11 +4425,22 @@
 "board": "ashby:lago",
 "checked": "2026-10-17"
 },
+"lamar-health": {
+"checked": "2026-10-18"
+},
+"laminar-com": {
+"board": "ashby:laminar-jobs",
+"checked": "2026-10-18"
+},
 "landed-2": {
 "checked": "2026-10-16"
 },
 "landeed": {
 "checked": "2026-10-17"
+},
+"lapel": {
+"board": "ashby:lapel",
+"checked": "2026-10-18"
 },
 "latent": {
 "board": "ashby:latent",
@@ -3574,6 +4452,9 @@
 },
 "laylo": {
 "checked": "2026-10-17"
+},
+"leaping-ai": {
+"checked": "2026-10-18"
 },
 "ledger-investing": {
 "checked": "2026-10-16"
@@ -3596,6 +4477,10 @@
 "board": "greenhouse:lineleap",
 "checked": "2026-10-16"
 },
+"litellm": {
+"board": "ashby:litellm",
+"checked": "2026-10-18"
+},
 "liveflow": {
 "board": "ashby:liveflow",
 "checked": "2026-10-16"
@@ -3611,6 +4496,13 @@
 "loombotic": {
 "checked": "2026-10-17"
 },
+"loopfour": {
+"checked": "2026-10-18"
+},
+"lucis": {
+"board": "ashby:lucis",
+"checked": "2026-10-18"
+},
 "lugg": {
 "checked": "2026-10-16"
 },
@@ -3624,6 +4516,9 @@
 },
 "magic": {
 "checked": "2026-10-16"
+},
+"maintouch": {
+"checked": "2026-10-18"
 },
 "malama-health": {
 "checked": "2026-10-17"
@@ -3645,6 +4540,9 @@
 "mdhub": {
 "checked": "2026-10-17"
 },
+"measured": {
+"checked": "2026-10-18"
+},
 "medme-health": {
 "checked": "2026-10-16"
 },
@@ -3652,13 +4550,23 @@
 "board": "ashby:mednet",
 "checked": "2026-10-17"
 },
+"medplum": {
+"checked": "2026-10-18"
+},
 "meesho": {
 "board": "lever:meesho",
 "checked": "2026-10-16"
 },
+"merlin-ai": {
+"checked": "2026-10-18"
+},
 "meru-health": {
 "board": "greenhouse:meruhealth",
 "checked": "2026-10-16"
+},
+"metal": {
+"board": "ashby:metal",
+"checked": "2026-10-18"
 },
 "method-financial": {
 "board": "ashby:method",
@@ -3685,6 +4593,10 @@
 "board": "greenhouse:modernhealth",
 "checked": "2026-10-16"
 },
+"momentic": {
+"board": "ashby:momentic",
+"checked": "2026-10-18"
+},
 "moonvalley": {
 "board": "ashby:moonvalley-ai",
 "checked": "2026-10-16"
@@ -3695,6 +4607,10 @@
 "multiply-labs": {
 "board": "lever:multiplylabs",
 "checked": "2026-10-16"
+},
+"mutiny": {
+"board": "ashby:mutiny",
+"checked": "2026-10-18"
 },
 "muzz": {
 "checked": "2026-10-16"
@@ -3711,11 +4627,37 @@
 "board": "ashby:nash",
 "checked": "2026-10-16"
 },
+"neodocs": {
+"checked": "2026-10-18"
+},
+"nest-genomics": {
+"checked": "2026-10-18"
+},
+"nestor": {
+"checked": "2026-10-18"
+},
+"new-story": {
+"board": "ashby:new",
+"checked": "2026-10-18"
+},
 "newscatcher": {
 "checked": "2026-10-17"
 },
+"nextera-robotics-didgeai": {
+"checked": "2026-10-18"
+},
 "nimble": {
 "checked": "2026-10-17"
+},
+"nira-energy": {
+"board": "greenhouse:niraenergy",
+"checked": "2026-10-18"
+},
+"no-logo": {
+"checked": "2026-10-18"
+},
+"noloco": {
+"checked": "2026-10-18"
 },
 "nomic-bio": {
 "board": "ashby:nomic",
@@ -3744,9 +4686,15 @@
 "board": "ashby:nox-metals",
 "checked": "2026-10-16"
 },
+"numen": {
+"checked": "2026-10-18"
+},
 "numeral": {
 "board": "ashby:numeral",
 "checked": "2026-10-16"
+},
+"numero": {
+"checked": "2026-10-18"
 },
 "odeko": {
 "board": "greenhouse:odeko",
@@ -3773,6 +4721,10 @@
 "onelocal": {
 "checked": "2026-10-16"
 },
+"oneschema": {
+"board": "ashby:oneschema",
+"checked": "2026-10-18"
+},
 "onesignal": {
 "checked": "2026-10-16"
 },
@@ -3791,6 +4743,9 @@
 "board": "ashby:overview",
 "checked": "2026-10-16"
 },
+"oway": {
+"checked": "2026-10-18"
+},
 "oxygen": {
 "checked": "2026-10-16"
 },
@@ -3805,9 +4760,23 @@
 "board": "greenhouse:pairteam",
 "checked": "2026-10-16"
 },
+"palettehq": {
+"checked": "2026-10-18"
+},
 "paragon": {
 "board": "ashby:paragon",
 "checked": "2026-10-16"
+},
+"parallel-bio": {
+"board": "ashby:parallel-bio",
+"checked": "2026-10-18"
+},
+"parameter": {
+"board": "ashby:parameter",
+"checked": "2026-10-18"
+},
+"pasito": {
+"checked": "2026-10-18"
 },
 "pave-2": {
 "board": "greenhouse:paveakatroveinformationtechnologies",
@@ -3852,6 +4821,13 @@
 "board": "ashby:pirros",
 "checked": "2026-10-16"
 },
+"players-lounge": {
+"checked": "2026-10-18"
+},
+"ploy": {
+"board": "ashby:ployai",
+"checked": "2026-10-18"
+},
 "pnoe": {
 "checked": "2026-10-16"
 },
@@ -3869,12 +4845,19 @@
 "board": "ashby:pointone",
 "checked": "2026-10-17"
 },
+"polotab": {
+"checked": "2026-10-18"
+},
 "polymath-robotics": {
 "checked": "2026-10-17"
 },
 "popl": {
 "board": "ashby:popl",
 "checked": "2026-10-16"
+},
+"porter": {
+"board": "greenhouse:porter",
+"checked": "2026-10-18"
 },
 "postera": {
 "board": "lever:postera",
@@ -3891,6 +4874,10 @@
 "prembly": {
 "checked": "2026-10-16"
 },
+"probably-genetic": {
+"board": "ashby:probablygenetic",
+"checked": "2026-10-18"
+},
 "prodigal": {
 "board": "greenhouse:prodigal",
 "checked": "2026-10-16"
@@ -3903,6 +4890,9 @@
 "board": "ashby:promise",
 "checked": "2026-10-16"
 },
+"prosights": {
+"checked": "2026-10-18"
+},
 "prospa": {
 "board": "greenhouse:prospa",
 "checked": "2026-10-16"
@@ -3913,6 +4903,10 @@
 },
 "proven-group": {
 "checked": "2026-10-16"
+},
+"provision": {
+"board": "ashby:provision",
+"checked": "2026-10-18"
 },
 "pulley": {
 "board": "greenhouse:pulley",
@@ -3925,6 +4919,10 @@
 "pump-co": {
 "board": "greenhouse:pumpcareers",
 "checked": "2026-10-16"
+},
+"pure": {
+"board": "ashby:pure",
+"checked": "2026-10-18"
 },
 "quartzy": {
 "checked": "2026-10-16"
@@ -3960,6 +4958,9 @@
 "board": "lever:reachpower",
 "checked": "2026-10-16"
 },
+"readily": {
+"checked": "2026-10-18"
+},
 "ready": {
 "board": "ashby:ready",
 "checked": "2026-10-16"
@@ -3983,6 +4984,13 @@
 "board": "ashby:reducto",
 "checked": "2026-10-17"
 },
+"reforged-labs": {
+"checked": "2026-10-18"
+},
+"reform": {
+"board": "ashby:reform",
+"checked": "2026-10-18"
+},
 "reframe": {
 "checked": "2026-10-17"
 },
@@ -3991,6 +4999,10 @@
 },
 "remi": {
 "checked": "2026-10-16"
+},
+"replo": {
+"board": "ashby:replo",
+"checked": "2026-10-18"
 },
 "rescale": {
 "board": "lever:rescale",
@@ -4012,6 +5024,9 @@
 },
 "rever": {
 "checked": "2026-10-17"
+},
+"revyl": {
+"checked": "2026-10-18"
 },
 "ridecell": {
 "checked": "2026-10-16"
@@ -4050,9 +5065,22 @@
 "safetywing": {
 "checked": "2026-10-16"
 },
+"salespatriot": {
+"board": "ashby:salespatriot",
+"checked": "2026-10-18"
+},
 "salient": {
 "board": "ashby:salient",
 "checked": "2026-10-16"
+},
+"sante": {
+"checked": "2026-10-18"
+},
+"saturn": {
+"checked": "2026-10-18"
+},
+"scispot-io": {
+"checked": "2026-10-18"
 },
 "seal-2": {
 "checked": "2026-10-17"
@@ -4060,12 +5088,19 @@
 "seam": {
 "checked": "2026-10-17"
 },
+"semble": {
+"checked": "2026-10-18"
+},
 "sendbird": {
 "board": "greenhouse:sendbird",
 "checked": "2026-10-16"
 },
 "sendblue": {
 "checked": "2026-10-16"
+},
+"serif-health": {
+"board": "ashby:serifhealth",
+"checked": "2026-10-18"
 },
 "shepherd": {
 "board": "ashby:shepherd",
@@ -4093,9 +5128,16 @@
 "siphox-health": {
 "checked": "2026-10-16"
 },
+"skypher": {
+"checked": "2026-10-18"
+},
 "skyways": {
 "board": "lever:skyways",
 "checked": "2026-10-17"
+},
+"slope": {
+"board": "ashby:slope",
+"checked": "2026-10-18"
 },
 "snapmagic": {
 "board": "ashby:snapmagic",
@@ -4111,8 +5153,14 @@
 "soraban": {
 "checked": "2026-10-16"
 },
+"sorting-robotics": {
+"checked": "2026-10-18"
+},
 "soundboks": {
 "checked": "2026-10-16"
+},
+"sourcify": {
+"checked": "2026-10-18"
 },
 "spade": {
 "board": "ashby:spade",
@@ -4128,6 +5176,10 @@
 },
 "spenmo": {
 "checked": "2026-10-16"
+},
+"spur": {
+"board": "ashby:pear-vc",
+"checked": "2026-10-18"
 },
 "stable": {
 "board": "ashby:stable",
@@ -4159,6 +5211,13 @@
 "streak": {
 "checked": "2026-10-17"
 },
+"stream": {
+"board": "ashby:stream",
+"checked": "2026-10-18"
+},
+"strive-math": {
+"checked": "2026-10-18"
+},
 "suger": {
 "board": "lever:fours",
 "checked": "2026-10-16"
@@ -4166,12 +5225,22 @@
 "sully": {
 "checked": "2026-10-16"
 },
+"sunflower": {
+"checked": "2026-10-18"
+},
 "surebright": {
 "checked": "2026-10-17"
+},
+"svix": {
+"board": "ashby:svix",
+"checked": "2026-10-18"
 },
 "swayable": {
 "board": "greenhouse:swayable",
 "checked": "2026-10-17"
+},
+"swif-ai": {
+"checked": "2026-10-18"
 },
 "swiftsku": {
 "board": "greenhouse:swiftsku",
@@ -4194,6 +5263,10 @@
 "board": "ashby:taktile",
 "checked": "2026-10-16"
 },
+"tamarind-bio": {
+"board": "ashby:tamarindbio",
+"checked": "2026-10-18"
+},
 "tandem-2": {
 "checked": "2026-10-17"
 },
@@ -4204,9 +5277,16 @@
 "taxgpt": {
 "checked": "2026-10-16"
 },
+"telmai": {
+"checked": "2026-10-18"
+},
 "tempo": {
 "board": "greenhouse:tempo",
 "checked": "2026-10-16"
+},
+"terminal": {
+"board": "ashby:terminal",
+"checked": "2026-10-18"
 },
 "terra-api": {
 "checked": "2026-10-17"
@@ -4230,6 +5310,12 @@
 "board": "ashby:titan",
 "checked": "2026-10-16"
 },
+"toothy-ai": {
+"checked": "2026-10-18"
+},
+"topkey": {
+"checked": "2026-10-18"
+},
 "topline-pro": {
 "board": "ashby:topline-pro",
 "checked": "2026-10-17"
@@ -4244,6 +5330,9 @@
 "trayd": {
 "checked": "2026-10-17"
 },
+"trebol": {
+"checked": "2026-10-18"
+},
 "trellis-ai": {
 "checked": "2026-10-17"
 },
@@ -4254,12 +5343,26 @@
 "truewind": {
 "checked": "2026-10-17"
 },
+"truss": {
+"board": "ashby:truss",
+"checked": "2026-10-18"
+},
 "turing-college": {
 "checked": "2026-10-16"
+},
+"turion-space": {
+"board": "ashby:turion-space",
+"checked": "2026-10-18"
 },
 "two-dots": {
 "board": "lever:twodots",
 "checked": "2026-10-17"
+},
+"ubicloud": {
+"checked": "2026-10-18"
+},
+"unison": {
+"checked": "2026-10-18"
 },
 "upcodes": {
 "board": "ashby:upcodes",
@@ -4269,12 +5372,29 @@
 "board": "ashby:uplane",
 "checked": "2026-10-17"
 },
+"upsolve": {
+"checked": "2026-10-18"
+},
+"usul": {
+"board": "ashby:usul",
+"checked": "2026-10-18"
+},
 "vapi": {
 "board": "ashby:vapi",
 "checked": "2026-10-16"
 },
+"vector": {
+"board": "ashby:vector",
+"checked": "2026-10-18"
+},
 "vectorshift": {
 "checked": "2026-10-17"
+},
+"vela": {
+"checked": "2026-10-18"
+},
+"velt": {
+"checked": "2026-10-18"
 },
 "verge-genomics": {
 "board": "ashby:verge-labs",
@@ -4307,6 +5427,9 @@
 "board": "ashby:voize",
 "checked": "2026-10-16"
 },
+"volantio": {
+"checked": "2026-10-18"
+},
 "volta-labs-inc": {
 "board": "lever:voltalabs",
 "checked": "2026-10-16"
@@ -4321,6 +5444,16 @@
 },
 "vouch": {
 "checked": "2026-10-16"
+},
+"vulcan-technologies": {
+"checked": "2026-10-18"
+},
+"waydev": {
+"checked": "2026-10-18"
+},
+"weave-3": {
+"board": "ashby:weave-os",
+"checked": "2026-10-18"
 },
 "weave-robotics": {
 "checked": "2026-10-17"
@@ -4350,6 +5483,10 @@
 "women-who-code": {
 "checked": "2026-10-17"
 },
+"wordware": {
+"board": "ashby:sauna.ai",
+"checked": "2026-10-18"
+},
 "xendit": {
 "board": "greenhouse:xendit",
 "checked": "2026-10-16"
@@ -4358,9 +5495,19 @@
 "board": "ashby:ycombinator",
 "checked": "2026-10-16"
 },
+"yhangry": {
+"checked": "2026-10-18"
+},
 "zapier": {
 "board": "ashby:zapier",
 "checked": "2026-10-16"
+},
+"zaymo": {
+"checked": "2026-10-18"
+},
+"zensors-inc": {
+"board": "ashby:zensors",
+"checked": "2026-10-18"
 },
 "zentail": {
 "checked": "2026-10-17"
