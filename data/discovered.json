@@ -6,7 +6,7 @@
  },
  "Airbyte": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "airbyte"
  },
  "Airwallex": {
@@ -21,7 +21,7 @@
  },
  "Alloy": {
   "ats": "greenhouse",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "alloy"
  },
  "Anduril": {
@@ -39,7 +39,7 @@
  },
  "Arcadia": {
   "ats": "lever",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "arcadia"
  },
  "Arrowstreet": {
@@ -47,15 +47,15 @@
  },
  "Astronomer": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "astronomer"
  },
  "Augment Code": {
-  "checked": "2026-10-19"
+  "checked": "2026-10-26"
  },
  "Basis": {
   "ats": "lever",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "basis"
  },
  "Betterment": {
@@ -64,7 +64,7 @@
   "token": "betterment"
  },
  "Bilt": {
-  "checked": "2026-10-19"
+  "checked": "2026-10-26"
  },
  "Block": {
   "ats": "greenhouse",
@@ -73,7 +73,7 @@
  },
  "Buildkite": {
   "ats": "greenhouse",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "buildkite"
  },
  "Canva": {
@@ -89,7 +89,7 @@
  },
  "Chroma": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "trychroma"
  },
  "Clay": {
@@ -121,7 +121,7 @@
   "token": "cursor"
  },
  "Dagster Labs": {
-  "checked": "2026-10-19"
+  "checked": "2026-10-26"
  },
  "Databricks": {
   "ats": "greenhouse",
@@ -134,10 +134,10 @@
   "token": "datadog"
  },
  "Dataminr": {
-  "checked": "2026-10-19"
+  "checked": "2026-10-26"
  },
  "Daytona": {
-  "checked": "2026-10-19"
+  "checked": "2026-10-26"
  },
  "Decagon": {
   "ats": "ashby",
@@ -149,7 +149,7 @@
  },
  "Depot": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "depot"
  },
  "Duolingo": {
@@ -159,7 +159,7 @@
  },
  "E2B": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "e2b"
  },
  "Elastic": {
@@ -169,12 +169,12 @@
  },
  "Factory": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "factory"
  },
  "Fal": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "fal-ai"
  },
  "Figure AI": {
@@ -189,7 +189,7 @@
  },
  "Flatiron Health": {
   "ats": "greenhouse",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "flatironhealth"
  },
  "Google DeepMind": {
@@ -211,7 +211,7 @@
  },
  "Headway": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "headway"
  },
  "Hebbia": {
@@ -237,7 +237,7 @@
  },
  "Honeycomb": {
   "ats": "greenhouse",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "honeycomb"
  },
  "HubSpot": {
@@ -261,7 +261,7 @@
  },
  "Inngest": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "inngest"
  },
  "Instacart": {
@@ -291,7 +291,7 @@
  },
  "Lithic": {
   "ats": "greenhouse",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "lithic"
  },
  "Materialize": {
@@ -340,7 +340,7 @@
  },
  "Omni Analytics": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "omni"
  },
  "OpenEvidence": {
@@ -365,7 +365,7 @@
  },
  "Pinecone": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "pinecone"
  },
  "PlanetScale": {
@@ -375,22 +375,22 @@
  },
  "Poolside": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "poolside"
  },
  "PostHog": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "posthog"
  },
  "Prefect": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "prefect"
  },
  "Profound": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "profound"
  },
  "Pylon": {
@@ -399,7 +399,7 @@
   "token": "pylon"
  },
  "Qdrant": {
-  "checked": "2026-10-19"
+  "checked": "2026-10-26"
  },
  "Railway": {
   "ats": "ashby",
@@ -408,7 +408,7 @@
  },
  "Render": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "render"
  },
  "Replit": {
@@ -426,7 +426,7 @@
  },
  "Rho": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "rho"
  },
  "Rilla": {
@@ -451,7 +451,7 @@
  },
  "Semgrep": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "semgrep"
  },
  "Sentry": {
@@ -474,11 +474,11 @@
  },
  "Socket": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "socket"
  },
  "Spring Health": {
-  "checked": "2026-10-19"
+  "checked": "2026-10-26"
  },
  "Squarepoint": {
   "ats": "greenhouse",
@@ -487,7 +487,7 @@
  },
  "Squarespace": {
   "ats": "greenhouse",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "squarespace"
  },
  "Stainless": {
@@ -495,7 +495,7 @@
  },
  "Starburst": {
   "ats": "greenhouse",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "starburst"
  },
  "Stripe": {
@@ -538,7 +538,7 @@
  },
  "Turbopuffer": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "turbopuffer"
  },
  "Voleon": {
@@ -568,7 +568,7 @@
  },
  "Writer": {
   "ats": "ashby",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "writer"
  },
  "Zip": {
@@ -578,7 +578,7 @@
  },
  "Zocdoc": {
   "ats": "greenhouse",
-  "checked": "2026-10-19",
+  "checked": "2026-10-26",
   "token": "zocdoc"
  },
  "Zscaler": {
