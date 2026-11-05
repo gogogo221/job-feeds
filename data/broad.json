@@ -782,6 +782,15 @@
 "source": "yc",
 "token": "ditto"
 },
+"ashby:dodo": {
+"added": "2026-11-05",
+"ats": "ashby",
+"company": "Dodo",
+"fails": 0,
+"last_ok": "2026-11-05",
+"source": "yc",
+"token": "dodo"
+},
 "ashby:domu": {
 "added": "2026-10-16",
 "ats": "ashby",
@@ -3833,7 +3842,7 @@
 "49922569": "harvested",
 "50338728": "harvested"
 },
-"yc_candidates": 743,
+"yc_candidates": 742,
 "yc_probed": {
 "1stcollab": {
 "checked": "2026-10-19"
@@ -4516,6 +4525,10 @@
 "ditto": {
 "board": "ashby:ditto",
 "checked": "2026-10-18"
+},
+"dodo": {
+"board": "ashby:dodo",
+"checked": "2026-11-05"
 },
 "domu-technology-inc": {
 "board": "ashby:domu",
@@ -6039,6 +6052,9 @@
 },
 "surebright": {
 "checked": "2026-10-17"
+},
+"surface-labs": {
+"checked": "2026-11-05"
 },
 "svix": {
 "board": "ashby:svix",
