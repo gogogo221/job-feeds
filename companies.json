@@ -744,14 +744,7 @@
     "materialize"
    ]
   },
-  "Stainless": {
-   "boards": [
-    {
-     "ats": "ashby",
-     "token": "stainlessapi"
-    }
-   ]
-  },
+  "Stainless": "own_site",
   "Clay": {
    "slugs": [
     "claylabs",
@@ -1079,8 +1072,8 @@
   "Old Mission": {
    "boards": [
     {
-     "ats": "greenhouse",
-     "token": "oldmissioncapital"
+      "ats": "ashby",
+      "token": "old-mission-capital"
     }
    ]
   },
